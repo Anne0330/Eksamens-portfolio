@@ -36,15 +36,9 @@
         <!-- her slutter mit javascript-->
     </header>
     <body>
-        <!-- dette er min navigations bar som er responsiv-->
-            <ul class="navigation">
-                <li><a href="webudvikling.html">webudvikling</a></li>
-                <li><a href="kommunikation.html">Kommunikation</a></li>
-                <li><a href="design.html">Design</a></li>
-                <li><a href="projekter.html">Projekter</a></li>
-                <li><a href="om%20siden.html">Om siden</a></li>
-            </ul>
-
+         <!-- php-->
+    <?php include "menu.inc"; ?>
+    <!-- php slut-->
     <div class="content">
         <!-- forhåbentlig kommer der en menu bar her-->
         <p>Menubar</p>

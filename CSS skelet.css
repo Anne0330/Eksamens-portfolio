@@ -1,5 +1,5 @@
 html {
-  scroll-behavior: smooth;
+ scroll-behavior: smooth;    
 }
 
 body {
@@ -65,7 +65,7 @@ div.content {
 }
 
 #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
+    background-color: #cd95ce; /* Add a dark-grey background on hover */
 }
 
 @media screen and (max-width: 900px) {
