@@ -1,0 +1,91 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: #121921;
+    color: #9abdd9;
+    font-family:'Assistant', sans-serif;
+}
+
+header {
+    font-family: 'Frank Ruhl Libre', serif;
+    text-align: center;
+}
+header img {
+    float: right;
+}
+
+ul.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  overflow: auto;
+}
+
+ul.navigation li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: solid 1px black;
+    background-color: #e991c0;
+}
+ 
+ul.navigation li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+ul.navigation li a:hover:not(.active) {
+  background-color: #cd95ce;
+  color: white;
+}
+
+div.content {
+  margin-left: 25%;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #9abdd9; /* Set a background color */
+    color: black; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+@media screen and (max-width: 900px) {
+  ul.navigation {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  ul.navigation li a {
+    float: left;
+    padding: 15px;
+  }
+  
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  ul.navigation li a {
+    text-align: center;
+    float: none;
+  }
+}
