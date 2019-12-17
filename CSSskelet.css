@@ -1,42 +1,31 @@
 html {
     scroll-behavior: smooth;
-    margin-left: 8em;
 }
 
 body {
-    background-color: #121921;
+    background-color: #240f1c;
     color: #9abdd9;
     font-family:'Assistant', sans-serif;
 }
 
-header {
-    font-family: 'Frank Ruhl Libre', serif;
-    text-align: center;
-}
-
-header img {
-    float: center;
-}
-
 /* Fixed sidenav, full height */
 .sidenav {
-    height: 100%;
-    width: 130px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #E991C0;
-    overflow-x: hidden;
-    padding-top: 20px;
-    margin-left: -10px;
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
 
 /* Style the sidenav links and the dropdown button */
 .sidenav a, .dropdown-btn {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 20px;
   color: #121921;
   display: block;
   border: none;
@@ -49,27 +38,34 @@ header img {
 
 /* On mouse-over */
 .sidenav a:hover, .dropdown-btn:hover {
-  color: #F4EEEF;
+  color: #f4eeef;
+}
+
+/* Main content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
 }
 
 /* Add an active class to the active dropdown button */
 .active {
-    background-color: #de91d5;
-    color: #121921;
+  background-color: #cd95ce;
+   color: white;
     font-weight: bold;
 }
 
 /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
 .dropdown-container {
   display: none;
-  background-color: #eda0de;
-  padding-left: 1px;
+  background-color: #cc8ace;
+  padding-left: 8px;
 }
 
 /* Optional: Style the caret down icon */
 .fa-caret-down {
   float: right;
-  padding-right: 2px;
+  padding-right: 8px;
 }
 #myBtn {
     display: none; /* Hidden by default */
@@ -94,4 +90,4 @@ header img {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-}
+
