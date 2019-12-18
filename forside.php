@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>Eksamens portfolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="CSSskelet.css">
+        <link rel="stylesheet" href="forsidecss.css">
         <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Assistant&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -69,17 +69,14 @@
         
     </script>
         <!-- cirkel effekt-->
-    <div class="container">
-        <div class="overlay">
-        <div class="text">Welcome to the rabbit hole of <br>curiousity and taking over the world..</div>
-            </div>
-        </div>
         <div id="cirkel">
             <img src="cirkel1.png" alt="cirkel">
         </div>
-        <form>
-            <input type="text" name="search" placeholder="Search..">
-        </form>
+    <div class="container">
+        <div class="overlay">
+        <div class="text">Welcome to the<br>rabbit hole of curiosity<br> and taking over the world..</div>
+            </div>
+        </div>
         
         <div class="footer">
             <p>Anne Mehlsen &#169; Læringsportfolio 2019-</p>

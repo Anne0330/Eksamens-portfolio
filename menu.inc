@@ -1,10 +1,10 @@
 <div class="sidenav">
-  <a href="HTML-skelet.php">Forside</a>
+  <a href="forside.php">Forside</a>
     
         <button class="dropdown-btn">Webudvikling<i class="fa fa-caret-down"></i>
         </button>
   <div class="dropdown-container">
-    <a href="#linktilhtml">HTML</a>
+    <a href="HTMLtekst.php">HTML</a>
     <a href="#">Tags</a>
     <a href="#">Attributter</a>
     <a href="#">CSS</a>
@@ -42,6 +42,7 @@
          <a href="#">Ophavsret og<br>licens</a>
          <a href="#">Transkribering</a>
     </div>
+        <a href="#">Projekter</a>
         <a href="#">Om siden</a>
         <a href="#">Kontakt</a>
         <a href="#">Kildeliste</a>
