@@ -5,8 +5,8 @@
         </button>
   <div class="dropdown-container">
     <a href="HTML.php">HTML</a>
-    <a href="#">Tags</a>
-    <a href="#">Attributter</a>
+    <a href="tags.php">Tags</a>
+    <a href="attributter.php">Attributter</a>
     <a href="#">CSS</a>
     <a href="#">Internettets<br>historie</a>
     <a href="#">SEO</a>
@@ -42,7 +42,13 @@
          <a href="#">Ophavsret og<br>licens</a>
          <a href="#">Transkribering</a>
     </div>
-        <a href="#">Projekter</a>
+    <button class="dropdown-btn">Projekter<i class="fa fa-caret-down"></i>
+  </button>
+    <div class="dropdown-container">
+        <a href="#">HTML/CSS<br>workshop</a>
+        <a href="#">Design thinking</a>
+        <a href="#">One page</a>
+    </div>
         <a href="#">Om siden</a>
         <a href="#">Kontakt</a>
         <a href="#">Kildeliste</a>
