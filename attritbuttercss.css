@@ -43,20 +43,19 @@ h2 {
     text-decoration: underline;
 }
 
-#kildertags p {
+#kilderattribut p {
     text-align: center;
     margin-left: 114px;
     font-size: 12px;
     color: #CD95CE;
-    padding-bottom: 3em;
 }
 
-#kildertags a {
+#kilderattribut a {
     margin-left: -14px;
     color: #CD95CE;
 }
 
-#kildertags a:hover {
+#kilderattribut a:hover {
     color: white;
 }
 
@@ -65,25 +64,22 @@ h2 {
     margin-left: 114px;
 }
 
-#tagseksempler ul {
-    margin-left: 114px;
-}
 
-#semantiskbill img {
+#attributbill img {
     width: 70%;
     height: auto;
     margin-left: 117px;
-    background-color: #f4eeef;
     max-width: 500px;
 }
 
-#tagskilde a {
+#attributkilde a {
     text-align: center;
     margin-left: 130px;
     color: #CD95CE;
+    padding-bottom: 5em;
 }
 
-#tagskilde a:hover {
+#attributkilde a:hover {
     text-align: center;
     color: white;
 }
@@ -202,29 +198,18 @@ h2 {
         padding: 0.5em;
     }
     
-    #kildertags p {
+    #kilderattribut p {
         font-size: 15px;
     }
     
-    #semantiskbill img {
+    #attributbill img {
         margin-left: 25%;
     }
     
-    #tagskilde {
+    #attributkilde {
         margin-left: 7.5%;
         font-size: 15px;
     }
-    
-    
-    #tagseksempler {
-        border-style: ridge;
-        margin-left: 120px;
-    }
-    
-    #tagseksempler ul {
-        margin-left: -15px;
-    }
-    
     
       .sidenav {
       padding-top: 15px;
@@ -256,23 +241,19 @@ h2 {
         font-size: 35px;
     }
     
-    #kildertags p {
+    #kilderattribut p {
         font-size: 20px;
     }
     
-    #semantiskbill img {
+    #attributbill img {
         margin-left: 36%;
     }
     
-    #tagskilde {
+    #attributkilde {
         font-size: 20px;
         margin-left: 27%;
     }
     
-    #tagseksempler {
-        margin-left: 15.5em;
-        margin-right: 10em;
-    }
     
     .footer {
         font-size: 15px;
