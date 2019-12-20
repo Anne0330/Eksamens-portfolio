@@ -4,7 +4,7 @@
         <button class="dropdown-btn">Webudvikling<i class="fa fa-caret-down"></i>
         </button>
   <div class="dropdown-container">
-    <a href="HTMLtekst.php">HTML</a>
+    <a href="HTML.php">HTML</a>
     <a href="#">Tags</a>
     <a href="#">Attributter</a>
     <a href="#">CSS</a>
