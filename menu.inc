@@ -9,7 +9,7 @@
     <a href="attributter.php">Attributter</a>
     <a href="#">CSS</a>
     <a href="#">Internettets<br>historie</a>
-    <a href="#">SEO</a>
+    <a href="seo.php">SEO</a>
     <a href="#">Server<br>begrebet</a>
     <a href="#">Verssions<br>styring</a>
     <a href="#">Serverside scripting</a>
