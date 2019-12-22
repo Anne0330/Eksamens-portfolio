@@ -1,0 +1,317 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#htmltitel img {
+    width: 100%;
+    height:auto;
+}
+
+#introtekst {
+    margin-left: 115px;
+    text-align: center;
+    padding: 0.2em;
+    border-style: dotted;
+    margin-bottom: 10px;
+}
+
+body {
+    background-color: #121921;
+    color: #9abdd9;
+    margin-left: 20px;
+    font-family:'Assistant', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin-left: 120px;
+    font-family: 'Frank ruhl libre', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    margin-left: 105px;
+    font-family: 'Frank ruhl libre', sans-serif;
+    text-decoration: underline; 
+}
+
+#versiontekst h2 {
+    text-align: center;
+    margin-left: 100px;
+    font-family: 'Frank ruhl libre', sans-serif;
+    text-decoration: underline;
+}
+
+#git p {
+    margin-left: 30%;
+
+}
+
+#github a {
+    margin-left: 30%;
+    color: #CD95CE;
+}
+
+#github a:hover {
+    color: white;
+}
+
+#gitkilder p {
+    text-align: center;
+    margin-left: 114px;
+    font-size: 12px;
+    color: #CD95CE;
+    padding-bottom: 8em;
+}
+
+#gitkilder a {
+    margin-left: -14px;
+    color: #CD95CE;
+}
+
+#gitkilder a:hover {
+    color: white;
+}
+
+#versiontekst p {
+    text-align: center;
+    margin-left: 114px;
+}
+
+#git h3 {
+    text-align: center;
+    margin-left: 28%;
+    text-decoration: underline;
+    font-family: 'Frank ruhl libre', sans-serif;
+}
+
+#git p {
+    text-align: center;
+}
+
+#github h3 {
+    text-align: center;
+    margin-left: 30%;
+    text-decoration: underline;
+    font-family: 'Frank ruhl libre', sans-serif;
+}
+
+#github img {
+    width: 70%;
+    height: auto;
+    margin-left: 117px;
+    max-width: 500px;
+}
+
+#github p {
+    text-align: center;
+    margin-left: 114px;
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 40px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #9abdd9; /* Set a background color */
+    color: black; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 20px; /* Some padding */
+    border-radius: 30px; /* Rounded corners */
+    font-weight: bold;
+}
+
+#myBtn:hover {
+    background-color: #cd95ce; /* Add a dark-grey background on hover */
+}
+
+/* Fixed sidenav, full height */
+.sidenav {
+  height: 100%;
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #e991c0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #121921;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #f4eeef;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: #cd95ce;
+   color: white;
+    font-weight: bold;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #cc8ace;
+  padding-left: 2px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+.footer {
+   position: fixed;
+   left: 60px;
+   bottom: 0;
+   width: 100%;
+   background-color: #e991c0;
+   color: white;
+   text-align: center;
+    font-size: 10px;
+
+}
+
+@media screen and (min-width: 700px) {
+    header {
+        padding-left: 5em;
+        padding-right: 5em;
+        padding-bottom: 0.1em;
+    }
+    header p {
+        padding: 0.5em;
+    }
+    
+    #introtekst {
+        border-style: ridge;
+    }
+    
+    html {
+        font-size: 20px;
+    }
+    
+    #versiontekst {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+    
+    #versiontekst p {
+        border-style: ridge;
+        padding: 0.5em;
+    }
+    
+    #gitkilder p {
+        font-size: 15px;
+    }
+    
+      .sidenav {
+      padding-top: 15px;
+    }
+  .sidenav a {
+      font-size: 18px;
+    } 
+    
+    #git  {
+        margin-left: -20%;
+    }
+    
+    #git p {
+        border-style: ridge;
+        padding: 1em;
+    }
+    
+    #github p {
+        border-style: ridge;
+        padding: 0.5em;
+        margin-left: 16%;
+    }
+    
+    #github h3 {
+        text-align: center;
+        margin-left: 15%;
+    }
+    
+    #github img {
+        margin-left: 25%;
+    }
+    
+    #github a {
+        margin-left: 25%;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    
+    h1 {
+        font-size: 60px;
+    }
+    
+    header {
+        padding-left: 10em;
+        padding-right: 10em;
+    }
+    
+    #versiontekst {
+        padding-left: 10em;
+        padding-right: 10em;
+    }
+    
+    #versiontekst h2 {
+        font-size: 35px;
+    }
+    
+    #git {
+        padding-left: 10em;
+        padding-right: 10em;
+    }
+    
+    #github {
+        padding-left: 10em;
+        padding-right: 10em;
+        margin-left: -5%;
+    }
+    
+    #github img {
+        margin-left: 35%;
+        padding-bottom: 2em;
+    }
+    
+    #github h3 {
+        margin-left: 15%;
+    }
+    
+    #github a {
+        margin-left: -45%;
+    }
+    
+    #gitkilder p {
+        font-size: 20px;
+    }
+
+    .footer {
+        font-size: 15px;
+    }
+    
+ 
+}
