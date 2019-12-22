@@ -19,7 +19,7 @@
     <div class="dropdown-container">
         <a href="#">IA</a>
         <a href="#">Fotografi</a>
-        <a href="#">Illustrator</a>
+        <a href="illustrator.php">Illustrator</a>
         <a href="#">Photoshop</a>
         <a href="#">Farver</a>
         <a href="#">Typografi</a>
