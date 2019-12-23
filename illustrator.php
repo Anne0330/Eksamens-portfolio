@@ -94,7 +94,7 @@ function showSlides(n) {
     </script>
         
         <div id="htmltitel"> 
-            <img src="htmltitelbillede1.jpg" alt="eye code" height="200px">
+            <img src="design.jpg" alt="Design" height="200px">
             </div>
             <div id="illutekst">
                 
