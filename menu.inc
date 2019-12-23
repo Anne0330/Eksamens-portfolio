@@ -20,7 +20,7 @@
         <a href="#">IA</a>
         <a href="#">Fotografi</a>
         <a href="illustrator.php">Illustrator</a>
-        <a href="#">Photoshop</a>
+        <a href="photoshop.php">Photoshop</a>
         <a href="#">Farver</a>
         <a href="#">Typografi</a>
         <a href="#">Gestaltlove</a>
