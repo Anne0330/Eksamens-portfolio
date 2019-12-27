@@ -4,16 +4,17 @@
         <meta charset="utf-8">
         <title>Farver</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="illustratorcss.css">
+        <link rel="stylesheet" href="farver.css">
         <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Assistant&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link href="https://fonts.googleapis.com/css?family=Cormorant+Upright&display=swap" rel="stylesheet">
     </head>
     <header>
         <h1>Farver</h1>
         
         <div id="introtekst">
-             <p>Her kan du læse om hvad illustrator er, og hvad det bruges til.</p>
+             <p>Her kan du læse om hvad farver er og hvorfor det er vigtigt at vide, hvilke farver man bruger til sit produkt.</p>
         </div>
     </header>
     
@@ -25,94 +26,128 @@
             <!-- php slut-->
         
         <div id="htmltitel"> 
-            <img src="design.jpg" alt="Design" height="200px">
+            <img src="nummer2banner.jpg" alt="Design" height="200px">
             </div>
-            <div id="illutekst">
+            <div id="tekstfarve">
                 
                 <h2>Farve teori</h2>
                 
-                    <p>Adobe illustrator bruges primært til at lave logoer, figurer eller andre former for streg-designs. Da illustrator er vector baseret, betyder det at man kan ændre i størrelsen uden at den ender med at blive pixeleret. Det er kun muligt at bruge illustrator ved hjælp af dens matematiske formler, som cirkler, linjer eller trekanter. Der er minimal mulighed for fri-tegning, uden at illustrator retter med en "pænere" streg i forhold til det man har tegnet. Programmet kan også bruges til wireframes, til når man skal have en design-guide til sin hjemmeside.   
+                    <p>Johannes Itten var en schweizisk kunstmaler og lære på Bauhaus i Weimar. Han studerede og underviste i farver, med en psykologisk teori bag ideen. Han mente at farver kunne give udtryk, følelser mm. Han mente at en farve, ikke bare var en farve. I hans bog ”The art of color” (1961), involverer han teorien der indebærer videnskab og følelser i sammenhæng med farver.   
                     </p>
         </div>
         
-        <div id="eksempler">
-        <h3>Mine projekter med Illustrator</h3>
-            <p>Tryk på pilene i boksen nedenunder, for at se diverse billeder. Der kan navigeres til højre og venstre.</p>
-           
+        <div id="quotes">
+        <p><q>He who wants to become a master of color must see, feel, and experience each individual color in its many endless combinations with all other colors,</q> – Johannes Itten</p>
+        
+            <p><q>Colors must have a mystical capacity for spiritual expression, without being tied to objects.</q>– Johannes Itten</p>
+            
+            <a href="http://www.artnet.com/artists/johannes-itten/">Kilde</a>
+            
+            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Qj1FK8n7WgY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         
-
-                  <!-- Slideshow container -->
-            <div class="slideshow-container">
-
-              <!-- Full-width images with number and caption text -->
-              <div class="mySlides fade">
-                <div class="numbertext">1 / 4</div>
-                <img src="illustratorDania.jpg" style="width:100%">
-              </div>
-
-              <div class="mySlides fade">
-                <div class="numbertext">2 / 9</div>
-                <img src="illustratorprofil.jpg" style="width:100%">
-              </div>
-
-              <div class="mySlides fade">
-                <div class="numbertext">3 / 9</div>
-                <img src="illustratormandalammd.png" style="width:100%">
-              </div>
-                
-            <div class="mySlides fade">
-                <div class="numbertext">4 / 9</div>
-                <img src="logoto.png" style="width:100%">
-              </div>
-                
-            <div class="mySlides fade">
-                <div class="numbertext">5 / 9</div>
-                <img src="illustratorcapamerica.png" style="width:100%">
-              </div>
-                
-            <div class="mySlides fade">
-                <div class="numbertext">6 / 9</div>
-                <img src="illustratortribalto.png" style="width:100%">
-              </div>
-                
-            <div class="mySlides fade">
-                <div class="numbertext">7 / 9</div>
-                <img src="illustratortribal.png" style="width:100%">
-              </div>
-                
-                <div class="mySlides fade">
-                <div class="numbertext">8 / 9</div>
-                <img src="illustratorflag.png" style="width:100%">
-              </div>
-                
-            <div class="mySlides fade">
-                <div class="numbertext">9 / 9</div>
-                <img src="illustratorC.png" style="width:100%">
-              </div>
-
-              <!-- Next and previous buttons -->
-              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-              <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            </div>
-            <br>
-
-            <!-- The dots/circles -->
-            <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-                <span class="dot" onclick="currentSlide(4)"></span>
-                <span class="dot" onclick="currentSlide(5)"></span>
-                <span class="dot" onclick="currentSlide(6)"></span>
-                <span class="dot" onclick="currentSlide(7)"></span>
-                <span class="dot" onclick="currentSlide(8)"></span>
-                <span class="dot" onclick="currentSlide(9)"></span>
-            </div>
         
-            <div id="illukilder">
-                <p> Kilder: Carsten Kjeldsen Bogner tavle undervisning "Illustrator: grundlæggende" 20/9.<br>
-                <a href="https://www.linkedin.com/learning/illustrator-cc-2019-one-on-one-fundamentals/the-most-comprehensive-illustrator-training">"Illustrator CC 2019 One on One Fundamentals" Kapitel 1, 2, 3 - Linkedin Learning</a>
+        
+        <div id="farveregnbue">
+        <img src="regnbue.jpg" alt="farveregnbue" width="100%">
+            
+            <a href="https://visual.ly/community/infographic/business/color-emotion-guide">Kilde</a>
+        </div>
+        
+        <div id="tekstfarve">
+            <p>Isaac Newton påviste i 1600-tallet lysets brydning gennem et prisme. Hans eksperimenter fik ham til at konkludere, at blå, gul og rød var de primære farver, da disse farver ikke kunne blandes af andre farver.<br>
+            De sekundære farver var blandet af to primære farver. Yderst i farvecirklen placerede han de tertiære farver, som var farver blandet af en primær og en sekundær farve.<br>
+            Farver som stod overfor hinanden, defineredes som komplementære, og skabte en optisk contrast.<br>
+            Farver betyder ikke kun én farve, med én betydning til den. Den kan aldrig være absolut, da det handler om historie, kultur, symbolik og farvesyn.</p>
+        </div>
+        
+        <div id="farvehjulet">
+        <h2>Farvehjulets bygning</h2>
+            <img src="farvehjul.png" alt="farvehjul" width="100%">
+            <a href="https://www.kissclipart.com/johannes-itten-clipart-bauhaus-group-of-houses-in-7meg63/">Kilde</a>
+            <dl>
+                <dt>Primære farver</dt>
+                <dd>Rene farver som er Gul, Blå og Rød</dd>
+                <dt>Sekundære farver</dt>
+                <dd>Blanding af to primære farver</dd>
+                <dt>Tertiære</dt>
+                <dd>Blandet af én primær farve og en sekundær farve.</dd>
+            </dl>
+             </div>
+        <div id="farvesforstaelse">
+            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/P6ko2IdPpaU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
+        <div id="farveribrug">
+        <h2>Farver i praktisk</h2>
+            <img src="cmyk-vs-rgb-diagram.png" alt="rgb og cmyk diagram" width="100%">
+            <a href="https://michaellutjen.com/blog/understand-the-difference-between-cmyk-and-rgb/">Kilde</a>
+            
+            <p><strong>RGB/Red Green Blue</strong><br>
+                Additivt farvesystem hvor lys tilføjes. Det bliver som regel benyttet på tv og computer.<br>
+                <strong>CMYK / Cyan Magenta Yellow Key / Black</strong><br>
+                Subtraktivt farvesystem hvor lys trækkes ud. Det bliver som regel brugt til tryksager. 
+            </p>
+        </div>
+        
+        <div id="colortekst">
+        <img src="colorpicker.png" alt="color picker" width="100%">
+            <a href="https://www.slrlounge.com/photoshop-tips-how-to-use-the-color-picker-tool/">Kilde</a>
+           <dl>
+               <dt>Kulør/Hue - H</dt>
+               <dd>En graduering eller variation af en farve</dd>
+               <dt>Mætning/Saturation - S</dt>
+               <dd>En kulær blandes med forskellige mængder af gråtone. Det siges også at farven får en ”valør”</dd>
+               <dt>Lyshed/Brightness - B </dt>
+               <dd>En kulør blandes med ren sort eller hvid</dd>
+            </dl>
+        
+        </div>
+        
+        <div id="farvesammensatning">
+        <h3>Farvesammensætning</h3>
+            <img src="monokrom.jpg" alt="monokrom" width="50%">
+            <h4>Monokrom</h4>
+            <p>Én kulør, som justeres ifht. lyshed og mæt¬ning. Den går altså nærmest fra hvid til sort i nuancer af samme farve</p>
+            <img src="analog.jpg" alt="analog" width="50%">
+            <h4>Analog</h4>
+            <p>Én kulær indenfor bredere spektrum af lyshed og mætning.</p>
+            <img src="komplementer.jpg" alt="komplimentær" width="50%">
+            <h4>Komplementær</h4>
+            <p>Farver der ligger direkte overfor hinanden i farve¬cirklen.</p>
+            <img src="splitkomplementer.jpg" alt="split komplementær" width="50%">
+            <h4>Split komplementær</h4>
+            <p>Farver der ligger direkte overfor hinanden, med et lidt bredere farvespektrum.</p>
+            <img src="triader.jpg" alt="triader" width="50%">
+            <h4>Triader</h4>
+            <p>Tre farver som ligger lige langt fra hinanden.</p>
+            <img src="tetriader.jpg" alt="tetriader" width="50%">
+            <h4>Tetriader - Dobbelt komplementær</h4>
+            <p>Fire farver som er komplementære.</p>
+            
+            </div>
+        <div id="kildetilbilleder">
+        	<p>Kilde til billeder: Carsten Kjeldsen Bogner PDF præsentation "Farvelære" - 2/10/2019</p>
+        </div>
+ 
+            <div id="kilder">
+                <h5>Øvrige kilder</h5>
+                <p>Carsten Kjeldsen Bogner PDF præsentation "Farvelære" - 2/10/2019<br>
+                "Interfacedesign" 2019, Morten Rold: Kapitel 15 og kapitel 17<br>
+                <a href="http://www.webexhibits.org/colorart/ch.html">"Goethe's Color Theory", WebExhibits</a><br>
+                    <a href="https://munsell.com/color-blog/sir-isaac-newton-color-wheel/">"Sir Isaac Newton’s Influence on the Color Wheel", Albert Munsell.</a><br>
+                    <a hrf="https://color.adobe.com/da/create/color-wheel/">Adobe color wheel</a><br>
+                    <a href="https://videnskab.dk/sporg-videnskaben/hvordan-pavirker-farver-os">"Hvordan påvirker farver os?", Ulla Gjeset Schjølberg, 23/5/2016</a><br>
+                    <a href="http://www.webexhibits.org/colorart/bh.html">"Newton and the Color Spectrum", WebExhibits</a><br>
+                    <a href="http://billedguiden.dk/?page_id=45">"FARVER", BILLEDGUIDEN</a><br>
+                    <a href="https://thecolourjournal.wordpress.com/2014/09/29/johannes-itten-1888-1967/">"Johannes Itten 1888-1967", 29/9/2014, Sarah Craig</a><br>
+                    <a href="https://www.funderstanding.com/brain/your-brain-on-color/">"YOUR BRAIN, ON COLOR", 26/4/2011, Kelly McLendon</a><br>
+                    <a href="https://www.youtube.com/watch?v=P6ko2IdPpaU">"Color Theory for Beginners!", 2/12/2017, Love2DrawManga</a><br>
+                    <a href="https://www.youtube.com/watch?v=nkYqX1diJlo">"Why RGB Can Never Be Used for Print? | RGB vs CMYK", 8/2/2017, PiXimperfect</a><br>
+                    <a href="https://forums.creativecow.net/docs/forums/post.php?forumid=2&postid=1123232&univpostid=1123232&pview=t">After Effects Script ColorPicker, 8/2/2017, Michael Gottwik</a>
+                    </p>
             </div>
         
         <div class="footer">
@@ -157,35 +192,7 @@
           document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         }
         
-             //javascript til slideshow
-           var slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
+          
     </script>
 
     </body>

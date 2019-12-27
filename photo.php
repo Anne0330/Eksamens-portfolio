@@ -25,7 +25,7 @@
             <!-- php slut-->
         
         <div id="htmltitel"> 
-            <img src="design.jpg" alt="Design" height="200px">
+            <img src="nummer2banner.jpg" alt="Design" height="200px">
             </div>
             <div id="phototekst">
                 
