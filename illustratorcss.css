@@ -5,6 +5,7 @@ html {
 #htmltitel img {
     width: 100%;
     height:auto;
+    margin-left: 10%;
 }
 
 #introtekst {
@@ -258,6 +259,14 @@ h2 {
         padding-right: 5em;
         padding-bottom: 0.1em;
     }
+    
+    #htmltitel img {
+    width: 100%;
+    height:auto;
+    margin-left: 0%;
+        
+    }
+    
     header p {
         padding: 0.5em;
     }
