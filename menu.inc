@@ -23,7 +23,7 @@
         <a href="photo.php">Photoshop</a>
         <a href="farver.php">Farver</a>
         <a href="#">Typografi</a>
-        <a href="#">Gestaltlove</a>
+        <a href="gestalt.php">Gestaltlovene</a>
         <a href="#">Moodboards</a>
         <a href="#">Styletiles</a>
         <a href="#">Informations<br>arkitektur</a>
