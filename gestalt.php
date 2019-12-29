@@ -85,8 +85,8 @@
                 <h5>Øvrige kilder</h5>
                 <p>Carsten Kjeldsen Bogner PDF præsentation "Design: Gestaltlovene - Illustrator" - 7/10/2019<br>
                 "Interfacedesign" 2019, Morten Rold: Kapitel 12<br>
-                <a href="http://www.andyrutledge.com/gestalt-principles-1-figure-ground-relationship.html">"Goethe's Color Theory", WebExhibits</a><br>
-                    <a href="https://munsell.com/color-blog/sir-isaac-newton-color-wheel/">"GESTALT PRINCIPLES OF PERCEPTION - 1: FIGURE GROUND RELATIONSHIPS", 12/9/2008, ANDY RUTLEDGE.</a><br>
+    
+                    <a href="https://www.andyrutledge.com/gestalt-principles-1-figure-ground-relationship.html">"GESTALT PRINCIPLES OF PERCEPTION - 1: FIGURE GROUND RELATIONSHIPS", 12/9/2008, ANDY RUTLEDGE.</a><br>
                     <a href="https://www.andyrutledge.com/gestalt-principles-2-similarity.html">"GESTALT PRINCIPLES OF PERCEPTION - 2: SIMILARITY", 1/26/2009, ANDY RUTLEDGE</a><br>
                     <a href="https://www.andyrutledge.com/gestalt-principles-3.html">"GESTALT PRINCIPLES OF PERCEPTION - 3: PROXIMITY, UNIFORM CONNECTEDNESS, AND GOOD CONTINUATION", 3/28/2009, ANDY RUTLEDGE</a><br>
                     <a href="https://www.andyrutledge.com/common-fate.html">"GESTALT PRINCIPLES OF PERCEPTION - 4: COMMON FATE", 7/13/2009, ANDY RUTLEDGE</a><br>

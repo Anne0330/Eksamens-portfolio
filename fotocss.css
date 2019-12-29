@@ -1,0 +1,435 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#htmltitel img {
+    width: 100%;
+    height:auto;
+}
+
+#introtekst {
+    margin-left: 32%;
+    text-align: center;
+    padding: 0.2em;
+    border-style: dotted;
+    margin-bottom: 10px;
+}
+
+body {
+    background-color: #121921;
+    color: #9abdd9;
+    margin-left: 20px;
+    font-family:'Assistant', sans-serif;
+}
+
+header p {
+    text-align: center;
+    margin-left: 0%;
+}
+
+
+h1, h2, h3 {
+    text-align: center;
+    margin-left: 30%;
+    font-family: 'Frank ruhl libre', sans-serif;
+    text-decoration: underline; 
+}
+
+p {
+    text-align: center;
+    margin-left: 114px;
+}
+
+.kameraanotomi img {
+    width: 70%;
+    margin-left: 120px;
+    max-width: 500px;
+}
+
+.kameraanotomi ul {
+    margin-left: 30%;
+}
+
+#objektiv img {
+    width: 70%;
+    margin-left: 120px;
+    max-width: 500px;
+}
+
+#brendevidde img {
+    width: 70%;
+    margin-left: 120px;
+    max-width: 500px;
+}
+
+#shutter img {
+    width: 70%;
+    margin-left: 120px;
+    max-width: 500px;
+}
+
+#shutter ul {
+    margin-left: 30%;
+}
+
+#blende img {
+    width: 70%;
+    margin-left: 120px;
+    max-width: 500px;
+}
+
+#iso img {
+    width: 70%;
+    margin-left: 120px;
+    max-width: 500px;
+}
+
+#iso ul {
+    margin-left: 30%;
+}
+
+.billedehandtering ul {
+    margin-left: 30%;
+} 
+
+#lys img {
+     width: 70%;
+    margin-left: 120px;
+    max-width: 500px;
+}
+
+#kilder h5 {
+    text-align: center;
+    margin-left: 25%;
+}
+
+#kilder a {
+    color: #CD95CE;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 8em;
+}
+
+#kilder a:hover {
+    color: white;
+}
+
+#kilder p {
+    color: #CD95CE;
+}
+
+dl {
+    margin-left: 30%;
+}
+
+dt {
+    font-weight: bold;
+}
+
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 40px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #9abdd9; /* Set a background color */
+    color: black; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 20px; /* Some padding */
+    border-radius: 30px; /* Rounded corners */
+    font-weight: bold;
+}
+
+#myBtn:hover {
+    background-color: #cd95ce; /* Add a dark-grey background on hover */
+}
+
+/* Fixed sidenav, full height */
+.sidenav {
+  height: 100%;
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #e991c0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #121921;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #f4eeef;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: #cd95ce;
+   color: white;
+    font-weight: bold;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #cc8ace;
+  padding-left: 2px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+.footer {
+    position: fixed;
+    left: 60px;
+    bottom: 0;
+    width: 100%;
+    background-color: #e991c0;
+    color: white;
+}
+
+.footer p {
+    margin-left: 5%;
+    font-size: 10px;
+}
+
+@media screen and (min-width: 700px) {
+    header {
+        padding-left: 5em;
+        padding-right: 5em;
+        padding-bottom: 0.1em;
+    }
+    
+    #htmltitel img {
+    width: 100%;
+    height:auto;
+        
+    }
+    
+    h3 {
+        margin-left: 22%;
+    }
+    
+    header p {
+        padding: 0.5em;
+    }
+    
+    #introtekst {
+        border-style: ridge;
+        margin-left: 20%;
+    }
+    
+    html {
+        font-size: 20px;
+    }
+    
+
+    .kameraanotomi {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+    
+    .kameraanotomi h2 {
+        margin-left: 15%;
+    }
+    
+    
+    .kameraanotomi img {
+        margin-left: 25%;
+        padding-bottom: 1em;
+    }
+    
+    #objektiv img {
+        margin-left: 25%;
+    }
+    
+    #objektiv p {
+        border-style: ridge;
+        padding: 1em;
+    }
+    
+    #brendevidde img {
+        margin-left: 25%;
+    }
+    
+    #brendevidde p {
+        border-style: ridge;
+        padding: 1em;
+    }
+    
+    #shutter img {
+        margin-left: 25%;
+    }
+    
+    #blende img {
+        margin-left: 25%;
+    }
+    
+    #iso img {
+        margin-left: 25%;
+    }
+    
+    #lys img {
+        margin-left: 25%;
+    }
+    
+    dl {
+        border-style: ridge;
+        margin-left: 17%;
+        padding: 1em;
+    }
+    
+    
+    #kilder h5 {
+        margin-left: 18%;
+    }
+    
+    #kilder p {
+        font-size: 18px;
+    }
+    
+      .sidenav {
+      padding-top: 15px;
+    }
+  .sidenav a {
+      font-size: 18px;
+    } 
+    
+}
+
+@media screen and (min-width: 1100px){
+    #myBtn {
+         bottom: 70px;
+    }
+    h1 {
+        font-size: 60px;
+        margin-left: 20%;
+    }
+    
+    h2, h3 {
+        margin-left: 10%;
+    }
+    
+      header {
+        padding-left: 10em;
+        padding-right: 10em;
+        margin-left: -10%;
+    }
+    
+    .kameraanotomi h2 {
+        margin-left: 8%;
+    }
+    
+    .kameraanotomi {
+        padding-left: 10em;
+        padding-right: 10em;
+    }
+    
+    .kameraanotomi img {
+        margin-left: 30%;
+    }
+    
+    .kameraanotomi a {
+        margin-left: 52%;
+    }
+    
+    #objektiv {
+        padding-left: 10em;
+        padding-right: 10em;
+    }
+    
+    #objektiv img {
+        margin-left: 30%;
+    }
+    
+    #brendevidde {
+        padding-left: 10em;
+        padding-right: 10em;
+    }
+    
+    #brendevidde img {
+        margin-left: 30%;
+    }
+    
+    #shutter {
+        padding-left: 10em;
+        padding-right: 10em;
+    }
+    
+    #shutter img {
+        margin-left: 30%;
+    }
+    
+    #blende {
+      padding-left: 10em;
+        padding-right: 10em;  
+    }
+    
+    #blende img {
+        margin-left: 30%;
+    }
+    
+    #iso {
+       padding-left: 10em;
+        padding-right: 10em; 
+    }
+    
+    #iso img {
+        margin-left: 30%;
+    }
+    
+    .begreber {
+       padding-left: 10em;
+        padding-right: 10em; 
+    }
+    
+    .billedehandtering {
+        padding-left: 10em;
+        padding-right: 10em;
+    }
+    
+    #lys {
+        padding-left: 10em;
+        padding-right: 10em;
+    }
+    
+    #lys img {
+        margin-left: 30%;
+    }
+
+  
+    #kilder h5 {
+        margin-left: 8%;
+    }
+    
+    #kilder p {
+        font-size: 20px;
+    }
+
+    .footer p {
+        font-size: 15px;
+    }
+    
+ 
+}

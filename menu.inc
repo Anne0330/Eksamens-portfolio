@@ -18,11 +18,11 @@
   </button>
     <div class="dropdown-container">
         <a href="#">IA</a>
-        <a href="#">Fotografi</a>
+        <a href="fotografi.php">Fotografi</a>
         <a href="illustrator.php">Illustrator</a>
         <a href="photo.php">Photoshop</a>
         <a href="farver.php">Farver</a>
-        <a href="#">Typografi</a>
+        <a href="typografi.php">Typografi</a>
         <a href="gestalt.php">Gestaltlovene</a>
         <a href="#">Moodboards</a>
         <a href="#">Styletiles</a>
