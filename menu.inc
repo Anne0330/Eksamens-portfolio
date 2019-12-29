@@ -25,7 +25,7 @@
         <a href="typografi.php">Typografi</a>
         <a href="gestalt.php">Gestaltlovene</a>
         <a href="moodboard.php">Moodboards</a>
-        <a href="#">Styletiles</a>
+        <a href="styletiles.php">Styletiles</a>
     </div>
     <button class="dropdown-btn">Virksomheds<br>forståelse<i class="fa fa-caret-down"></i>
   </button>
