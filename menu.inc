@@ -17,7 +17,7 @@
       <button class="dropdown-btn">Design<i class="fa fa-caret-down"></i>
   </button>
     <div class="dropdown-container">
-        <a href="#">IA</a>
+        <a href="ia.php">IA</a>
         <a href="fotografi.php">Fotografi</a>
         <a href="illustrator.php">Illustrator</a>
         <a href="photo.php">Photoshop</a>
