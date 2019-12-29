@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>Gestalt lovene</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="farver.css">
+        <link rel="stylesheet" href="gestaltcss.css">
         <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Assistant&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -28,108 +28,54 @@
         <div id="htmltitel"> 
             <img src="nummer2banner.jpg" alt="Design" height="200px">
             </div>
-            <div id="tekstfarve">
+        
+            <div id="gestalt">
                 
                 <h2>Det handler om at se helheder. </h2>
+                <p>Med gestalt lovene, kan man opbygge og designe sin hjemmeside. Det vil sige, at det er et værktøj til hvor tingene skal sættes sammen henne. Det gælder billeder, kategorier, farver osv.</p>
                 
                    <img src="gestalt.jpg" alt="gestaltlovene" width="100%">
+                <a href="http://getelementbyid.dk/gestalt.html">Kilde</a>
         </div>
         
-        <div id="quotes">
-        <p><q>A system whose parts are dynamically connected in such a way that a change of one part results in a change of all other parts.</q> – - Kurt Lewin</p>
+        <div class="quotes">
+        <p><q>A system whose parts are dynamically connected in such a way that a change of one part results in a change of all other parts.</q> – Kurt Lewin</p>
             
             <a href="https://libquotes.com/kurt-lewin/quote/lby9s1y">Kilde</a>
+        </div>
+        
+       
+        <div id="gestalttekst">
+        <h2>Gestaltlovene</h2>
+            <img src="proximity.jpg" alt="proximity" width="50%">
+            <a href="http://artnet.nmu.edu/foundations/doku.php?id=proximity">Kilde</a>
+            <h4>Proximity / Nærhed</h4>
+            <p>Det er elementer der er placeret tæt på hinanden, som giver en relation til det er i nærheden af elementerne. Det er alt fra farver, distance og former der gør om der er tale om relation.</p>
             
+            <img src="similarity.jpg" alt="similarity" width="50%">
+            <a href="https://kristinewilberding.weebly.com/gestault-grab-bag.html">Kilde</a>
+            <h4>Similarity / Lighed</h4>
+            <p>Proximity overgår derimod similiarity med farver/kontrast. Similarity er elementer der ser ens ud, som har samme form, farve og størrelse af elementerne. Selv elementer der er langt fra hinanden, vil stadig opfattes som relateret begrundet af deres form/farve/størrelse er ens.</p>
             
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Qj1FK8n7WgY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        
-        
-        
-        <div id="farveregnbue">
-        <img src="regnbue.jpg" alt="farveregnbue" width="100%">
+            <img src="continuity.png" alt="continuity" width="50%">
+            <a href="https://medium.muz.li/gestalt-principles-in-ui-design-6b75a41e9965">Kilde</a>
+            <h4>Continuity / Kontinuity</h4>
+            <p>Elementer som er struktureret på linje eller kurver, bliver opfattet til at være relateret i forhold til hvis de ikke er. De er placeret på en ”usynlig” linje, som gør man ser dem som relateret.</p>
             
-            <a href="https://visual.ly/community/infographic/business/color-emotion-guide">Kilde</a>
-        </div>
-        
-        <div id="tekstfarve">
-            <p>Isaac Newton påviste i 1600-tallet lysets brydning gennem et prisme. Hans eksperimenter fik ham til at konkludere, at blå, gul og rød var de primære farver, da disse farver ikke kunne blandes af andre farver.<br>
-            De sekundære farver var blandet af to primære farver. Yderst i farvecirklen placerede han de tertiære farver, som var farver blandet af en primær og en sekundær farve.<br>
-            Farver som stod overfor hinanden, defineredes som komplementære, og skabte en optisk contrast.<br>
-            Farver betyder ikke kun én farve, med én betydning til den. Den kan aldrig være absolut, da det handler om historie, kultur, symbolik og farvesyn.</p>
-        </div>
-        
-        <div id="farvehjulet">
-        <h2>Farvehjulets bygning</h2>
-            <img src="farvehjul.png" alt="farvehjul" width="100%">
-            <a href="https://www.kissclipart.com/johannes-itten-clipart-bauhaus-group-of-houses-in-7meg63/">Kilde</a>
-            <dl>
-                <dt>Primære farver</dt>
-                <dd>Rene farver som er Gul, Blå og Rød</dd>
-                <dt>Sekundære farver</dt>
-                <dd>Blanding af to primære farver</dd>
-                <dt>Tertiære</dt>
-                <dd>Blandet af én primær farve og en sekundær farve.</dd>
-            </dl>
-             </div>
-        <div id="farvesforstaelse">
+            <img src="common%20region.png" alt="common region" width="50%">
+            <a href="https://www.prototypr.io/news/gestalt-principles-in-ui-design-how-to-become-a-master-manipulator-of-visual-communication/">Kilde</a>
+            <h4>Common region / lukkethed</h4>
+            <p>Elementer som er ”indrammet”, hvilket giver en ide om relation med hinanden.</p>
             
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/P6ko2IdPpaU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        
-        <div id="farveribrug">
-        <h2>Farver i praktisk</h2>
-            <img src="cmyk-vs-rgb-diagram.png" alt="rgb og cmyk diagram" width="100%">
-            <a href="https://michaellutjen.com/blog/understand-the-difference-between-cmyk-and-rgb/">Kilde</a>
+            <img src="closure.jpg" alt="closure" width="50%">
+            <a href="https://www.jotform.com/blog/how-to-create-a-realistic-soccer-ball-in-adobe-illustrator/">Kilde</a>
+            <h4>Closure / figurdannelse</h4>
+            <p>Elementer som er separate med en lille distance mellem hinanden, kan opfattes som en enkelt figur, selvom figuren reelt ikke er til stede.</p>
             
-            <p><strong>RGB/Red Green Blue</strong><br>
-                Additivt farvesystem hvor lys tilføjes. Det bliver som regel benyttet på tv og computer.<br>
-                <strong>CMYK / Cyan Magenta Yellow Key / Black</strong><br>
-                Subtraktivt farvesystem hvor lys trækkes ud. Det bliver som regel brugt til tryksager. 
-            </p>
         </div>
-        
-        <div id="colortekst">
-        <img src="colorpicker.png" alt="color picker" width="100%">
-            <a href="https://www.slrlounge.com/photoshop-tips-how-to-use-the-color-picker-tool/">Kilde</a>
-           <dl>
-               <dt>Kulør/Hue - H</dt>
-               <dd>En graduering eller variation af en farve</dd>
-               <dt>Mætning/Saturation - S</dt>
-               <dd>En kulær blandes med forskellige mængder af gråtone. Det siges også at farven får en ”valør”</dd>
-               <dt>Lyshed/Brightness - B </dt>
-               <dd>En kulør blandes med ren sort eller hvid</dd>
-            </dl>
-        
-        </div>
-        
-        <div id="farvesammensatning">
-        <h3>Farvesammensætning</h3>
-            <img src="monokrom.jpg" alt="monokrom" width="50%">
-            <h4>Monokrom</h4>
-            <p>Én kulør, som justeres ifht. lyshed og mæt¬ning. Den går altså nærmest fra hvid til sort i nuancer af samme farve</p>
-            <img src="analog.jpg" alt="analog" width="50%">
-            <h4>Analog</h4>
-            <p>Én kulær indenfor bredere spektrum af lyshed og mætning.</p>
-            <img src="komplementer.jpg" alt="komplimentær" width="50%">
-            <h4>Komplementær</h4>
-            <p>Farver der ligger direkte overfor hinanden i farve¬cirklen.</p>
-            <img src="splitkomplementer.jpg" alt="split komplementær" width="50%">
-            <h4>Split komplementær</h4>
-            <p>Farver der ligger direkte overfor hinanden, med et lidt bredere farvespektrum.</p>
-            <img src="triader.jpg" alt="triader" width="50%">
-            <h4>Triader</h4>
-            <p>Tre farver som ligger lige langt fra hinanden.</p>
-            <img src="tetriader.jpg" alt="tetriader" width="50%">
-            <h4>Tetriader - Dobbelt komplementær</h4>
-            <p>Fire farver som er komplementære.</p>
             
-            </div>
-        <div id="kildetilbilleder">
-        	<p>Kilde til billeder: Carsten Kjeldsen Bogner PDF præsentation "Farvelære" - 2/10/2019</p>
-        </div>
         
-        <div id="quotes"> 
+        <div class="quotes"> 
             <p><q>Design is a really loaded word. I don’t know what it means. So we don’t talk a lot about design around here, we just talk about how things work. Most people think it’s about how they look, but it’s about how they work</q>– Steve Jobs</p>
             
             <a href="https://www.digitalsurgeons.com/thoughts/design-thinking/steve-jobs-design-thinking/">Kilde</a>
@@ -137,19 +83,20 @@
  
             <div id="kilder">
                 <h5>Øvrige kilder</h5>
-                <p>Carsten Kjeldsen Bogner PDF præsentation "Farvelære" - 2/10/2019<br>
-                "Interfacedesign" 2019, Morten Rold: Kapitel 15 og kapitel 17<br>
-                <a href="http://www.webexhibits.org/colorart/ch.html">"Goethe's Color Theory", WebExhibits</a><br>
-                    <a href="https://munsell.com/color-blog/sir-isaac-newton-color-wheel/">"Sir Isaac Newton’s Influence on the Color Wheel", Albert Munsell.</a><br>
-                    <a hrf="https://color.adobe.com/da/create/color-wheel/">Adobe color wheel</a><br>
-                    <a href="https://videnskab.dk/sporg-videnskaben/hvordan-pavirker-farver-os">"Hvordan påvirker farver os?", Ulla Gjeset Schjølberg, 23/5/2016</a><br>
-                    <a href="http://www.webexhibits.org/colorart/bh.html">"Newton and the Color Spectrum", WebExhibits</a><br>
-                    <a href="http://billedguiden.dk/?page_id=45">"FARVER", BILLEDGUIDEN</a><br>
-                    <a href="https://thecolourjournal.wordpress.com/2014/09/29/johannes-itten-1888-1967/">"Johannes Itten 1888-1967", 29/9/2014, Sarah Craig</a><br>
-                    <a href="https://www.funderstanding.com/brain/your-brain-on-color/">"YOUR BRAIN, ON COLOR", 26/4/2011, Kelly McLendon</a><br>
-                    <a href="https://www.youtube.com/watch?v=P6ko2IdPpaU">"Color Theory for Beginners!", 2/12/2017, Love2DrawManga</a><br>
-                    <a href="https://www.youtube.com/watch?v=nkYqX1diJlo">"Why RGB Can Never Be Used for Print? | RGB vs CMYK", 8/2/2017, PiXimperfect</a><br>
-                    <a href="https://forums.creativecow.net/docs/forums/post.php?forumid=2&postid=1123232&univpostid=1123232&pview=t">After Effects Script ColorPicker, 8/2/2017, Michael Gottwik</a>
+                <p>Carsten Kjeldsen Bogner PDF præsentation "Design: Gestaltlovene - Illustrator" - 7/10/2019<br>
+                "Interfacedesign" 2019, Morten Rold: Kapitel 12<br>
+                <a href="http://www.andyrutledge.com/gestalt-principles-1-figure-ground-relationship.html">"Goethe's Color Theory", WebExhibits</a><br>
+                    <a href="https://munsell.com/color-blog/sir-isaac-newton-color-wheel/">"GESTALT PRINCIPLES OF PERCEPTION - 1: FIGURE GROUND RELATIONSHIPS", 12/9/2008, ANDY RUTLEDGE.</a><br>
+                    <a href="https://www.andyrutledge.com/gestalt-principles-2-similarity.html">"GESTALT PRINCIPLES OF PERCEPTION - 2: SIMILARITY", 1/26/2009, ANDY RUTLEDGE</a><br>
+                    <a href="https://www.andyrutledge.com/gestalt-principles-3.html">"GESTALT PRINCIPLES OF PERCEPTION - 3: PROXIMITY, UNIFORM CONNECTEDNESS, AND GOOD CONTINUATION", 3/28/2009, ANDY RUTLEDGE</a><br>
+                    <a href="https://www.andyrutledge.com/common-fate.html">"GESTALT PRINCIPLES OF PERCEPTION - 4: COMMON FATE", 7/13/2009, ANDY RUTLEDGE</a><br>
+                    <a href="https://www.andyrutledge.com/closure.html">"GESTALT PRINCIPLES OF PERCEPTION - 5: CLOSURE", 8/25/2009, ANDY RUTLEDGE</a><br>
+                    <a href="https://www.toptal.com/designers/gui/principles-of-design-infographic">"Breaking Down the Principles of Design (with Infographic)", CAMERON CHAPMANn</a><br>
+                    <a href="https://sympli.io/blog/2017/05/24/why-is-whitespace-in-web-design-so-powerful/">"Why is Whitespace in Web Design So Powerful?", 5/24/2017, Daniel Schwarz</a><br>
+                    <a href="https://designshack.net/articles/layouts/grid-first-design-how-to-create-vertical-rhythm-and-harmony/">"Grid-First Design: How to Create Vertical Rhythm and Harmony", Design shack</a><br>
+                    <a href="https://blog.intellyo.com/content-marketing/ux-and-psychology-go-hand-in-hand-how-gestalt-theory-appears-in-ux-design">"UX and Psychology go hand in hand— How Gestalt theory appears in UX design?", 6/25/2017, Norbert Gaal</a><br>
+                    <a href="http://getelementbyid.dk/gestalt.html">"Gestaltlovene", John Erik Lüdeking</a><br>
+                    <a href="https://uxpro.cc/publications/using-gestalt-laws-of-perceptual-organization-in-ui-design/">"Using Gestalt Laws of Perceptual Organization in UI Design", 13/8/2019</a>
                     </p>
             </div>
         
