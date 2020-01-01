@@ -2,7 +2,7 @@
 <html lang="da">
     <head>
         <meta charset="utf-8">
-        <title>Farver</title>
+        <title>Transskribering</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="transskriberingcss.css">
         <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre&display=swap" rel="stylesheet">
@@ -11,10 +11,10 @@
        <link href="https://fonts.googleapis.com/css?family=Cormorant+Upright&display=swap" rel="stylesheet">
     </head>
     <header>
-        <h1>Farver</h1>
+        <h1>Transskribering</h1>
         
         <div id="introtekst">
-             <p>Her kan du læse om hvad farver er og hvorfor det er vigtigt at vide, hvilke farver man bruger til sit produkt.</p>
+             <p>Her kan du læse om hvad transskribering er, og hvad det kan bruges til.</p>
         </div>
     </header>
     
@@ -26,128 +26,34 @@
             <!-- php slut-->
         
         <div id="htmltitel"> 
-            <img src="nummer2banner.jpg" alt="Design" height="200px">
+            <img src="communication.jpg" alt="Design" height="200px">
             </div>
-            <div id="tekstfarve">
+            <div id="transtekst">
                 
-                <h2>Farve teori</h2>
+                <h2>"At transskribere"</h2>
                 
-                    <p>Johannes Itten var en schweizisk kunstmaler og lære på Bauhaus i Weimar. Han studerede og underviste i farver, med en psykologisk teori bag ideen. Han mente at farver kunne give udtryk, følelser mm. Han mente at en farve, ikke bare var en farve. I hans bog ”The art of color” (1961), involverer han teorien der indebærer videnskab og følelser i sammenhæng med farver.   
+                    <p>Det betyder man transformere noget om til skrift, som kunne være en video til artikel. Eventuelt hvis man har haft et interview med en person, som har gået med til at interviewet bliver filmet. Der har man lyd og video at arbejde med, for at lave det om til tekst. Det at man vælger at fremhæve noget bestemt, som hvad personen siger eller hvad personen gør undervejs.<br>
+                    Under et Onepage projekt skulle vi lave et interview, hvor det hele blev optaget. Der blev taget noter, men samtidig havde vi næsten 3-4 timers optagelse. Vi kunne bruge noget af det til vores projekt, men der skete mange uventede ting undervejs i interviewet. Det endte med at blive et mindre projekt for mig selv, at tage nogle highlights og klippe dem sammen.<br>
+                    Da vores projekt ikke omhandlede at det skulle være sjovt, er dette et eksempel på hvordan man IKKE skal transskribere. Grundet at det der er highlighted, ikke havde relevans for den originale ide fra starten. Det var dog stadig et kæmpe hit for dem der var med i interviewet, og vi bruger det med glæde til nogle ”inside jokes” som kun Erhvervsakademiet Dania’s 1 semestres multimediedesignere kan relatere til.    
                     </p>
         </div>
-        
-        <div id="quotes">
-        <p><q>He who wants to become a master of color must see, feel, and experience each individual color in its many endless combinations with all other colors,</q> – Johannes Itten</p>
-        
-            <p><q>Colors must have a mystical capacity for spiritual expression, without being tied to objects.</q>– Johannes Itten</p>
+      
+        <div id="video">
             
-            <a href="http://www.artnet.com/artists/johannes-itten/">Kilde</a>
-            
-            
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Qj1FK8n7WgY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FAnne.meh0330%2Fvideos%2F10206156114419944%2F&show_text=0&width=560" width="560" height="409" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
         </div>
         
+        <!-- der er et kæmpe mellemrum i mobil version og kan ikke fikse det.-->
         
-        
-        <div id="farveregnbue">
-        <img src="regnbue.jpg" alt="farveregnbue" width="100%">
-            
-            <a href="https://visual.ly/community/infographic/business/color-emotion-guide">Kilde</a>
-        </div>
-        
-        <div id="tekstfarve">
-            <p>Isaac Newton påviste i 1600-tallet lysets brydning gennem et prisme. Hans eksperimenter fik ham til at konkludere, at blå, gul og rød var de primære farver, da disse farver ikke kunne blandes af andre farver.<br>
-            De sekundære farver var blandet af to primære farver. Yderst i farvecirklen placerede han de tertiære farver, som var farver blandet af en primær og en sekundær farve.<br>
-            Farver som stod overfor hinanden, defineredes som komplementære, og skabte en optisk contrast.<br>
-            Farver betyder ikke kun én farve, med én betydning til den. Den kan aldrig være absolut, da det handler om historie, kultur, symbolik og farvesyn.</p>
-        </div>
-        
-        <div id="farvehjulet">
-        <h2>Farvehjulets bygning</h2>
-            <img src="farvehjul.png" alt="farvehjul" width="100%">
-            <a href="https://www.kissclipart.com/johannes-itten-clipart-bauhaus-group-of-houses-in-7meg63/">Kilde</a>
-            <dl>
-                <dt>Primære farver</dt>
-                <dd>Rene farver som er Gul, Blå og Rød</dd>
-                <dt>Sekundære farver</dt>
-                <dd>Blanding af to primære farver</dd>
-                <dt>Tertiære</dt>
-                <dd>Blandet af én primær farve og en sekundær farve.</dd>
-            </dl>
-             </div>
-        <div id="farvesforstaelse">
-            
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/P6ko2IdPpaU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        
-        <div id="farveribrug">
-        <h2>Farver i praktisk</h2>
-            <img src="cmyk-vs-rgb-diagram.png" alt="rgb og cmyk diagram" width="100%">
-            <a href="https://michaellutjen.com/blog/understand-the-difference-between-cmyk-and-rgb/">Kilde</a>
-            
-            <p><strong>RGB/Red Green Blue</strong><br>
-                Additivt farvesystem hvor lys tilføjes. Det bliver som regel benyttet på tv og computer.<br>
-                <strong>CMYK / Cyan Magenta Yellow Key / Black</strong><br>
-                Subtraktivt farvesystem hvor lys trækkes ud. Det bliver som regel brugt til tryksager. 
-            </p>
-        </div>
-        
-        <div id="colortekst">
-        <img src="colorpicker.png" alt="color picker" width="100%">
-            <a href="https://www.slrlounge.com/photoshop-tips-how-to-use-the-color-picker-tool/">Kilde</a>
-           <dl>
-               <dt>Kulør/Hue - H</dt>
-               <dd>En graduering eller variation af en farve</dd>
-               <dt>Mætning/Saturation - S</dt>
-               <dd>En kulær blandes med forskellige mængder af gråtone. Det siges også at farven får en ”valør”</dd>
-               <dt>Lyshed/Brightness - B </dt>
-               <dd>En kulør blandes med ren sort eller hvid</dd>
-            </dl>
-        
-        </div>
-        
-        <div id="farvesammensatning">
-        <h3>Farvesammensætning</h3>
-            <img src="monokrom.jpg" alt="monokrom" width="50%">
-            <h4>Monokrom</h4>
-            <p>Én kulør, som justeres ifht. lyshed og mæt¬ning. Den går altså nærmest fra hvid til sort i nuancer af samme farve</p>
-            <img src="analog.jpg" alt="analog" width="50%">
-            <h4>Analog</h4>
-            <p>Én kulær indenfor bredere spektrum af lyshed og mætning.</p>
-            <img src="komplementer.jpg" alt="komplimentær" width="50%">
-            <h4>Komplementær</h4>
-            <p>Farver der ligger direkte overfor hinanden i farve¬cirklen.</p>
-            <img src="splitkomplementer.jpg" alt="split komplementær" width="50%">
-            <h4>Split komplementær</h4>
-            <p>Farver der ligger direkte overfor hinanden, med et lidt bredere farvespektrum.</p>
-            <img src="triader.jpg" alt="triader" width="50%">
-            <h4>Triader</h4>
-            <p>Tre farver som ligger lige langt fra hinanden.</p>
-            <img src="tetriader.jpg" alt="tetriader" width="50%">
-            <h4>Tetriader - Dobbelt komplementær</h4>
-            <p>Fire farver som er komplementære.</p>
-            
-            </div>
-        <div id="kildetilbilleder">
-        	<p>Kilde til billeder: Carsten Kjeldsen Bogner PDF præsentation "Farvelære" - 2/10/2019</p>
+        <div id="mening">
+            <h2>Meningskondensering</h2>
+            <p>Det er en form for interviewanalyse, som også kan indgå inden under transskribering. For at kunne lave en transskribering, skal man kunne analysere sit fimet/optaget materiale. Det er at finde det svar man ledte efter i interviewet, eller finde hovedpunkter der skal highlightes. Der er en metode ved at bruge denne, at kunne lave hovepunkter/emner, og indsætte sætninger personen har sagt for at se hvilke der er brugbare, i forhold til resultatet. </p>
         </div>
  
             <div id="kilder">
                 <h5>Øvrige kilder</h5>
-                <p>Carsten Kjeldsen Bogner PDF præsentation "Farvelære" - 2/10/2019<br>
-                "Interfacedesign" 2019, Morten Rold: Kapitel 15 og kapitel 17<br>
-                <a href="http://www.webexhibits.org/colorart/ch.html">"Goethe's Color Theory", WebExhibits</a><br>
-                    <a href="https://munsell.com/color-blog/sir-isaac-newton-color-wheel/">"Sir Isaac Newton’s Influence on the Color Wheel", Albert Munsell.</a><br>
-                    <a hrf="https://color.adobe.com/da/create/color-wheel/">Adobe color wheel</a><br>
-                    <a href="https://videnskab.dk/sporg-videnskaben/hvordan-pavirker-farver-os">"Hvordan påvirker farver os?", Ulla Gjeset Schjølberg, 23/5/2016</a><br>
-                    <a href="http://www.webexhibits.org/colorart/bh.html">"Newton and the Color Spectrum", WebExhibits</a><br>
-                    <a href="http://billedguiden.dk/?page_id=45">"FARVER", BILLEDGUIDEN</a><br>
-                    <a href="https://thecolourjournal.wordpress.com/2014/09/29/johannes-itten-1888-1967/">"Johannes Itten 1888-1967", 29/9/2014, Sarah Craig</a><br>
-                    <a href="https://www.funderstanding.com/brain/your-brain-on-color/">"YOUR BRAIN, ON COLOR", 26/4/2011, Kelly McLendon</a><br>
-                    <a href="https://www.youtube.com/watch?v=P6ko2IdPpaU">"Color Theory for Beginners!", 2/12/2017, Love2DrawManga</a><br>
-                    <a href="https://www.youtube.com/watch?v=nkYqX1diJlo">"Why RGB Can Never Be Used for Print? | RGB vs CMYK", 8/2/2017, PiXimperfect</a><br>
-                    <a href="https://forums.creativecow.net/docs/forums/post.php?forumid=2&postid=1123232&univpostid=1123232&pview=t">After Effects Script ColorPicker, 8/2/2017, Michael Gottwik</a>
-                    </p>
+                <p>"Kommunikation i multimediedesign" 2015, Anne Mette Busch: Kapitel 6, s. 92<br>
+                <a href="https://tovejs.dk/2019/07/17/transskribere/">"Det får du ud af at transskribere dine interviews", 17/07/2019, Albert Munsell.</a></p>
             </div>
         
         <div class="footer">

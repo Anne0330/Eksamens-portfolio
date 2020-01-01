@@ -38,6 +38,7 @@ h1, h2, h3, h4, h5{
 p {
     text-align: center;
     margin-left: 114px;
+    line-height: 20px;
 }
 
 
@@ -46,106 +47,13 @@ iframe {
     text-align: center;
     width: 70%;
     max-width: 560px;
+    padding-top: 2em;
 }
 
-#quotes q {
-    font-family: 'Cormorant Upright', serif;
-    font-size: 25px;
+#mening {
+    padding-top: -500px;
 }
 
-#quotes a {
-    color: #CD95CE;
-    text-align: center;
-    margin-left: 60%;
-    font-size: 15px;
-}
-
-#quotes a:hover {
-    color: white;
-}
-
-#farveregnbue img {
-    margin-left: 30%;
-    width: 70%;
-    margin-right: auto;
-    max-width: 500px;
-}
-
-#farveregnbue a {
-    color: #CD95CE;
-    text-align: center;
-    margin-left: 60%;
-    font-size: 15px;
-}
-
-#farveregnbue a:hover {
-    color: white;
-}
-
-#farvehjulet img {
-    margin-left: 30%;
-    width: 70%;
-    margin-right: auto;
-    max-width: 500px;
-}
-
-#farvehjulet a {
-    color: #CD95CE;
-    text-align: center;
-    margin-left: 60%;
-    font-size: 15px;
-}
-
-#farvehjulet a:hover {
-    color: white;
-}
-
-#farveribrug img {
-    margin-left: 30%;
-    width: 70%;
-    margin-right: auto;
-    max-width: 500px;
-}
-
-#farveribrug a {
-    color: #CD95CE;
-    text-align: center;
-    margin-left: 60%;
-    font-size: 15px;
-}
-
-#farveribrug a:hover {
-    color: white;
-}
-
-#colortekst img {
-    margin-left: 30%;
-    width: 70%;
-    margin-right: auto;
-    max-width: 500px;
-}
-
-#colortekst a {
-    color: #CD95CE;
-    text-align: center;
-    margin-left: 60%;
-    font-size: 15px;
-}
-
-#colortekst a:hover {
-    color: white;
-}
-
-#farvesammensatning img {
-    max-width: 400px;
-    margin-left: 40%;
-    margin-right: auto;
-}
-
-#kildetilbilleder p {
-    font-size: 15px;
-     color: #CD95CE;
-}
 
 #kilder p {
     text-align: center;
@@ -154,15 +62,6 @@ iframe {
     color: #CD95CE;
     padding-bottom: 8em;
 }
-
-dl {
-    margin-left: 30%;
-}
-
-dt {
-    font-weight: bold;
-}
-
 
 #kilder a {
     color: #CD95CE;
@@ -176,7 +75,7 @@ dt {
 #myBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
-    bottom: 40px; /* Place the button at the bottom of the page */
+    bottom: 50px; /* Place the button at the bottom of the page */
     right: 30px; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
@@ -261,6 +160,10 @@ dt {
 }
 
 @media screen and (min-width: 700px) {
+    
+    #myBtn {
+        bottom: 55px;
+    }
     header {
         padding-left: 5em;
         padding-right: 5em;
@@ -273,96 +176,51 @@ dt {
         
     }
     
-    h1, h2, h3, h4, h5 {
+    h1, h2, h5 {
         margin-left: 20%;
     }
     
     header p {
         padding: 0.5em;
+        
+        
     }
     
     #introtekst {
-        border-style: ridge;
+        border-style: none;
+        margin-left: 20%;
     }
     
     html {
         font-size: 20px;
     }
     
-    #tekstfarve {
+    #transtekst {
         padding-left: 0.5em;
         padding-right: 0.5em;
     }
     
-    #tekstfarve h2 {
+    #transtekst h2 {
         margin-left: 15%;
     }
     
     
-    #tekstfarve p {
+    p {
         border-style: ridge;
         padding: 0.5em;
-    }
-    
-    #quotes p {
-        border-style: ridge;
-        padding: 0.5em;
-    }
-    
-    #quotes a {
-        margin-left: 55%;
     }
     
     iframe {
         margin-left: 25%;
     }
     
-    #farveregnbue img {
-        margin-left: 25%;
-    }
-    
-    #farveregnbue a {
-        margin-left: 55%;
-    }
-    
-    #farvehjulet img {
-        margin-left: 25%;
-    }
-    
-    #farvehjulet a {
-        margin-left: 55%;
-    }
-    
-    dl {
-        border-style: ridge;
-        padding-left: 1em;
-        margin-left: 17%;
-    }
-    
-    #farveribrug {
-        margin-left: -5%;
-    }
-    
-    #farveribrug p {
-        border-style: ridge;
-        padding: 1em;
-        margin-left: 20%;
-    }
-    
-    #colortekst img {
-        margin-left: 25%;
-    }
-    
-    #farvesammensatning img {
-        margin-left: 35%;
-    }
-    
-    #farvesammensatning p {
-        border-style: ridge;
-    }
-    
     #kilder p {
         font-size: 18px;
+        border-style: none;
+    }
+    
+    .footer p {
+        border-style: none;
     }
     
       .sidenav {
@@ -376,9 +234,17 @@ dt {
 
 @media screen and (min-width: 1100px) {
     
+    #myBtn {
+        bottom: 70px;
+    }
+    
     h1 {
         font-size: 60px;
         margin-left: 30%;
+    }
+    
+    p {
+        line-height: 25px;
     }
     
     header {
@@ -387,94 +253,35 @@ dt {
         margin-left: -20%;
     }
     
-    #quotes p {
-        border-style: none;
-        padding-left: 5em;
-        padding-right: 5em;
-        font-size: 20px;
+    #introtekst {
+        padding-left: 7em;
     }
     
-    #quotes q {
-        font-size: 35px;
+    #transtekst h2 {
+        margin-left: 13%;
     }
+    
     
     iframe {
         margin-left: 35%;
     }
     
-    #farveregnbue img {
-        margin-left: 37%;
-        padding-bottom: 1em;
-    }
-    
-    #farveregnbue a {
-        margin-left: -20%;
-    }
-    
-    #tekstfarve {
+    #transtekst {
         padding-left: 10em;
         padding-right: 10em;
     }
     
-    #farvehjulet {
-        padding-left: 7em;
+    #mening {
+        padding-left: 10em;
         padding-right: 10em;
     }
     
-    #farvehjulet img {
-        margin-left: 36%;
-    }
-    
-    #farvehjulet h2 {
-        margin-left: 20%;
-    }
-    
-    #farvehjulet a {
-        margin-left: 58%;
-    }
-    
-    #farveribrug h2 {
-        margin-left: 26%;
-    }
-    
-    #farveribrug img {
-        margin-left: 40%;
-    }
-    
-    #farveribrug a {
-        margin-left: 56%;
-    }
-    
-    #farveribrug {
-        padding-left: 8.5em;
-        padding-right: 10em;
-    }
-    
-    #colortekst {
-        padding-left: 7em;
-        padding-right: 10em;
-    }
-    
-    #colortekst img {
-        margin-left: 37%;
-    }
-    
-    #farvesammensatning {
-        padding-left: 12em;
-        padding-right: 10em;
-    }
-    
-    #farvesammensatning p {
-        padding: 0.5em;
-    }
-
-    #farvesammensatning h3, h4 {
-        margin-left: 5%;
-        
+    #mening h2 {
+        margin-left: 13%;
     }
     
     #kilder h5 {
-        margin-left: 7%;
+        margin-left: 10%;
     }
     
     #kilder p {
