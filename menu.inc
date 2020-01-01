@@ -30,6 +30,7 @@
     <button class="dropdown-btn">Virksomheds<br>forståelse<i class="fa fa-caret-down"></i>
   </button>
      <div class="dropdown-container">
+        <a href="antagelser.php">De 5 grund<br>antagelser</a>
          <a href="#">Præsentations<br>teknik</a>
          <a href="#">Paradigmer</a>
          <a href="#">Kvantitativ</a>
@@ -38,8 +39,8 @@
          <a href="#">Tekst<br>produktion</a>
          <a href="#">BMC</a>
          <a href="#">Value<br>proposition</a>
-         <a href="#">Ophavsret og<br>licens</a>
-         <a href="#">Transkribering</a>
+         <a href="ophavsretoglicens.php">Ophavsret og<br>licens</a>
+         <a href="transkribering.php">Transkribering</a>
     </div>
     <button class="dropdown-btn">Projekter<i class="fa fa-caret-down"></i>
   </button>
