@@ -34,7 +34,7 @@
          <a href="#">Præsentations<br>teknik</a>
          <a href="#">Paradigmer</a>
          <a href="#">Kvantitativ</a>
-         <a href="#">Kvalitativ</a>
+         <a href="kvalitativ.php">Kvalitativ</a>
          <a href="#">Brugertest</a>
          <a href="#">Tekst<br>produktion</a>
          <a href="#">BMC</a>
