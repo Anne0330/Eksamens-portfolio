@@ -33,7 +33,7 @@
         <a href="antagelser.php">De 5 grund<br>antagelser</a>
          <a href="#">Præsentations<br>teknik</a>
          <a href="#">Paradigmer</a>
-         <a href="#">Kvantitativ</a>
+         <a href="kvantitativ.php">Kvantitativ</a>
          <a href="kvalitativ.php">Kvalitativ</a>
          <a href="#">Brugertest</a>
          <a href="#">Tekst<br>produktion</a>
