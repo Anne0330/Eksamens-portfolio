@@ -31,7 +31,7 @@
   </button>
      <div class="dropdown-container">
         <a href="antagelser.php">De 5 grund<br>antagelser</a>
-         <a href="#">Præsentations<br>teknik</a>
+         <a href="presentation.php">Præsentations<br>teknik</a>
          <a href="#">Paradigmer</a>
          <a href="kvantitativ.php">Kvantitativ</a>
          <a href="kvalitativ.php">Kvalitativ</a>
