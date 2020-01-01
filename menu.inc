@@ -35,7 +35,7 @@
          <a href="#">Paradigmer</a>
          <a href="kvantitativ.php">Kvantitativ</a>
          <a href="kvalitativ.php">Kvalitativ</a>
-         <a href="#">Brugertest</a>
+         <a href="brugertest.php">Brugertest</a>
          <a href="#">Tekst<br>produktion</a>
          <a href="#">BMC</a>
          <a href="#">Value<br>proposition</a>
