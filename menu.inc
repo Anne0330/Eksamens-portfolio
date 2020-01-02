@@ -37,7 +37,7 @@
          <a href="kvalitativ.php">Kvalitativ</a>
          <a href="brugertest.php">Brugertest</a>
          <a href="tekstproduktion.php">Tekst<br>produktion</a>
-         <a href="#">BMC</a>
+         <a href="bmc.php">BMC</a>
          <a href="#">Value<br>proposition</a>
          <a href="ophavsretoglicens.php">Ophavsret og<br>licens</a>
          <a href="transkribering.php">Transkribering</a>
