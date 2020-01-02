@@ -32,7 +32,7 @@
      <div class="dropdown-container">
         <a href="antagelser.php">De 5 grund<br>antagelser</a>
          <a href="presentation.php">Præsentations<br>teknik</a>
-         <a href="#">Paradigmer</a>
+         <a href="paradigmer.php">Paradigmer</a>
          <a href="kvantitativ.php">Kvantitativ</a>
          <a href="kvalitativ.php">Kvalitativ</a>
          <a href="brugertest.php">Brugertest</a>

@@ -60,56 +60,42 @@ q {
     font-size: 25px;
 }
 
-#malet img {
+#transmodeller img {
     margin-left: 30%;
     width: 70%;
     margin-right: auto;
     max-width: 500px;
 }
 
-#maletmalet a {
+#transmodeller a {
     text-align: center;
-    margin-left: 60%;
+    margin-left: 63%;
     font-size: 15px;
     color: #CD95CE;
     padding-bottom: 8em;
 }
 
-#malet a:hover {
+#transmodeller a:hover {
     color: white;
 }
 
-#retorik img {
+#humanparadigme img {
     margin-left: 30%;
     width: 70%;
     margin-right: auto;
     max-width: 500px;
 }
 
-#retorik a {
+#humanparadigme a {
     text-align: center;
-    margin-left: 40%;
+    margin-left: 63%;
     font-size: 15px;
     color: #CD95CE;
     padding-bottom: 8em;
 }
 
-#retorik a:hover {
+#humanparadigme a:hover {
     color: white;
-}
-
-#fisken img {
-    margin-left: 30%;
-    width: 70%;
-    margin-right: auto;
-    max-width: 500px;
-}
-
-#elevator img {
-   margin-left: 30%;
-    width: 70%;
-    margin-right: auto;
-    max-width: 500px; 
 }
 
 #kilder p {
@@ -255,50 +241,55 @@ q {
         font-size: 20px;
     }
     
-    #malet {
+    #samfparadigme {
         padding-left: 0.5em;
         padding-right: 0.5em;
     }
     
-    #malet h2 {
+    #samfparadigme h2 {
         margin-left: 15%;
     }
     
-    #malet ul {
+    #samfparadigme ul {
     margin-left: 40%;
     }
     
-    #malet img {
-        margin-left: 25%;
-    }
-    
-    #malet a {
-        margin-left: 57%;
-    }
     
     p {
         border-style: ridge;
         padding: 0.5em;
     }
     
-    #retorik h3 {
+    #transmodeller h3 {
         margin-left: 20%;
     }
     
-    #retorik p {
+    #transmodeller p {
        line-height: 35px; 
     }
     
-    #retorik img {
+    #transmodeller img {
         margin-left: 25%;
     }
     
-    #fisken img {
+    #transmodeller a {
+        margin-left: 58%;
+    }
+    
+    #transmodeller dl {
+        margin-left: 30%;
+    }
+    
+    #humanparadigme a {
+        margin-left: 58%;
+    }
+    
+    #humanparadigme img {
         margin-left: 25%;
     }
     
-    #elevator img {
-        margin-left: 25%;
+    #humanparadigme ul {
+        margin-left: 40%;
     }
     
     #kilder p {
@@ -327,7 +318,7 @@ q {
     
     h1 {
         font-size: 60px;
-        margin-left: 30%;
+        margin-left: 32%;
     }
     
     p {
@@ -344,76 +335,63 @@ q {
         padding-left: 7em;
     }
     
-    #malet h2 {
+    #samfparadigme h2 {
         margin-left: 13%;
     }
     
-    #retorikretorik h2 {
+    #transmodeller h2, h3 {
         margin-left: 10%;
+    }  
+    
+    #transmodeller h3 {
+        margin-left: 13%;
+    }  
+    
+    #transmodeller h4 {
+        margin-left: 15%;
     }
     
-    #retorik h3 {
-        margin-left: 10%;
-    }
-    
-    #malet {
+    #samfparadigme {
         padding-left: 10em;
         padding-right: 10em;
     }
     
-    #malet img {
+    #samfparadigme img {
         margin-left: 30%;
     }
     
-    #malet a {
+    #samfparadigme a {
         margin-left:  55%;
     }
     
-    #retorik {
+    #transmodeller {
        padding-left: 10em;
         padding-right: 10em 
     }
     
-    #retorik img {
+    #transmodeller img {
         margin-left: 30%;
         padding-bottom: 1em;
     }
     
-    #retorik a {
-        margin-left: -38%;
+    #transmodeller a {
+        margin-left: -30%;
     }
     
-    #fisken {
+    #transmodeller h5 {
+        margin-left: 15%;
+    }
+    
+    #humanparadigme {
         padding-left: 10em;
         padding-right: 10em
     }
     
-    #fisken img {
-        margin-left: 35%;
+    #humanparadigme img {
+        margin-left: 28%;
     }
     
-    #elevator {
-        padding-left: 10em;
-        padding-right: 10em;
-    }
-    
-    #elevator h2, h3 {
-        margin-left: 15%;
-    }
-    
-    #elevator img {
-        margin-left: 30%;
-    }
-    
-    #kropssprog {
-        padding-left: 10em;
-        padding-right: 10em;
-    }
-    
-    #kropssprog h2 {
-        margin-left: 15%;
-    }
-    
+ 
     #kilder h5 {
         margin-left: 10%;
     }
