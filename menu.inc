@@ -7,12 +7,12 @@
     <a href="HTML.php">HTML</a>
     <a href="tags.php">Tags</a>
     <a href="attributter.php">Attributter</a>
-    <a href="#">CSS</a>
+    <a href="css.php">CSS</a>
     <a href="internettetshistorie.php">Internettets<br>historie</a>
     <a href="seo.php">SEO</a>
     <a href="server.php">Server<br>begrebet</a>
     <a href="versionsstyring.php">Verssions<br>styring</a>
-    <a href="#">Serverside scripting</a>
+    <a href="serverside.php">Serverside scripting</a>
   </div>
       <button class="dropdown-btn">Design<i class="fa fa-caret-down"></i>
   </button>
@@ -38,7 +38,7 @@
          <a href="brugertest.php">Brugertest</a>
          <a href="tekstproduktion.php">Tekst<br>produktion</a>
          <a href="bmc.php">BMC</a>
-         <a href="#">Value<br>proposition</a>
+         <a href="value.php">Value<br>proposition</a>
          <a href="ophavsretoglicens.php">Ophavsret og<br>licens</a>
          <a href="transkribering.php">Transkribering</a>
     </div>

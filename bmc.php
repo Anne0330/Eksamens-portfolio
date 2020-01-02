@@ -123,9 +123,9 @@
                         
                     Billeder: Morten Kluw Wøldike Schmith powerpoint præsentation "BMC" - 9/10/2019<br>
                     
-                    <a href="https://www.youtube.com/watch?v=WzGhFmiB9G0">"Airbnb Business Model : What makes Airbnb so successful?", 4/8/2017, Business Disruptors</a>
+                    <a href="https://www.youtube.com/watch?v=WzGhFmiB9G0">"Airbnb Business Model : What makes Airbnb so successful?", 4/8/2017, Business Disruptors</a><br>
                         
-                    <a href="https://www.youtube.com/watch?v=IP0cUBWTgpY">"The Business Model Canvas - 9 Steps to Creating a Successful Business Model - Startup Tips", 5/9/2016, The Business Channel</a>
+                    <a href="https://www.youtube.com/watch?v=IP0cUBWTgpY">"The Business Model Canvas - 9 Steps to Creating a Successful Business Model - Startup Tips", 5/9/2016, The Business Channel</a><br>
                      
                     <a href="https://www.youtube.com/watch?v=QgICyLzZ3og">"Business Model Canvas - et værktøj til at udvikle og disrupte forretningsmodeller", 5/1/2017, Josefine Campbell</a></p>
             </div>
