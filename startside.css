@@ -23,17 +23,16 @@ h1 {
 }
 
 #billede img {
-    margin-left: 32%;
+    margin-left: 31%;
     width: 70%;
-    max-width: 400px;
-    border-radius: 100%;
+    max-width: 500px;
 }
 
 #tekst p {
-    padding-top: 5em;
+    padding-top: 2em;
     margin-left: 30%;
     text-align: center;
-    padding-bottom: 10em;
+    padding-bottom: 8em;
 }
 
 /* Fixed sidenav, full height */
@@ -127,6 +126,16 @@ h1 {
         padding-right: 2em;
     }
     
+    #billede img {
+        margin-left: 28%;
+    }
+    
+    #tekst {
+       margin-left: -2%;
+        padding-right: 2em;
+        font-size: 20px;
+    }
+    
   .sidenav {
       padding-top: 15px;
     }
@@ -139,6 +148,18 @@ h1 {
 
 
 @media screen and (min-width: 1000px) {
-   
+    
+    h1 {
+        margin-left: 0%;
+    }
+    
+    #billede img {
+        margin-left: 38%;
+    }
+    
+    #tekst {
+      margin-left: -20%;
+
+    }
    
 }
