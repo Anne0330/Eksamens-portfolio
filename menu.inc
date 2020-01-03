@@ -1,5 +1,5 @@
 <div class="sidenav">
-  <a href="forside.php">Forside</a>
+  <a href="fside.php">Forside</a>
     
         <button class="dropdown-btn">Webudvikling<i class="fa fa-caret-down"></i>
         </button>

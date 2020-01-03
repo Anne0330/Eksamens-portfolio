@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>Forside</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="forsidecss.css">
+        <link rel="stylesheet" href="fcss.css">
         <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Assistant&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -29,9 +29,13 @@
     <!-- php slut-->
         
         <div id="billede">
-            <img src="chillforside-2.jpg" alt="profil" width="70%">
+            <img src="chillforside-1.jpg" alt="profil" width="70%">
         </div>
         
+            <div id="tekst">
+                <p>Tekst TekstTekstTekstTek</p>
+            
+            </div>
            
         <div class="footer">
             <p>Anne Mehlsen &#169; Læringsportfolio 2019-</p>
