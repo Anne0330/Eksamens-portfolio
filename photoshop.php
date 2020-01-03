@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>Photoshop</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="photo.css">
+        <link rel="stylesheet" href="photoshop.css">
         <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Assistant&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -33,7 +33,7 @@
                 
                     <p>Adobe photoshop er populært i forhold til dens redigeringsprogram, da den har de nødvendige funktioner for at redigere i billeder. Der kan ændres i selve billedet med lys, mørke, saturation osv. Udover disse, er det muligt at lave clipping masks, blend mode og fritlægning.   
                     </p>
-                <h2>Peer-to-Peer</h2>
+                <h2>Peer-to-Peer </h2>
                 
                     <p>Vi har arbejdet med peer-to-peer undervisning, hvor det handler om at undervise andre studerende med det man har arbejdet med. Man fik en opgave om at studere et værktøj i illustrator eller photoshop, og arbejde med det til at kunne præsentere det i klassen. Det var en øvelse på at blive klogere på et værktøj og hvordan man kan arbejde med det, samt at kunne give hinanden feedback.<br>
                     Min øvelse der skulle vises til resten af studerende, var Blending modes. Titlen på mit forsøg med blending modes, har jeg valgt og kalde "Skull boy". Den præsenteres som én af de første, som er i mine eksempler nedenfor på siden.
@@ -74,19 +74,11 @@
         </div>
         
         <div class="w3-content w3-display-container" style="margin-left:30%">
-            <img class="mySlides4" src="pige.JPG" style="width:100%">
-            <img class="mySlides4" src="fakeyoutube.jpg" style="width:100%">
-          <img class="mySlides4" src="youtubeoriginal.PNG" style="width:100%">
+            <img class="mySlides4" src="blomster.JPG" style="width:100%">
+            <img class="mySlides4" src="deer.jpg" style="width:100%">
+            <img class="mySlides4" src="deer2.PNG" style="width:100%">
           <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 3)">&#10094;</button>
           <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 3)">&#10095;</button>
-        </div>
-        
-        <div class="w3-content w3-display-container" style="margin-left:30%">
-            <img class="mySlides5" src="blomster.JPG" style="width:100%">
-            <img class="mySlides5" src="deer.jpg" style="width:100%">
-            <img class="mySlides5" src="deer2.PNG" style="width:100%">
-          <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 4)">&#10094;</button>
-          <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 4)">&#10095;</button>
         </div>
         
         </div>
@@ -141,12 +133,11 @@
         
        //javascript til slideshow
              var slideIndex = [1,1];
-var slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5"]
+var slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4"]
 showDivs(-1, 0);
 showDivs(-1, 1);
 showDivs(-1, 2);
 showDivs(-1, 3);
-showDivs(-1, 4);
             
 function plusDivs(n, no) {
   showDivs(slideIndex[no] += n, no);

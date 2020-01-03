@@ -20,7 +20,7 @@
         <a href="ia.php">Informations<br>arkitektur</a>
         <a href="fotografi.php">Fotografi</a>
         <a href="illustrator.php">Illustrator</a>
-        <a href="photo.php">Photoshop</a>
+        <a href="photoshop.php">Photoshop</a>
         <a href="farver.php">Farver</a>
         <a href="typografi.php">Typografi</a>
         <a href="gestalt.php">Gestaltlovene</a>
