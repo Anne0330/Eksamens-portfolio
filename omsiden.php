@@ -101,7 +101,8 @@
         <div class="footer">
             <p>Anne Mehlsen &#169; Læringsportfolio 2019-</p>
         </div>
-        
+    
+<!-- start på javascript-->
         <script>
         //DETTE ER TIL NAVIGATION
 /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
@@ -138,10 +139,10 @@
         function topFunction() {
           document.body.scrollTop = 0; // For Safari
           document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-        }
-        
-          
+        }          
     </script>
+    
+    <!--slut med javascript -->
 
     </body>
 </html>
