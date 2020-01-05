@@ -252,10 +252,15 @@ a:hover {
         padding-right: 10em;
     }
     
+    #links {
+        margin-left: 40%;
+    }
+    
     #link {
        padding-left: 10em;
         padding-right: 10em; 
     }
+
   
     .footer p {
         font-size: 15px;
