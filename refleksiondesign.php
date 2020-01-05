@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>Refleksion</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="refleksionhtml.css">
+        <link rel="stylesheet" href="refleksiondesign.css">
         <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Assistant&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -17,7 +17,7 @@
         
         <!--Summerings tekst -->
         <div id="introtekst">
-             <p>Her kan du læse om mine refleksioner jeg har haft, ved at arbejde med webudvikling.</p>
+             <p>Her kan du læse om mine refleksioner jeg har haft, ved at arbejde med design.</p>
         </div>
     </header>
     
@@ -33,9 +33,9 @@
     
             <div id="tekst">
                
-                <h2>Refleksion med webudvikling</h2>
+                <h2>Refleksion med design</h2>
                 
-                    <p>Da jeg startede på denne uddannelse, havde jeg absolut ingen erfaring indenfor webudvikling. Jeg vidste knap nok hvordan man embedet en video, til en eller anden hjemmeside. Set fra da jeg begyndte, synes jeg at jeg rykket mig med stor stil. Selv om webudvikling er et bredt emne, så synes jeg at jeg har nået et punkt hvor intet overrasker. Er blevet mere nysgerrig med alle de forskellige funktioner, stylesheets osv. Jeg er blevet mere klar på udfordringer, der kan være indenfor webudvikling.</p> 
+                    <p>Selv om jeg tegner eller laver kreative ting i min fritid som hobby, vidste jeg ikke der lå en så stor verden bag design. Det teoretiske man har lært under uddannelsen, følte mere som en selvfølge før jeg begyndte på uddannelsen. Emnerne har givet mig en bedre forståelse, på hvordan man kan ’appeal’ til en kunde med sit design. Jeg vil nok stadig have problemer med typografi, men det er bestemt åbnet mine øjne for at inviterer flere skrifttyper ind.</p> 
         </div>
             
     </section><!-- slut på indhold-->

@@ -13,7 +13,7 @@
     <a href="server.php">Server<br>begrebet</a>
     <a href="versionsstyring.php">Verssions<br>styring</a>
     <a href="serverside.php">Serverside scripting</a>
-    <a href="refleksionhtml.php">Reflektion</a>
+    <a href="refleksionhtml.php">Refleksion</a>
   </div>
       <button class="dropdown-btn">Design<i class="fa fa-caret-down"></i>
   </button>
@@ -27,7 +27,7 @@
         <a href="gestalt.php">Gestaltlovene</a>
         <a href="moodboard.php">Moodboards</a>
         <a href="styletiles.php">Styletiles</a>
-        <a href="#">Reflektion</a>
+        <a href="refleksiondesign.php">Refleksion</a>
     </div>
     <button class="dropdown-btn">Virksomheds<br>forståelse<i class="fa fa-caret-down"></i>
   </button>
@@ -43,7 +43,7 @@
          <a href="value.php">Value<br>proposition</a>
          <a href="ophavsretoglicens.php">Ophavsret og<br>licens</a>
          <a href="transkribering.php">Transkribering</a>
-         <a href="#">Reflektion</a>
+         <a href="refleksionvirksomhed.php">Refleksion</a>
     </div>
     <button class="dropdown-btn">Projekter<i class="fa fa-caret-down"></i>
   </button>
@@ -51,9 +51,9 @@
         <a href="htmlworkshop.php">HTML/CSS<br>workshop</a>
         <a href="designthinking.php">Design thinking</a>
         <a href="onepage.php">One page</a>
-        <a href="#">Reflektion</a>
+        <a href="refleksionprojekt.php">Refleksion</a>
     </div>
-        <a href="#">Om siden</a>
+        <a href="omsiden.php">Om siden</a>
         <a href="kontakt.php">Kontakt</a>
         <a href="#">Kildeliste</a>
     </div>

@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>Refleksion</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="refleksionhtml.css">
+        <link rel="stylesheet" href="refleksionprojekt.css">
         <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Assistant&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -17,7 +17,7 @@
         
         <!--Summerings tekst -->
         <div id="introtekst">
-             <p>Her kan du læse om mine refleksioner jeg har haft, ved at arbejde med webudvikling.</p>
+             <p>Her kan du læse om mine refleksioner jeg har haft, ved at arbejde med projekter.</p>
         </div>
     </header>
     
@@ -33,10 +33,10 @@
     
             <div id="tekst">
                
-                <h2>Refleksion med webudvikling</h2>
+                <h2>Refleksion med projekter</h2>
                 
-                    <p>Da jeg startede på denne uddannelse, havde jeg absolut ingen erfaring indenfor webudvikling. Jeg vidste knap nok hvordan man embedet en video, til en eller anden hjemmeside. Set fra da jeg begyndte, synes jeg at jeg rykket mig med stor stil. Selv om webudvikling er et bredt emne, så synes jeg at jeg har nået et punkt hvor intet overrasker. Er blevet mere nysgerrig med alle de forskellige funktioner, stylesheets osv. Jeg er blevet mere klar på udfordringer, der kan være indenfor webudvikling.</p> 
-        </div>
+                    <p>Det jeg er specielt glad for i løbet af uddannelse, er kampen med vores projekter. Det giver en udfordring at kunne bruge metoder og modeller, for at kunne få sit projekt op at køre. Det giver erfaring og specielt ny viden, fra det man kommer i nærheden af. Gruppearbejde har været essentielt, da det prøvede grænser af og nye bekendtskaber indenfor en ny tankegang. Jeg har bestemt ikke været utilfreds mht. til gruppearbejde, da vi altid endte i et resultat der var lovende.</p> 
+            </div>
             
     </section><!-- slut på indhold-->
     
