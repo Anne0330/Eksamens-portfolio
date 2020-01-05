@@ -2,19 +2,22 @@
 <html lang="da">
     <head>
         <meta charset="utf-8">
-        <title>HTML/CSS Work shop</title>
+        <title>Refleksion</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="workshop.css">
+        <link rel="stylesheet" href="refleksionhtml.css">
         <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Assistant&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
        <link href="https://fonts.googleapis.com/css?family=Cormorant+Upright&display=swap" rel="stylesheet">
     </head>
     <header>
-        <h1>HTML/CSS Workshop</h1>
         
+        <!-- hovedtitel-->
+        <h1>Refleksion</h1>
+        
+        <!--Summerings tekst -->
         <div id="introtekst">
-             <p>Her kan du læse om vores HTML og CSS workshop projekt, som var vores første store projekt.</p>
+             <p>Her kan du læse om mine refleksioner jeg har haft, ved at arbejde med webudvikling.</p>
         </div>
     </header>
     
@@ -24,20 +27,29 @@
            <!-- php start-->
         <?php include "menu.inc"; ?>
             <!-- php slut-->
+        
+    <!--start på indhold-->  
+    <section>
     
             <div id="tekst">
+               
+                <h2>Refleksion med webudvikling</h2>
                 
-                <h2>Float og clear</h2>
-                
-                    <p>Et af vores første gruppe opgaver, blev på to-mands grupper hvor vi skulle lave en form for ”work shop” website. Dette skulle være en lærings-guide e-bog til de studerende på første semester, der omhandler alt ved HTML og CSS. Der er forskellige funktioner i HTML og CSS, der gør det kan være overskueligt eller umuligt at finde. Ved at lave denne form for e-bog, kan vi bruge den under vores uddannelse til når vi har brug for at søge hjælp med en funktion.<br>
-                    Da HTML og CSS vedrører mange funktioner, blev emnerne delt ud på de forskellige to-mands grupper. I mit tilfælde, fik vi emnet ”Float og Clear”. Vores opgave var at lave research på emnet, hvor vi skulle kode en one-page til at præsentere mulighederne i ”Float og clear”.</p>
-                <p>Du kan se den specifikke side med float og clear, ved at klikke <a href="http://majx0750.web.eadania.dk/float%20og%20clear/">her.</a> Eller eventuelt tjekke hele vores e-bog ud ved at klikke <a href="http://jesp883f.apache.eadania.dk/webbog/?fbclid=IwAR26EN0hW4hnlZqBhpJ4EDJzDIeke-VDg7Ho6eNcyjK-u3zN-tUth6gq-Vw">her.</a></p>
-                
+                    <p>Da jeg startede på denne uddannelse, havde jeg absolut ingen erfaring indenfor webudvikling. Jeg vidste knap nok hvordan man embedet en video, til en eller anden hjemmeside. Set fra da jeg begyndte, synes jeg at jeg rykket mig med stor stil. Selv om webudvikling er et bredt emne, så synes jeg at jeg har nået et punkt hvor intet overrasker. Er blevet mere nysgerrig med alle de forskellige funktioner, stylesheets osv. Jeg er blevet mere klar på udfordringer, der kan være indenfor webudvikling</p> 
         </div>
-      
+            
+    </section><!-- slut på indhold-->
+    
+    <section>
+            
+      <!-- footer -->
         <div class="footer">
             <p>Anne Mehlsen &#169; Læringsportfolio 2019-</p>
         </div>
+        
+    </section>
+        
+        <!-- alt javascript-->
         
         <script>
         //DETTE ER TIL NAVIGATION
