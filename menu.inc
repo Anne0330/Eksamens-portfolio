@@ -50,7 +50,7 @@
     <div class="dropdown-container">
         <a href="htmlworkshop.php">HTML/CSS<br>workshop</a>
         <a href="designthinking.php">Design thinking</a>
-        <a href="#">One page</a>
+        <a href="onepage.php">One page</a>
         <a href="#">Reflektion</a>
     </div>
         <a href="#">Om siden</a>
