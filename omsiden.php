@@ -48,11 +48,21 @@
             
                 <p>Da alt det skriftlige var på plads, kunne jeg lave et moodboard og wireframe. Det tog ikke lang tid, før jeg besluttede mig for at vælge et specifikt billede at gå efter.</p>
             
+                    <img src="wireframe.png" alt="wireframe" width="70%">
+            
                     <img src="bts%20tear.jpg" alt="bts tear album" width="70%">
                 
                 <p>Da jeg kiggede efter inspiration, var jeg opsat på at det skulle være personligt og ikke bare en farve uden betydning. Så det slog mig, at dette billede er fra et album på BTS – Love yourself: Tear hvor jeg var til koncert i Amsterdam. Det var den fedeste oplevelse, men ikke mindst farverne. Jeg husker farverne blev vist på en lightstick under koncerten, hvilket kunne ligne en idyllisk stjerne nat. Der blev modificeret i nogle af farverne til at kunne passe bedre sammen, men er tilfreds med dem det blev til.</p>
             
                     <img src="color-palette.png" alt="color palette" width="70%">
+                <p>Kiggede yderligere efter typografi, men der var mest opsat på at det skulle kunne være læseligt. Ville have noget typografi med serif på overskrift, da virkede formelt. Brødteksten skulle således være Sans serif, så designet ikke virkede dominerende. Havde også leget med tanken at alle citater, skulle have en bestemt font som jeg også fandt gennem Google fonts.</p>
+            
+                    <img src="font-overskrift.png" alt="overskrift font" width="70%">
+            
+                    <img src="font-brodtekst.png" alt="brød tekst font" width="70%">
+            
+                    <img src="fontquotes.png" alt="font quotes" width="70%">
+            
                 
                 <p>Da jeg ville starte med at kode, var mit primære mål at det bare skulle passe til diverse skærmstørrelser. Det betyder at der er breakpoints men der er IKKE brugt grids. Selvfølgelig ærgrer jeg over det den dag i dag, men så længe den passede til en average mobil, tablet og desktop, så var jeg nogenlunde tilfreds. Set tilbage, skulle jeg nok have brugt grids, selv hvis tingene er ovenpå hinanden. Brugte min egen mobil &#40;Iphone 8 plus&#41;, Ipad og Desktop til at vurdere. Oplevede alt for mange problemer igennem kodningen, hvor billeder stoppede med at blive ændret medmindre jeg lavede et nyt php-dokument. Der har været aggressive situationer og forfærdeligt mange stressmomenter, hvor det lykkedes at holde mig selv vågen til sent på natten når intet virkede. Men det slog mig ikke ud, da kodning har lært mig at være stædig og finde fejlen.</p>
     </div>

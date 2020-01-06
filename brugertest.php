@@ -107,7 +107,7 @@
                     "Usability - Testmetoder til mere brugervenlige websites på internettet" 2018, Ole Gregersen og Ian Wisle-Poulsen<br>
                     "Research paradigme" og "Data kilder" billeder er lånt fra Morten Kluw Wøldike Schmith Powerpoint præsentation "Brugertest og metode", 1/10/2019.<br>
                     "Brugertest og metode" powerpoint præsentation, 1/10/2019, Morten Kluw Wøldike Schmith<br>
-                    <a href="https://tovejs.dk/2017/01/26/dine-respondenter-kan-ikke-svare-paa-dit-spoergeskema/">"Videnskab.dk - Videnskabsteori: Videnskabelige Metoder", 25/11/2019, Videnskabdk.</a><br>
+                    <a href="https://www.youtube.com/watch?v=xFow8X91wcE">"Videnskab.dk - Videnskabsteori: Videnskabelige Metoder", 25/11/2019, Videnskabdk.</a><br>
                     <a href="https://videnskab.dk/miljo-naturvidenskab/hvad-er-videnskabelig-metode">"Hvad er videnskabelig metode?", 3/3/2015, Niels Ebdrup</a>
                 </p>
             </div>

@@ -1,14 +1,9 @@
 html {
-    scroll-behavior: smooth;
-}
-
-#htmltitel img {
-    width: 100%;
-    height:auto;
+    scroll-behavior: smooth; /* får knappen til at køre bedre på desktop */
 }
 
 #introtekst {
-    margin-left: 115px;
+    margin-left: 32%;
     text-align: center;
     padding: 0.2em;
     border-style: dotted;
@@ -19,81 +14,45 @@ body {
     background-color: #121921;
     color: #9abdd9;
     margin-left: 20px;
-    font-family:'Assistant', sans-serif;
+    font-family:'Assistant', sans-serif; /*google font */
 }
 
-h1 {
+header p {
     text-align: center;
-    text-decoration: underline;
-    margin-left: 100px;
-    font-family: 'Frank ruhl libre', sans-serif;
+    margin-left: 0%;
+    padding: 0.5em;
 }
 
-h2 {
+
+h1, h2 {
     text-align: center;
-    margin-left: 100px;
-    font-family: 'Frank ruhl libre', sans-serif;
+    margin-left: 30%;
+    font-family: 'Frank ruhl libre', sans-serif; /*google font */
     text-decoration: underline; 
 }
 
-#tagstekst h2 {
+p {
     text-align: center;
-    margin-left: 100px;
-    font-family: 'Frank ruhl libre', sans-serif;
-    text-decoration: underline;
+    margin-left: 30%;
+    line-height: 20px;
 }
 
-
-#kildertags p {
-    text-align: center;
-    margin-left: 114px;
-    font-size: 12px;
-    color: #CD95CE;
-    padding-bottom: 3em;
+#kilder a, p {
+    color: #e991c0;
 }
 
-#kildertags a {
-    margin-left: -14px;
-    color: #CD95CE;
-}
-
-#kildertags a:hover {
+#kilder a:hover {
     color: white;
 }
 
-#tagstekst p {
-    text-align: center;
-    margin-left: 114px;
+#kilder {
+    padding-bottom: 8em; 
 }
-
-#tagseksempler ul {
-    margin-left: 114px;
-}
-
-#semantiskbill img {
-    width: 70%;
-    height: auto;
-    margin-left: 117px;
-    background-color: #f4eeef;
-    max-width: 500px;
-}
-
-#tagskilde a {
-    text-align: center;
-    margin-left: 130px;
-    color: #CD95CE;
-}
-
-#tagskilde a:hover {
-    text-align: center;
-    color: white;
-}
-
 
 #myBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
-    bottom: 60px; /* Place the button at the bottom of the page */
+    bottom: 50px; /* Place the button at the bottom of the page */
     right: 30px; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
@@ -105,6 +64,8 @@ h2 {
     border-radius: 30px; /* Rounded corners */
     font-weight: bold;
 }
+
+/*w3school knap med modificeringer */
 
 #myBtn:hover {
     background-color: #cd95ce; /* Add a dark-grey background on hover */
@@ -164,124 +125,102 @@ h2 {
 }
 
 .footer {
-   position: fixed;
-   left: 60px;
-   bottom: 0;
-   width: 100%;
-   background-color: #e991c0;
-   color: white;
-   text-align: center;
-    font-size: 10px;
+    position: fixed;
+    left: 60px;
+    bottom: 0;
+    width: 100%;
+    background-color: #e991c0;
+    color: white;
+}
 
+.footer p {
+    margin-left: 5%;
+    font-size: 10px;
 }
 
 @media screen and (min-width: 700px) {
     
     #myBtn {
-        bottom: 70px;
+        bottom: 55px;
     }
-    
     header {
         padding-left: 5em;
         padding-right: 5em;
         padding-bottom: 0.1em;
     }
+    
+    h1 {
+        margin-left: 20%;
+    }
+    
     header p {
         padding: 0.5em;
+        
     }
     
     #introtekst {
         border-style: ridge;
+        margin-left: 20%;
     }
     
     html {
         font-size: 20px;
     }
     
-    #tagstekst {
-        padding-left: 0.5em;
-        padding-right: 0.5em;
+    #kilder {
+        padding-left: 1em;
+        padding-right: 5em;
+        margin-left: 0%;
     }
     
-    #tagstekst p {
+    #kilder p {
         border-style: ridge;
         padding: 0.5em;
     }
     
-    #kildertags p {
-        font-size: 15px;
+    
+    .footer p {
+        border-style: none;
     }
-    
-    #semantiskbill img {
-        margin-left: 25%;
-    }
-    
-    #tagskilde {
-        margin-left: 7.5%;
-        font-size: 15px;
-    }
-    
-    
-    #tagseksempler {
-        border-style: ridge;
-        margin-left: 120px;
-    }
-    
-    #tagseksempler ul {
-        margin-left: -15px;
-    }
-    
     
       .sidenav {
       padding-top: 15px;
     }
   .sidenav a {
       font-size: 18px;
-    }
-    
-
+    } 
 }
 
 @media screen and (min-width: 1100px) {
     
+    #myBtn {
+        bottom: 70px;
+    }
+    
     h1 {
         font-size: 60px;
+        margin-left: 20%;
+    }
+    
+    p {
+        line-height: 25px;
     }
     
     header {
-        padding-left: 10em;
-        padding-right: 10em;
+        padding-left: 5em;
+        padding-right: 5em;
     }
     
-    #tagstekst {
-        padding-left: 10em;
-        padding-right: 10em;
+    #kilder {
+        padding-left: 5em;
+        padding-right: 5em;
+        margin-left: -12%;
     }
-    
-    #tagstekst h2 {
-        font-size: 35px;
-    }
-    
-    #kildertags p {
-        font-size: 20px;
-    }
-    
-    #semantiskbill img {
-        margin-left: 36%;
-    }
-    
-    #tagskilde {
-        font-size: 20px;
-        margin-left: 27%;
-    }
-    
-    #tagseksempler {
-        margin-left: 15.5em;
-        margin-right: 10em;
-    }
-    
-    .footer {
+
+
+    .footer p {
         font-size: 15px;
     }
     
+ 
 }

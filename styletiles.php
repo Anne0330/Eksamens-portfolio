@@ -48,7 +48,7 @@
                 <h5>Øvrige kilder</h5>
                     <p><a href="https://webdesign.tutsplus.com/articles/style-tiles-an-alternative-to-full-design-comps--webdesign-7232">"Style Tiles: An Alternative to Full Design Comps", 6/6/2012, Chris Brown</a><br>
                     <a href="http://styletil.es/">"WHAT ARE STYLE TILES?"</a><br>
-                    <a hrf="https://www.mttr.io/web-design/process/style-tiles/">Web Design Style Tiles</a><br>
+                    <a href="https://www.mttr.io/web-design/process/style-tiles/">Web Design Style Tiles</a><br>
                     <a href="https://www.degdigital.com/insights/style-tiles/">"Why Adopting Style Tiles Can Improve Your Web Design", 23/8/2018, Alison Peterson</a><br>
                     </p>
             </div>

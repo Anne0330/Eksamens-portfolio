@@ -236,7 +236,7 @@
                         
                     <a href="https://www.youtube.com/watch?v=N5Lt1SLqBmQ&feature=youtu.be">"CSS Grid Layout - Rachel Andrew | February 2017", 16/2/2017, Frontend NE</a><br>
                     
-                    <a href="https://www.youtube.com/watch?v=HgwCeNVPlo0&feature=youtu.be">"How to Create Website Layouts Using CSS Grid | Learn HTML and CSS | HTML Tutorial", 30/7/2017, mmtuts</a>
+                    <a href="https://www.youtube.com/watch?v=HgwCeNVPlo0&feature=youtu.be">"How to Create Website Layouts Using CSS Grid | Learn HTML and CSS | HTML Tutorial", 30/7/2017, mmtuts</a><br>
                         
                     <a href="https://www.lynda.com/CSS-tutorials/CSS-Selectors/192036-2.html">"CSS-Selectors", 29/5/2015, James Williamson</a><br>
                     

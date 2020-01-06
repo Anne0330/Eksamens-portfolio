@@ -95,7 +95,7 @@
                 <p>Carsten Kjeldsen Bogner PDF præsentation "Typografi" - 3/10/2019<br>
                 "Interfacedesign" 2019, Morten Rold: Kapitel 16<br>
                     
-                <a href="skriftdesign-grundprincipper.pdf">"Skriftdesign - Grundprincipper og arbejdsproces" - PDF, 2007</a><br>
+                "Skriftdesign - Grundprincipper og arbejdsproces" - PDF, 2007<br>
                     
                 <a href="https://www.webfx.com/blog/web-design/the-basics-of-typography/">"What Is Typography?", WebFx</a><br>
                 <a href="https://www.britannica.com/technology/typography">"Typography", 6/6/2019, Warren E. Preece and James M. Wells</a><br>

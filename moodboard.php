@@ -53,8 +53,7 @@
             <div id="kilder">
                 <h5>Øvrige kilder</h5>
                     <p><a href="https://designmodo.com/moodboards/">"Mood Boards for Product Designers", 12/11/2018, Gleb Kuznetsov</a><br>
-                    <a href="https://munsell.com/color-blog/sir-isaac-newton-color-wheel/">"Sir Isaac Newton’s Influence on the Color Wheel", Albert Munsell.</a><br>
-                    <a hrf="https://line25.com/inspiration/create-mood-board-inspire-website-design">How to Create a Mood Board to Inspire Your Website Design, Line25</a><br>
+                    <a href="https://line25.com/inspiration/create-mood-board-inspire-website-design">How to Create a Mood Board to Inspire Your Website Design, Line25</a><br>
                     <a href="https://vanseodesign.com/web-design/style-guides-mood-boards-style-tiles/">"Style Guides, Mood Boards, And Style Tiles: 3 Tools To Keep Design Projects On Track, 7/5/2012, Steven Bradley</a><br>
                     </p>
             </div>

@@ -55,5 +55,5 @@
     </div>
         <a href="omsiden.php">Om siden</a>
         <a href="kontakt.php">Kontakt</a>
-        <a href="#">Kildeliste</a>
+        <a href="kildeliste.php">Kildeliste</a>
     </div>
