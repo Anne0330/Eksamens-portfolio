@@ -129,7 +129,7 @@
                 "Interfacedesign" 2019, Morten Rold: Kapitel 15 og kapitel 17<br>
                 <a href="http://www.webexhibits.org/colorart/ch.html">"Goethe's Color Theory", WebExhibits</a><br>
                     <a href="https://munsell.com/color-blog/sir-isaac-newton-color-wheel/">"Sir Isaac Newton’s Influence on the Color Wheel", Albert Munsell.</a><br>
-                    <a hrf="https://color.adobe.com/da/create/color-wheel/">Adobe color wheel</a><br>
+                    <a href="https://color.adobe.com/da/create/color-wheel/">Adobe color wheel</a><br>
                     <a href="https://videnskab.dk/sporg-videnskaben/hvordan-pavirker-farver-os">"Hvordan påvirker farver os?", Ulla Gjeset Schjølberg, 23/5/2016</a><br>
                     <a href="http://www.webexhibits.org/colorart/bh.html">"Newton and the Color Spectrum", WebExhibits</a><br>
                     <a href="http://billedguiden.dk/?page_id=45">"FARVER", BILLEDGUIDEN</a><br>

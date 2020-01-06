@@ -148,7 +148,7 @@
 
                     <a href="https://www.linkedin.com/learning/learning-product-photography/welcome?u=37312532">"Learning Product Photography", 23,3,2016, Joseph "PhotoJoseph" Linaschke</a><br>
 
-                    <a href="https://www.webfx.com/blog/web-design/the-basics-of-typography/">"Photography for Graphic Designers", 31/5/2017, Ben Long</a>
+                    <a href="https://www.linkedin.com/learning/photography-for-graphic-designers/welcome?u=37312532">"Photography for Graphic Designers", 31/5/2017, Ben Long</a>
                     </p>
                 
             </div>

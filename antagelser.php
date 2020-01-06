@@ -80,7 +80,7 @@
                     
                     <a href="Mette%20Hald.pdf">"Præsentation og formidling", 2008, Mette Hald.</a><br>
                     
-                    <a hrf="https://www.dr.dk/drtv/episode/taler-du-kropssprog_47355">"Taler du kropssprog?", 7/5/2017, DR.dk</a><br>
+                    <a href="https://www.dr.dk/drtv/episode/taler-du-kropssprog_47355">"Taler du kropssprog?", 7/5/2017, DR.dk</a><br>
                     
                     <a href="https://www.youtube.com/watch?v=htjumQCdTnY">"Johari Vinduet", 8/7/2013, Forklar mig lige</a><br>
                     

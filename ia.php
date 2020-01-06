@@ -71,10 +71,10 @@
                 <p>Niels Østergaard PDF præsentation "Informationsarkitektur" - 5/11/2019<br>
                 "Interfacedesign" 2019, Morten Rold: s. 165-180<br>
                 "Kommunikation i multimediedesign", 2015<br>
-                "interfacedesign", Morten Rold, s. 215-230. 
+                "interfacedesign", Morten Rold, s. 215-230.<br>
                 <a href="https://www.youtube.com/watch?v=TsH8y5fbfX8&feature=emb_title">"All you need to know about Information Architecture in 10 minutes", Chris How</a><br>
-                <a href="https://www.youtube.com/watch?v=ylvITZEAHX0&feature=emb_title">"Sir Isaac Newton’s Influence on the Color Wheel", Albert Munsell.</a><br>
-                    <a hrf="https://www.interaction-design.org/literature/article/flow-design-processes-focusing-on-the-user-s-needs">"Flow Design Processes - Focusing on the Users' Needs"</a><br>
+                <a href="https://www.youtube.com/watch?v=ylvITZEAHX0&feature=emb_title">"Do we still need Information Architecture IA when users can just search?", 23/7/2016, Kathryn Whitenton</a><br>
+                    <a href="https://www.interaction-design.org/literature/article/flow-design-processes-focusing-on-the-user-s-needs">"Flow Design Processes - Focusing on the Users' Needs"</a><br>
                     <a href="https://webstyleguide.com/wsg3/3-information-architecture/2-organizing-information.html">"Organizing Your Information",</a>
                     </p>
             </div>
