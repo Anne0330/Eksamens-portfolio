@@ -36,7 +36,7 @@
         </div>
         
             <div id="tekst">
-                <p>I dette portfolio kan du læse om de forskellige fag, som vi har skulle arbejde med i teori og praktisk. Det omhandler webudvikling som er html, css, informations arkitektur, SEO mm. Vi har også arbejdet med virksomhedsforståelse, hvor vi har skulle analysere modeller indenfor Business model canvas/BMC, paradigmer, brugertest mm. I design har vi øvet os i photoshop, illustrator og teoretisk viden omkring farver, typografi, gestaltlovene mm. Derudover kan du læse og se vores projekter vi har lavet i samarbejde med hinanden i grupper, som gælder primært om at få lavet et produkt eller prototype. Der er rig mulighed for at læse et afsnit omkring mine reflektioner ved at arbejde med dette portfolio, hvor jeg fik afklaret hvor meget denne uddannelse har lært mig siden September 2019.</p>
+                <p>I dette portfolio kan du læse om de forskellige fag, som vi har skulle arbejde med i teori og praktisk. Det omhandler webudvikling som er html, css, informations arkitektur, SEO mm. Vi har også arbejdet med virksomhedsforståelse, hvor vi har skulle analysere modeller indenfor Business model canvas/BMC, paradigmer, brugertest mm. I design har vi øvet os i photoshop, illustrator og teoretisk viden omkring farver, typografi, gestaltlovene mm. Derudover kan du læse og se vores projekter vi har lavet i samarbejde med hinanden i grupper, som gælder primært om at få lavet et produkt eller prototype. Der er rig mulighed for at læse et afsnit omkring mine reflektioner ved at arbejde med dette portfolio, hvor jeg fik afklaret hvor meget denne uddannelse har lært mig siden september 2019.</p>
             
             </div>
 </section>

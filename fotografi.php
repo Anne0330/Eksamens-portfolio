@@ -128,7 +128,7 @@
             
                <ul>
                     <li>RAW format er det som kameraets sensor “opfatter” uden at være bearbejdet, hvilket er fortrukket at bruge i redigering.</li>
-                   <li>JPEG er et komprimeret og “lossy” format, som er behandlet af kameraet.</li>
+                   <li>JPEG er et komprimeret og “glossy” format, som er behandlet af kameraet.</li>
                 </ul>
         </div>
         
@@ -144,7 +144,7 @@
 </section>       
             <div id="kilder">
                 <h5>Øvrige kilder</h5>
-                    <p>Niels Østergaard PDF præsentation "Introdktion til fotografering" - 15/11/2019<br>
+                    <p>Niels Østergaard PDF præsentation "Introduktion til fotografering" - 15/11/2019<br>
 
                     <a href="https://www.linkedin.com/learning/learning-product-photography/welcome?u=37312532">"Learning Product Photography", 23,3,2016, Joseph "PhotoJoseph" Linaschke</a><br>
 

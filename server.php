@@ -51,14 +51,14 @@
                         <dd>En computer som kan printe, eller forbinde sig til en printer.</dd>
                         <dd><a href="https://www.techopedia.com/definition/3619/print-server-pserver">Kilde</a></dd>
                     <dt>Web-server</dt>
-                        <dd>I hardware forstand, er det en webserver, som kan inholde flere softwaremæssig servere. Den leverer websider via http-protokollen - Hypertext Transfer Protocol.</dd>
+                        <dd>I hardware forstand, er det en webserver, som kan inholde flere softwaremæssige servere. Den leverer websider via http-protokollen - Hypertext Transfer Protocol.</dd>
                         <dd><a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server">Kilde</a></dd>
                         <dd><a href="https://www.w3schools.com/whatis/whatis_http.asp">Kilde</a></dd>
                     <dt>FTP-server</dt>
                         <dd>File transfer protocol – server. Den kommunikerer med en FTP-klient - eks filezilla</dd>
                         <dd><a href="https://titanftp.com/2018/09/11/what-is-an-ftp-server/">Kilde</a></dd>
                     <dt>Mail-server</dt>
-                        <dd>Et computer system som sender og modtager emails.</dd>
+                        <dd>Et computersystem som sender og modtager emails.</dd>
                         <dd><a href="https://techterms.com/definition/mail_server">Kilde</a></dd>
                     <dt>Database-server</dt>
                         <dd>Modtagning af data fra, og leverer til webserver og andre klienter.</dd>

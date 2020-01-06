@@ -149,7 +149,7 @@
 
         <h3>Sinful.dk</h3>
         
-            <p>Under første semester skulle vi skrive en opgave, der gør brug af de tre nyhedsartikler: Web, nyhedsartikel og sociale medie tekst. Der skulle vælges en virksomhed, som vi skulle involvere i de tre genre. Jeg valgte <a href="https://www.sinful.dk/">Sinful.dk</a>, til at være den virksomhed jeg skulle skrive for. Du kan læse min opgave, ved at trykke <a href="sinful%20nyhedsartikler.pdf" target="_blank">her.</a></p>
+            <p>Under første semester skulle vi skrive en opgave, der gør brug af de tre nyhedsartikler: Web, nyhedsartikel og sociale medie tekst. Der skulle vælges en virksomhed, som vi skulle involvere i de tre genrer. Jeg valgte <a href="https://www.sinful.dk/">Sinful.dk</a>, til at være den virksomhed jeg skulle skrive for. Du kan læse min opgave, ved at trykke <a href="sinful%20nyhedsartikler.pdf" target="_blank">her.</a></p>
             
     </div>
         

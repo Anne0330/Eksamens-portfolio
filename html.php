@@ -13,7 +13,7 @@
         <h1>HTML</h1>
         
         <div id="introtekst">
-             <p>Html betyder HyperText Markup Language, som er et kodesprog. Dens formål bruges til at ’markere’ tekst og billeder på en hjemmeside. Det er et sprog med struktur, og ligeledes kan det også have hierarki. På denne side kan du læse lidt om HTML, kodeskik</p>
+             <p>Html betyder HyperText Markup Language, som er et kodesprog. Dens formål bruges til at ’markere’ tekst og billeder på en hjemmeside. Det er et sprog med struktur, og ligeledes kan det også have hierarki. På denne side kan du læse lidt om HTML og kodeskik.</p>
         </div>
     </header>
     
