@@ -1,81 +1,59 @@
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <div class="sidenav">
-  <a href="HTML-skelet.php">Forside</a>
+  <a href="startside.php">Forside</a>
+    
         <button class="dropdown-btn">Webudvikling<i class="fa fa-caret-down"></i>
         </button>
   <div class="dropdown-container">
-    <a href="#">HTML</a>
-    <a href="#">Tags</a>
-    <a href="#">Attributter</a>
-    <a href="#">CSS</a>
-    <a href="#">Internettets<br>historie</a>
-    <a href="#">SEO</a>
-    <a href="#">Server<br>begrebet</a>
-    <a href="#">Verssions<br>styring</a>
-    <a href="#">Serverside<br>scripting</a>
+    <a href="HTML.php">HTML</a>
+    <a href="tags.php">Tags</a>
+    <a href="attributter.php">Attributter</a>
+    <a href="css.php">CSS</a>
+    <a href="internettetshistorie.php">Internettets<br>historie</a>
+    <a href="seo.php">SEO</a>
+    <a href="server.php">Server<br>begrebet</a>
+    <a href="versionsstyring.php">Verssions<br>styring</a>
+    <a href="serverside.php">Serverside scripting</a>
+    <a href="refleksionhtml.php">Refleksion</a>
   </div>
       <button class="dropdown-btn">Design<i class="fa fa-caret-down"></i>
   </button>
     <div class="dropdown-container">
-        <a href="#">IA</a>
-        <a href="#">Fotografi</a>
-        <a href="#">Illustrator</a>
-        <a href="#">Photoshop</a>
-        <a href="#">Farver</a>
-        <a href="#">Typografi</a>
-        <a href="#">Gestaltlove</a>
-        <a href="#">Moodboards</a>
-        <a href="#">Styletiles</a>
-        <a href="#">Informations arkitektur</a>
+        <a href="ia.php">Informations<br>arkitektur</a>
+        <a href="fotografi.php">Fotografi</a>
+        <a href="illustrator.php">Illustrator</a>
+        <a href="photoshop.php">Photoshop</a>
+        <a href="farver.php">Farver</a>
+        <a href="typografi.php">Typografi</a>
+        <a href="gestalt.php">Gestaltlovene</a>
+        <a href="moodboard.php">Moodboards</a>
+        <a href="styletiles.php">Styletiles</a>
+        <a href="refleksiondesign.php">Refleksion</a>
     </div>
-    <button class="dropdown-btn">Virksomheds forståelse<i class="fa fa-caret-down"></i>
+    <button class="dropdown-btn">Virksomheds<br>forståelse<i class="fa fa-caret-down"></i>
   </button>
      <div class="dropdown-container">
-         <a href="#">Præsentations teknik</a>
-         <a href="#">Paradigmer</a>
-         <a href="#">Kvantitativ</a>
-         <a href="#">Kvalitativ</a>
-         <a href="#">Brugertest</a>
-         <a href="#">Tekst<br>produktion</a>
-         <a href="#">BMC</a>
-         <a href="#">Value<br>proposition</a>
-         <a href="#">Ophavsret og<br>licens</a>
-         <a href="#">Transkribering</a>
+        <a href="antagelser.php">De 5 grund<br>antagelser</a>
+         <a href="presentation.php">Præsentations<br>teknik</a>
+         <a href="paradigmer.php">Paradigmer</a>
+         <a href="kvantitativ.php">Kvantitativ</a>
+         <a href="kvalitativ.php">Kvalitativ</a>
+         <a href="brugertest.php">Brugertest</a>
+         <a href="tekstproduktion.php">Tekst<br>produktion</a>
+         <a href="bmc.php">BMC</a>
+         <a href="value.php">Value<br>proposition</a>
+         <a href="ophavsretoglicens.php">Ophavsret og<br>licens</a>
+         <a href="transkribering.php">Transkribering</a>
+         <a href="refleksionvirksomhed.php">Refleksion</a>
     </div>
-        <a href="#">Om siden</a>
-        <a href="#">Kontakt</a>
+    <button class="dropdown-btn">Projekter<i class="fa fa-caret-down"></i>
+  </button>
+    <div class="dropdown-container">
+        <a href="htmlworkshop.php">HTML/CSS<br>workshop</a>
+        <a href="designthinking.php">Design thinking</a>
+        <a href="onepage.php">One page</a>
+        <a href="refleksionprojekt.php">Refleksion</a>
     </div>
-</div>
-
-<script>
-/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
-var dropdown = document.getElementsByClassName("dropdown-btn");
-var i;
-
-for (i = 0; i < dropdown.length; i++) {
-  dropdown[i].addEventListener("click", function() {
-  this.classList.toggle("active");
-  var dropdownContent = this.nextElementSibling;
-  if (dropdownContent.style.display === "block") {
-  dropdownContent.style.display = "none";
-  } else {
-  dropdownContent.style.display = "block";
-  }
-  });
-}
-          window.onscroll = function() {scrollFunction()};
-
-            function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                document.getElementById("myBtn").style.display = "block";
-            } else {
-                document.getElementById("myBtn").style.display = "none";
-    }
-    }
-            // When the user clicks on the button, scroll to the top of the document
-            function topFunction() {
-            document.body.scrollTop = 0; // For Chrome, Safari and Opera
-            document.documentElement.scrollTop = 0; // For IE and Firefox
-        }  
-            
-</script>
+        <a href="omsiden.php">Om siden</a>
+        <a href="kontakt.php">Kontakt</a>
+        <a href="#">Kildeliste</a>
+    </div>

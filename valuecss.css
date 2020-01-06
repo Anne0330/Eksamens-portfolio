@@ -1,0 +1,306 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#htmltitel img {
+    width: 100%;
+    height:auto;
+}
+
+#introtekst {
+    margin-left: 32%;
+    text-align: center;
+    padding: 0.2em;
+    border-style: dotted;
+    margin-bottom: 10px;
+}
+
+body {
+    background-color: #121921;
+    color: #9abdd9;
+    margin-left: 20px;
+    font-family:'Assistant', sans-serif;
+}
+
+header p {
+    text-align: center;
+    margin-left: 0%;
+}
+
+
+h1, h2, h3, h4, h5{
+    text-align: center;
+    margin-left: 30%;
+    font-family: 'Frank ruhl libre', sans-serif;
+    text-decoration: underline; 
+}
+
+p {
+    text-align: center;
+    margin-left: 114px;
+    line-height: 20px;
+}
+
+dl {
+    margin-left: 30%;
+}
+
+dt {
+    font-weight: bold;
+    padding-bottom: 0.5em;
+}
+
+dd {
+    padding-bottom: 0.5em;
+}
+
+
+q {
+    font-family: 'Cormorant Upright', serif;
+    font-size: 25px;
+}
+
+#value img {
+    margin-left: 30%;
+    width: 70%;
+    margin-right: auto;
+    max-width: 500px;
+}
+
+
+#kilder p {
+    text-align: center;
+    margin-left: 114px;
+    font-size: 15px;
+    color: #CD95CE;
+    padding-bottom: 8em;
+}
+
+#kilder a {
+    color: #CD95CE;
+}
+
+#kilder a:hover {
+    color: white;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 50px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #9abdd9; /* Set a background color */
+    color: black; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 20px; /* Some padding */
+    border-radius: 30px; /* Rounded corners */
+    font-weight: bold;
+}
+
+#myBtn:hover {
+    background-color: #cd95ce; /* Add a dark-grey background on hover */
+}
+
+/* Fixed sidenav, full height */
+.sidenav {
+  height: 100%;
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #e991c0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #121921;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #f4eeef;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: #cd95ce;
+   color: white;
+    font-weight: bold;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #cc8ace;
+  padding-left: 2px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+.footer {
+    position: fixed;
+    left: 60px;
+    bottom: 0;
+    width: 100%;
+    background-color: #e991c0;
+    color: white;
+}
+
+.footer p {
+    margin-left: 5%;
+    font-size: 10px;
+}
+
+@media screen and (min-width: 700px) {
+    
+    #myBtn {
+        bottom: 55px;
+    }
+    header {
+        padding-left: 5em;
+        padding-right: 5em;
+        padding-bottom: 0.1em;
+    }
+    
+    #htmltitel img {
+    width: 100%;
+    height:auto;
+        
+    }
+    
+    h1, h2, h3, h4, h5 {
+        margin-left: 20%;
+    }
+    
+    dl {
+        margin-left: 20%;
+    }
+    
+    header p {
+        padding: 0.5em;
+        
+    }
+    
+    #introtekst {
+        border-style: none;
+        margin-left: 20%;
+    }
+    
+    html {
+        font-size: 20px;
+    }
+    
+    #value {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+    
+    #value h2 {
+        margin-left: 15%;
+    }
+    
+    p {
+        border-style: ridge;
+        padding: 0.5em;
+    }
+    
+    #value img {
+        margin-left: 25%;
+    }
+    
+    
+    #kilder p {
+        font-size: 18px;
+        border-style: none;
+    }
+    
+    .footer p {
+        border-style: none;
+    }
+    
+      .sidenav {
+      padding-top: 15px;
+    }
+  .sidenav a {
+      font-size: 18px;
+    } 
+    
+}
+
+@media screen and (min-width: 1000px) {
+    
+    #myBtn {
+        bottom: 80px;
+    }
+    
+    h1 {
+        font-size: 60px;
+        margin-left: 32%;
+    }
+    
+    p {
+        line-height: 25px;
+    }
+    
+    header {
+        padding-left: 10em;
+        padding-right: 10em;
+        margin-left: -20%;
+    }
+    
+    #introtekst {
+        padding-left: 7em;
+    }
+    
+    #value h2, h3 {
+        margin-left: 13%;
+    }
+    
+    #value h4 {
+        margin-left: 5%;
+    }
+    
+    #value {
+        padding-left: 10em;
+        padding-right: 10em;
+    }
+    
+    #value img {
+        margin-left: 33%;
+    }
+    
+ 
+    #kilder h5 {
+        margin-left: 10%;
+    }
+    
+    #kilder p {
+        font-size: 20px;
+    }
+
+    .footer p {
+        font-size: 15px;
+    }
+    
+ 
+}
