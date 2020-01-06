@@ -58,7 +58,7 @@
             
             <h3>Kaskaderegler</h3>
             
-                <p>Det er et sæt regler som gør, der definerer hvordan modstridende CSS deklareringer løses.</p>
+                <p>Det er et sæt regler som gør, der definerer hvordan modstridende CSS-deklareringer løses.</p>
             
             <h4>Specificity</h4>
             
@@ -164,7 +164,7 @@
             
             <h3>Grids</h3>
             
-                <p>Grids er delvist bygget ud fra flexbox, men har gjort det nemmere ved at man kan vælge hvilken række og kolonne elementet skal placeres. Ved at bruge grid, skal man have ”display: grid” i sit css, og derved også give sine elementer et bestående navn ved at bruge ”grid-area”. Den måde man navngiver sine elementer ville være f.eks. som dette:</p>
+                <p>Grids er delvist bygget ud fra flexbox, men har gjort det nemmere ved at man kan vælge hvilken række og kolonneelementet skal placeres. Ved at bruge grid, skal man have ”display: grid” i sit css, og derved også give sine elementer et bestående navn ved at bruge ”grid-area”. Den måde man navngiver sine elementer ville være f.eks. som dette:</p>
             
                     <img src="grid-area.png" alt="grid area" width="70%">
             

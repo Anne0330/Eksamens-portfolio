@@ -239,7 +239,7 @@ h1 {
     
     h1 {
         font-size: 60px;
-        margin-left: 0%;
+        margin-left: -10%;
     }
     
     #introtekst {
@@ -247,7 +247,7 @@ h1 {
     }
     
     header {
-        padding-left: 21em;
+        padding-left: 15em;
         padding-right: 5em;
     }
     

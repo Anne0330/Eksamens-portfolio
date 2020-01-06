@@ -39,7 +39,7 @@
                 <h2>Attributter</h2>
                 
                     <p>Attributter er giver ekstra information til elementet, og er altid nævnt som det første i dit start tag. Som regel kommer attributer som “name/value” par såsom: Name=”value”.<br>
-                    I HTML kan man bruge et &lt;imh> tag, til at få billeder frem. Tagget er i teorien tom, da der ikke er et lukke tag og den kun har en attribut i sit element. Ved at tilføje "src" ind i elementet, kan man linke til et billede med URL. Derved kan man tilføje "alt" ind i elementet, der gør at hvis brugeren ikke kan se billedet, kommer der en tekst frem som er inde i "alt" tagget.</p>
+                    I HTML kan man bruge et &lt;img> tag, til at få billeder frem. Tagget er i teorien tom, da der ikke er et lukke tag og den kun har en attribut i sit element. Ved at tilføje "src" ind i elementet, kan man linke til et billede med URL. Derved kan man tilføje "alt" ind i elementet, der gør at hvis brugeren ikke kan se billedet, kommer der en tekst frem som er inde i "alt" tagget.</p>
                 
                     <p>Du får så derfor fx:<br> &lt;img_flower.jpg" alt="blomster der er farverige"</p>
                 
