@@ -19,26 +19,24 @@
     </header>
     
     <body> 
+        <!--til top knap-->
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
        
            <!-- php start-->
         <?php include "menu.inc"; ?>
             <!-- php slut-->
         
-        <div id="htmltitel"> 
+        <div id="htmltitel"> <!--banner-->
             <img src="communication.jpg" alt="Design" height="200px">
-            </div>
-        
+        </div>
+ 
+<section><!--indhold-->      
         <div id="bmc">
+            <h2>BMC – model</h2>
+                <img src="bmc.png" alt="bmc" width="70%">
+                    <p>En forretningsmodel er vigtig i forhold til at kunne forstå virksomheden man arbejder med, eller sin egen virksomhed. Hvordan de engagerer sig med sine kunder, kundefordele, ressourcer, nøglepartnere mm. Det er et strategisk ledelsesværktøj, der kan anvendes i forhold til strategisk anvendelse, planlægning og udvikle virksomhedens forretningsmodel.</p>
                 
-                <h2>BMC – model</h2>
-            
-            <img src="bmc.png" alt="bmc" width="70%">
-                
-                <p>En forretningsmodel er vigtig i forhold til at kunne forstå virksomheden man arbejder med, eller sin egen virksomhed. Hvordan de engagerer sig med sine kunder, kundefordele, ressourcer, nøglepartnere mm. Det er et strategisk ledelsesværktøj, der kan anvendes i forhold til strategisk anvendelse, planlægning og udvikle virksomhedens forretningsmodel.</p>
-                
-                <h3>De 7 arketyper</h3>
-            
+            <h3>De 7 arketyper</h3>
                <dl>
                     <dt>1. Den digitale købmand</dt>
                     <dd>Har sin fysiske butik men supplerer med salg via Internettet.<br>
@@ -58,61 +56,53 @@
             </dl>
             
             <h3>Der er tre forskellige virksomhedstyper:</h3>
-            
-            <dl>
-                <dt>Produktionsvirksomheder</dt>
-                <dd>Fremstiller/forarbejder varer.</dd>
-                <dt>Handelsvirksomheder</dt>
-                <dd>Køber og sælger varer.<br>Ingen forarbejdning.<br>Engros og detail.</dd>
-                <dt>Servicevirksomheder</dt>
-                <dd>Sælger uhåndgribelige varer/tjenesteydelser.<br>Varen/ydelsen kan ikke lagres.</dd>
-            
-            </dl>
+                <dl>
+                    <dt>Produktionsvirksomheder</dt>
+                    <dd>Fremstiller/forarbejder varer.</dd>
+                    <dt>Handelsvirksomheder</dt>
+                    <dd>Køber og sælger varer.<br>Ingen forarbejdning.<br>Engros og detail.</dd>
+                    <dt>Servicevirksomheder</dt>
+                    <dd>Sælger uhåndgribelige varer/tjenesteydelser.<br>Varen/ydelsen kan ikke lagres.</dd>
+                </dl>
             
             <h3>En businessmodel har tit tre fremstillinger som er:</h3>
             
-            <dl>
-                <dt>Mission - Et overordnet formål for virksomheden</dt>
-                <dd>Klart formuleret formål, realistisk, tjener alle interessenters interesse, klar differentiering ift. konkurrenter.</dd>
-                <dd>Midlerne til at nå vision.</dd>
-                <dd>Hvad vil man konkurrere på.</dd>
-                <dd>En mission laves for at skabe en generel forståelse af, hvorfor organisationen eksisterer, og hvad den vil opnå.</dd>
-                <dt>Vision - Visionen handler om, hvor man vil have virksomheden hen – ønskværdigt eller forventet.</dt>
-                <dd>Langsigtet.</dd>
-                <dd>Visionen beskriver et fremtidigt billede af virksomheden. Det er den fælles retning, som hele virksomheden skal arbejde efter at opnå.</dd>
-                <dt>Værdier</dt>
-                <dd>Værdigrundlagets funktion er at påvirke holdninger i organisationen/virksomheden.</dd>
-            
-            </dl>
-            
-            
-            <img src="bmcforskellen.png" alt="bmc og bm forskel" width="70%">
-            
-        
+                <dl>
+                    <dt>Mission - Et overordnet formål for virksomheden</dt>
+                    <dd>Klart formuleret formål, realistisk, tjener alle interessenters interesse, klar differentiering ift. konkurrenter.</dd>
+                    <dd>Midlerne til at nå vision.</dd>
+                    <dd>Hvad vil man konkurrere på.</dd>
+                    <dd>En mission laves for at skabe en generel forståelse af, hvorfor organisationen eksisterer, og hvad den vil opnå.</dd>
+                    <dt>Vision - Visionen handler om, hvor man vil have virksomheden hen – ønskværdigt eller forventet.</dt>
+                    <dd>Langsigtet.</dd>
+                    <dd>Visionen beskriver et fremtidigt billede af virksomheden. Det er den fælles retning, som hele virksomheden skal arbejde efter at opnå.</dd>
+                    <dt>Værdier</dt>
+                    <dd>Værdigrundlagets funktion er at påvirke holdninger i organisationen/virksomheden.</dd>
+                </dl>
+                        <img src="bmcforskellen.png" alt="bmc og bm forskel" width="70%">
         </div>
         
         <div id="businessmoden">
             <h2>Business model canvas - Forståelsen</h2>
             
-            <img src="businessmodelcanvas.png" alt="business model canvas" width="70%">
+                <img src="businessmodelcanvas.png" alt="business model canvas" width="70%">
             
-            <p>Value proposition/værdifaktorer er vigtigt i en BMC, da det afgør hvordan dit produkt eller service hjælper dine kunders problemer. Hvilken værdi skabes for kunderne? Hvilke problemer bliver løst? Hvilke af kundernes behov opfyldes? Det giver et overblik, på hvad dine produkter gør i forvejen. Med en kvalitativ eller kvantitativ undersøgelse, kan man med fordel undersøge sine value propositions.</p>
+                    <p>Value proposition/værdifaktorer er vigtigt i en BMC, da det afgør hvordan dit produkt eller service hjælper dine kunders problemer. Hvilken værdi skabes for kunderne? Hvilke problemer bliver løst? Hvilke af kundernes behov opfyldes? Det giver et overblik, på hvad dine produkter gør i forvejen. Med en kvalitativ eller kvantitativ undersøgelse, kan man med fordel undersøge sine value propositions.</p>
             
-            <p>Aktiviteter, partnere og ressourcer er hvordan man vil opnå disse værdifaktorer. Aktiviteter kan være konkurrencer, spørgeskemaer eller lign. For at trække sine kunder ind og være en del af at optimere forretningen. Partnere kan såvel være leverandører, til det er andre virksomheder hvor dit produkt sælges. Hvad gør partnerne for at hjælpe med værdifaktorerne? Ressource er selve ressourcerne som gør der skabes en værdi for kunderne.</p>
+                    <p>Aktiviteter, partnere og ressourcer er hvordan man vil opnå disse værdifaktorer. Aktiviteter kan være konkurrencer, spørgeskemaer eller lign. For at trække sine kunder ind og være en del af at optimere forretningen. Partnere kan såvel være leverandører, til det er andre virksomheder hvor dit produkt sælges. Hvad gør partnerne for at hjælpe med værdifaktorerne? Ressource er selve ressourcerne som gør der skabes en værdi for kunderne.</p>
             
-            <p>Kunderne er dem man skaber værdi for, og det er vigtigt at vide hvem de er. Hvilke er de mest vigtige kunder? Hvilke kundesegmenter kan defineres</p>
+                    <p>Kunderne er dem man skaber værdi for, og det er vigtigt at vide hvem de er. Hvilke er de mest vigtige kunder? Hvilke kundesegmenter kan defineres</p>
             
-            <p>Kunderelationer er hvordan man interagerer med sine kunder. Hvilken påvirkelse har viskomheden på sine kunder? Hvordan vedligeholder man relationer?</p>
+                    <p>Kunderelationer er hvordan man interagerer med sine kunder. Hvilken påvirkelse har viskomheden på sine kunder? Hvordan vedligeholder man relationer?</p>
             
-            <p>Vejen til kunderne er hvordan man opnår en kommunikation med kunderne. Gennem hvilke kanaler foretrækker kunderne at modtage kommunikation? Hvordan er kommunikation i dag? Hvad fungere bedst, i forhold til kommunikationen med sine kunder?</p>
+                    <p>Vejen til kunderne er hvordan man opnår en kommunikation med kunderne. Gennem hvilke kanaler foretrækker kunderne at modtage kommunikation? Hvordan er kommunikation i dag? Hvad fungere bedst, i forhold til kommunikationen med sine kunder?</p>
+                
+                    <p>Omkostninger er prisen for sine værdifaktorer, om hvor meget der blive brugt for at opnå en værdifaktor. Hvor er de væsentlighe omkostninger i forretningsmodellen?Hvilke ressourcer er mest omkostningstunge? Hvilke aktiviteter er mest omkostningstunge?</p>
             
-            <p>Omkostninger er prisen for sine værdifaktorer, om hvor meget der blive brugt for at opnå en værdifaktor. Hvor er de væsentlighe omkostninger i forretningsmodellen?Hvilke ressourcer er mest omkostningstunge? Hvilke aktiviteter er mest omkostningstunge?</p>
-            
-            <p>Indtægter er det der kommer tilbage fra værdi faktorernes resultat. Hvordan vil kunderne betale? Hvor meget bidrager hver indtægtskilde til den totale omsætning? Hvor meget er de villige til at betale?</p>
-            
+                    <p>Indtægter er det der kommer tilbage fra værdi faktorernes resultat. Hvordan vil kunderne betale? Hvor meget bidrager hver indtægtskilde til den totale omsætning? Hvor meget er de villige til at betale?</p>
         </div>
-       
-        
+ </section>    
+      <!--kilder-->  
         <div id="kilder">
                 <h5>Øvrige kilder</h5>
                     <p>Morten Kluw Wøldike Schmith powerpoint præsentation "BMC" - 9/10/2019<br>
@@ -129,12 +119,12 @@
                      
                     <a href="https://www.youtube.com/watch?v=QgICyLzZ3og">"Business Model Canvas - et værktøj til at udvikle og disrupte forretningsmodeller", 5/1/2017, Josefine Campbell</a></p>
             </div>
-        
+    <!--footer-->    
         <div class="footer">
             <p>Anne Mehlsen &#169; Læringsportfolio 2019-</p>
         </div>
-        
-        <script>
+      <!--javascript-->  
+<script>
         //DETTE ER TIL NAVIGATION
 /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
         var dropdown = document.getElementsByClassName("dropdown-btn");
@@ -170,9 +160,7 @@
         function topFunction() {
           document.body.scrollTop = 0; // For Safari
           document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-        }
-        
-          
+        }       
     </script>
 
     </body>

@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
        <link href="https://fonts.googleapis.com/css?family=Cormorant+Upright&display=swap" rel="stylesheet">
     </head>
-    <header>
+    <header><!--introduktion-->
         <h1>Fotografi</h1>
         
         <div id="introtekst">
@@ -19,24 +19,23 @@
     </header>
     
     <body> 
+        <!--til top knap-->
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
        
            <!-- php start-->
         <?php include "menu.inc"; ?>
             <!-- php slut-->
         
-        <div id="htmltitel"> 
+        <div id="htmltitel"> <!--banner-->
             <img src="nummer2banner.jpg" alt="Design" height="200px">
-            </div>
-        
+        </div>
+<section><!--kamera indhold-->
         <div class="kameraanotomi">
                 
                 <h2>Kameraet og dens egenskaber</h2>
                 
-                <img src="kameraautonom.png" alt="kamera anatomi" width="60%">
-                
-                <img src="reflexspejl.png" alt="reflex spejl" width="70%">
-                
+                    <img src="kameraautonom.png" alt="kamera anatomi" width="60%">
+                    <img src="reflexspejl.png" alt="reflex spejl" width="70%">
                 <ul>
                     <li>Kameratyper</li>
                     <li>Lukker</li>
@@ -47,118 +46,113 @@
         </div>
         
         <div id="objektiv">
-                <h3>Objektiver</h3>
-                
-                   <img src="kameraobjektiver.png" alt="Objektiver" width="70%">
-                <p> Der findes forskellige objektiver til kameraet, som kan give et boost i forhold til hvordan du tager billeder. Det vedrører længde/afstand, landskab, fritid osv.</p>
-                
+            <h3>Objektiver</h3>
+                <img src="kameraobjektiver.png" alt="Objektiver" width="70%">
+                    <p> Der findes forskellige objektiver til kameraet, som kan give et boost i forhold til hvordan du tager billeder. Det vedrører længde/afstand, landskab, fritid osv.</p>
         </div>
         
         <div id="brendevidde">
-        <h3>Brændevidde</h3>
-            <img src="kameraview.png" alt="brændevidde" width="70%">
-            
-            <p>Brændevidde på forskellige afstand, kan give forskellige resultater, om det er objektivet man bruger til at zoom eller flytter på kameraet's fysiske form.</p>
-        
+            <h3>Brændevidde</h3>
+                <img src="kameraview.png" alt="brændevidde" width="70%">
+                    <p>Brændevidde på forskellige afstand, kan give forskellige resultater, om det er objektivet man bruger til at zoom eller flytter på kameraet's fysiske form.</p>
         </div>
         
         <div id="shutter">
-        <h3>Lukker</h3>
-            <img src="lukker.png"alt="lukker/shutter" width="70%">
-            
-            <ul>
-                <li>Jo længere lukkertid, jo lysere billede</li>
-                <li>Jo længere lukkertid, jo mere bevægelsessløring og rystelser</li>
-                <li>Synkronisering med flash, typisk 1/125s</li>
-            </ul>
-        <img src="shutterspeed2.jpg" alt="shutter speed" width="70%">
+            <h3>Lukker</h3>
+                <img src="lukker.png"alt="lukker/shutter" width="70%">
+                    <ul>
+                        <li>Jo længere lukkertid, jo lysere billede</li>
+                        <li>Jo længere lukkertid, jo mere bevægelsessløring og rystelser</li>
+                        <li>Synkronisering med flash, typisk 1/125s</li>
+                    </ul>
+                        <img src="shutterspeed2.jpg" alt="shutter speed" width="70%">
             
             <h3>Lang eksponering</h3>
-            <img src="eksponering.png" alt="lang eksponering" width="70%">
+                <img src="eksponering.png" alt="lang eksponering" width="70%">
             
             <h3>Hurtig eksponering</h3>
-            <img src="eksponering2.png" alt="hurtig eksponering" width="70%">
+                <img src="eksponering2.png" alt="hurtig eksponering" width="70%">
             
         </div>
         
         <div id="blende">
             
             <h3>Blænde</h3>
-            <img src="blende.png" alt="blænde" width="70%">
+                <img src="blende.png" alt="blænde" width="70%">
             
             <h3>Dybdeskarphed</h3>
             
-            <img src="lilleabning.png" alt="lille blænde" width="70%">
+                <img src="lilleabning.png" alt="lille blænde" width="70%">
             
-            <p>Lille blændeåbning/højt brændetal / f22</p>
+                    <p>Lille blændeåbning/højt brændetal / f22</p>
             
-            <img src="storabning.png" alt="stor åbning" width="70%;">
+                        <img src="storabning.png" alt="stor åbning" width="70%;">
             
-            <p>Stor blændeåbning/lavt blændetal - f2.8</p>
+                            <p>Stor blændeåbning/lavt blændetal - f2.8</p>
           
         </div>
         
         <div id="iso">
-        <h3>ISO - Følsomhed</h3>
+            <h3>ISO - Følsomhed</h3>
             
-            <ul>
-                <li>Filmen/kameraets lysfølsomhed</li>
-                <li>Film var fremstillet med højere ISO/ASA. Jo mere lysfølsom, jo grovere korn. En film kunne presses under fremkaldelsen.</li>
-                <li>Et digitalkamera har justerbar ISO.</li>
-                <li>Jo højere (hurtigere) ISO, jo mere “støj” fra sensoren ses i billedet.</li>
-            </ul>
-        <img src="iso-hest.png" alt="iso grynet" width="70%">
+                <ul>
+                    <li>Filmen/kameraets lysfølsomhed</li>
+                    <li>Film var fremstillet med højere ISO/ASA. Jo mere lysfølsom, jo grovere korn. En film kunne presses under fremkaldelsen.</li>
+                    <li>Et digitalkamera har justerbar ISO.</li>
+                    <li>Jo højere (hurtigere) ISO, jo mere “støj” fra sensoren ses i billedet.</li>
+                </ul>
+                    <img src="iso-hest.png" alt="iso grynet" width="70%">
         </div>
       
         <div class="begreber">
             <h3>Kamera indstillinger</h3>
-            <dl>
-                <dt>Manuel / M</dt>
-                <dd>Manuel indstilling af både blænde og lukkertid </dd>
-                <dt>Tidsforvalg / Tv</dt>
-                <dd>Du indstiller lukkertiden, og kameraet beregner blænde.</dd>
-                <dt>Blændeforvalg / Av</dt>
-                <dd>Du indstiller blænde, og kameraet beregner lukkertiden.</dd>
-                <dt>Program / P</dt>
-                <dd>Kameraet forsøger at balancere blænde og lukkertid - etkompromis uden din medvirken.</dd>
-                <dt>Den grønne</dt>
-                <dd>Undgå den grønne, da du risikerer at flashen anvendes automatisk.</dd>
-                <dt>Øvrige programmer</dt>
-                <dd>Forskellige “shooting modes” hvor programmet er optimeret til en bestemt type billeder, men hvor du som fotograf ikke har kontrol - vi anvender dem ikke</dd>
-            </dl>
+                <dl>
+                    <dt>Manuel / M</dt>
+                    <dd>Manuel indstilling af både blænde og lukkertid </dd>
+                    <dt>Tidsforvalg / Tv</dt>
+                    <dd>Du indstiller lukkertiden, og kameraet beregner blænde.</dd>
+                    <dt>Blændeforvalg / Av</dt>
+                    <dd>Du indstiller blænde, og kameraet beregner lukkertiden.</dd>
+                    <dt>Program / P</dt>
+                    <dd>Kameraet forsøger at balancere blænde og lukkertid - etkompromis uden din medvirken.</dd>
+                    <dt>Den grønne</dt>
+                    <dd>Undgå den grønne, da du risikerer at flashen anvendes automatisk.</dd>
+                    <dt>Øvrige programmer</dt>
+                    <dd>Forskellige “shooting modes” hvor programmet er optimeret til en bestemt type billeder, men hvor du som fotograf ikke har kontrol - vi anvender dem ikke</dd>
+                </dl>
             
         </div>
         
         <div class="billedehandtering">
-        <h3>Billede håndtering</h3>
+            <h3>Billede håndtering</h3>
             
-           <ul>
-                <li>RAW format er det som kameraets sensor “opfatter” uden at være bearbejdet, hvilket er fortrukket at bruge i redigering.</li>
-               <li>JPEG er et komprimeret og “lossy” format, som er behandlet af kameraet.</li>
-            </ul>
+               <ul>
+                    <li>RAW format er det som kameraets sensor “opfatter” uden at være bearbejdet, hvilket er fortrukket at bruge i redigering.</li>
+                   <li>JPEG er et komprimeret og “lossy” format, som er behandlet af kameraet.</li>
+                </ul>
         </div>
         
        
         <div id="lys">
-        <h3>Blødt vs hårdt lys</h3>
+            <h3>Blødt vs hårdt lys</h3>
             
-            <img src="lys.png" alt="blødt og hårdt lys" width="70%">
+                <img src="lys.png" alt="blødt og hårdt lys" width="70%">
           
 
         </div>
             
-        
+</section>       
             <div id="kilder">
                 <h5>Øvrige kilder</h5>
-                <p>Niels Østergaard PDF præsentation "Introdktion til fotografering" - 15/11/2019<br>
-                    
-                <a href="https://www.linkedin.com/learning/learning-product-photography/welcome?u=37312532">"Learning Product Photography", 23,3,2016, Joseph "PhotoJoseph" Linaschke</a><br>
-                    
-                <a href="https://www.webfx.com/blog/web-design/the-basics-of-typography/">"Photography for Graphic Designers", 31/5/2017, Ben Long</a>
-                </p>
+                    <p>Niels Østergaard PDF præsentation "Introdktion til fotografering" - 15/11/2019<br>
+
+                    <a href="https://www.linkedin.com/learning/learning-product-photography/welcome?u=37312532">"Learning Product Photography", 23,3,2016, Joseph "PhotoJoseph" Linaschke</a><br>
+
+                    <a href="https://www.webfx.com/blog/web-design/the-basics-of-typography/">"Photography for Graphic Designers", 31/5/2017, Ben Long</a>
+                    </p>
                 
             </div>
-        
+        <!--footer-->
         <div class="footer">
             <p>Anne Mehlsen &#169; Læringsportfolio 2019-</p>
         </div>

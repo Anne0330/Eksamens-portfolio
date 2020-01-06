@@ -19,27 +19,28 @@
     </header>
     
     <body> 
+        <!--til top knap-->
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
        
            <!-- php start-->
         <?php include "menu.inc"; ?>
             <!-- php slut-->
-    
+ 
+<section><!--indhold-->
             <div id="tekst">
-                
                 <h2>Float og clear</h2>
-                
                     <p>Et af vores første gruppe opgaver, blev på to-mands grupper hvor vi skulle lave en form for ”work shop” website. Dette skulle være en lærings-guide e-bog til de studerende på første semester, der omhandler alt ved HTML og CSS. Der er forskellige funktioner i HTML og CSS, der gør det kan være overskueligt eller umuligt at finde. Ved at lave denne form for e-bog, kan vi bruge den under vores uddannelse til når vi har brug for at søge hjælp med en funktion.<br>
                     Da HTML og CSS vedrører mange funktioner, blev emnerne delt ud på de forskellige to-mands grupper. I mit tilfælde, fik vi emnet ”Float og Clear”. Vores opgave var at lave research på emnet, hvor vi skulle kode en one-page til at præsentere mulighederne i ”Float og clear”.</p>
-                <p>Du kan se den specifikke side med float og clear, ved at klikke <a href="http://majx0750.web.eadania.dk/float%20og%20clear/">her.</a> Eller eventuelt tjekke hele vores e-bog ud ved at klikke <a href="http://jesp883f.apache.eadania.dk/webbog/?fbclid=IwAR26EN0hW4hnlZqBhpJ4EDJzDIeke-VDg7Ho6eNcyjK-u3zN-tUth6gq-Vw">her.</a></p>
+                    <p>Du kan se den specifikke side med float og clear, ved at klikke <a href="http://majx0750.web.eadania.dk/float%20og%20clear/">her.</a> Eller eventuelt tjekke hele vores e-bog ud ved at klikke <a href="http://jesp883f.apache.eadania.dk/webbog/?fbclid=IwAR26EN0hW4hnlZqBhpJ4EDJzDIeke-VDg7Ho6eNcyjK-u3zN-tUth6gq-Vw">her.</a></p>
                 
         </div>
-      
+</section>    
+        <!--footer-->
         <div class="footer">
             <p>Anne Mehlsen &#169; Læringsportfolio 2019-</p>
         </div>
-        
-        <script>
+   <!--javascript-->     
+ <script>
         //DETTE ER TIL NAVIGATION
 /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
         var dropdown = document.getElementsByClassName("dropdown-btn");
@@ -76,8 +77,7 @@
           document.body.scrollTop = 0; // For Safari
           document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         }
-        
-          
+       
     </script>
 
     </body>

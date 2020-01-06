@@ -43,6 +43,10 @@ h2 {
     text-decoration: underline;
 }
 
+#kildertags {
+    padding-bottom: 8em;
+}
+
 #kildertags p {
     text-align: center;
     margin-left: 114px;
@@ -92,7 +96,7 @@ h2 {
 #myBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
-    bottom: 40px; /* Place the button at the bottom of the page */
+    bottom: 60px; /* Place the button at the bottom of the page */
     right: 30px; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
@@ -175,6 +179,11 @@ h2 {
 }
 
 @media screen and (min-width: 700px) {
+    
+    #myBtn {
+        bottom: 70px;
+    }
+    
     header {
         padding-left: 5em;
         padding-right: 5em;

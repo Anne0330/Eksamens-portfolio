@@ -19,72 +19,63 @@
     </header>
     
     <body> 
+        <!--til top knap-->
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
        
            <!-- php start-->
         <?php include "menu.inc"; ?>
             <!-- php slut-->
         
-        <div id="htmltitel"> 
+        <div id="htmltitel"> <!--banner-->
             <img src="nummer2banner.jpg" alt="Design" height="200px">
-            </div>
-        
-            <div id="gestalt">
-                
-                <h2>Det handler om at se helheder. </h2>
+        </div>
+ <section> <!--indhold-->    
+        <div id="gestalt">
+            <h2>Det handler om at se helheder. </h2>
                 <p>Med gestalt lovene, kan man opbygge og designe sin hjemmeside. Det vil sige, at det er et værktøj til hvor tingene skal sættes sammen henne. Det gælder billeder, kategorier, farver osv.</p>
-                
-                   <img src="gestalt.jpg" alt="gestaltlovene" width="100%">
-                <a href="http://getelementbyid.dk/gestalt.html">Kilde</a>
+                    <img src="gestalt.jpg" alt="gestaltlovene" width="100%">
+                        <a href="http://getelementbyid.dk/gestalt.html">Kilde</a>
         </div>
         
         <div class="quotes">
-        <p><q>A system whose parts are dynamically connected in such a way that a change of one part results in a change of all other parts.</q> – Kurt Lewin</p>
-            
-            <a href="https://libquotes.com/kurt-lewin/quote/lby9s1y">Kilde</a>
+            <p><q>A system whose parts are dynamically connected in such a way that a change of one part results in a change of all other parts.</q> – Kurt Lewin</p>
+                <a href="https://libquotes.com/kurt-lewin/quote/lby9s1y">Kilde</a>
         </div>
-        
-       
+
         <div id="gestalttekst">
-        <h2>Gestaltlovene</h2>
-            <img src="proximity.jpg" alt="proximity" width="50%">
-            <a href="http://artnet.nmu.edu/foundations/doku.php?id=proximity">Kilde</a>
+            <h2>Gestaltlovene</h2>
+                <img src="proximity.jpg" alt="proximity" width="50%">
+                    <a href="http://artnet.nmu.edu/foundations/doku.php?id=proximity">Kilde</a>
             <h4>Proximity / Nærhed</h4>
-            <p>Det er elementer der er placeret tæt på hinanden, som giver en relation til det er i nærheden af elementerne. Det er alt fra farver, distance og former der gør om der er tale om relation.</p>
-            
-            <img src="similarity.jpg" alt="similarity" width="50%">
-            <a href="https://kristinewilberding.weebly.com/gestault-grab-bag.html">Kilde</a>
+                <p>Det er elementer der er placeret tæt på hinanden, som giver en relation til det er i nærheden af elementerne. Det er alt fra farver, distance og former der gør om der er tale om relation.</p>
+                    <img src="similarity.jpg" alt="similarity" width="50%">
+                        <a href="https://kristinewilberding.weebly.com/gestault-grab-bag.html">Kilde</a>
             <h4>Similarity / Lighed</h4>
-            <p>Proximity overgår derimod similiarity med farver/kontrast. Similarity er elementer der ser ens ud, som har samme form, farve og størrelse af elementerne. Selv elementer der er langt fra hinanden, vil stadig opfattes som relateret begrundet af deres form/farve/størrelse er ens.</p>
-            
-            <img src="continuity.png" alt="continuity" width="50%">
-            <a href="https://medium.muz.li/gestalt-principles-in-ui-design-6b75a41e9965">Kilde</a>
+                <p>Proximity overgår derimod similiarity med farver/kontrast. Similarity er elementer der ser ens ud, som har samme form, farve og størrelse af elementerne. Selv elementer der er langt fra hinanden, vil stadig opfattes som relateret begrundet af deres form/farve/størrelse er ens.</p>
+                    <img src="continuity.png" alt="continuity" width="50%">
+                        <a href="https://medium.muz.li/gestalt-principles-in-ui-design-6b75a41e9965">Kilde</a>
             <h4>Continuity / Kontinuity</h4>
-            <p>Elementer som er struktureret på linje eller kurver, bliver opfattet til at være relateret i forhold til hvis de ikke er. De er placeret på en ”usynlig” linje, som gør man ser dem som relateret.</p>
-            
-            <img src="common%20region.png" alt="common region" width="50%">
-            <a href="https://www.prototypr.io/news/gestalt-principles-in-ui-design-how-to-become-a-master-manipulator-of-visual-communication/">Kilde</a>
+                <p>Elementer som er struktureret på linje eller kurver, bliver opfattet til at være relateret i forhold til hvis de ikke er. De er placeret på en ”usynlig” linje, som gør man ser dem som relateret.</p>
+                    <img src="common%20region.png" alt="common region" width="50%">
+                        <a href="https://www.prototypr.io/news/gestalt-principles-in-ui-design-how-to-become-a-master-manipulator-of-visual-communication/">Kilde</a>
             <h4>Common region / lukkethed</h4>
-            <p>Elementer som er ”indrammet”, hvilket giver en ide om relation med hinanden.</p>
-            
-            <img src="closure.jpg" alt="closure" width="50%">
-            <a href="https://www.jotform.com/blog/how-to-create-a-realistic-soccer-ball-in-adobe-illustrator/">Kilde</a>
+                <p>Elementer som er ”indrammet”, hvilket giver en ide om relation med hinanden.</p>
+                    <img src="closure.jpg" alt="closure" width="50%">
+                        <a href="https://www.jotform.com/blog/how-to-create-a-realistic-soccer-ball-in-adobe-illustrator/">Kilde</a>
             <h4>Closure / figurdannelse</h4>
-            <p>Elementer som er separate med en lille distance mellem hinanden, kan opfattes som en enkelt figur, selvom figuren reelt ikke er til stede.</p>
-            
+                <p>Elementer som er separate med en lille distance mellem hinanden, kan opfattes som en enkelt figur, selvom figuren reelt ikke er til stede.</p>
         </div>
-            
-        
+
         <div class="quotes"> 
-            <p><q>Design is a really loaded word. I don’t know what it means. So we don’t talk a lot about design around here, we just talk about how things work. Most people think it’s about how they look, but it’s about how they work</q>– Steve Jobs</p>
-            
-            <a href="https://www.digitalsurgeons.com/thoughts/design-thinking/steve-jobs-design-thinking/">Kilde</a>
+            <p><q>Design is a really loaded word. I don’t know what it means. So we don’t talk a lot about design around here, we just talk about how things work. Most people think it’s about how they look, but it’s about how they work</q>– Steve Jobs</p> 
+                <a href="https://www.digitalsurgeons.com/thoughts/design-thinking/steve-jobs-design-thinking/">Kilde</a>
         </div>
- 
+ </section>  
+        <!--kilder-->
             <div id="kilder">
                 <h5>Øvrige kilder</h5>
-                <p>Carsten Kjeldsen Bogner PDF præsentation "Design: Gestaltlovene - Illustrator" - 7/10/2019<br>
-                "Interfacedesign" 2019, Morten Rold: Kapitel 12<br>
+                    <p>Carsten Kjeldsen Bogner PDF præsentation "Design: Gestaltlovene - Illustrator" - 7/10/2019<br>
+                    "Interfacedesign" 2019, Morten Rold: Kapitel 12<br>
     
                     <a href="https://www.andyrutledge.com/gestalt-principles-1-figure-ground-relationship.html">"GESTALT PRINCIPLES OF PERCEPTION - 1: FIGURE GROUND RELATIONSHIPS", 12/9/2008, ANDY RUTLEDGE.</a><br>
                     <a href="https://www.andyrutledge.com/gestalt-principles-2-similarity.html">"GESTALT PRINCIPLES OF PERCEPTION - 2: SIMILARITY", 1/26/2009, ANDY RUTLEDGE</a><br>
@@ -99,12 +90,12 @@
                     <a href="https://uxpro.cc/publications/using-gestalt-laws-of-perceptual-organization-in-ui-design/">"Using Gestalt Laws of Perceptual Organization in UI Design", 13/8/2019</a>
                     </p>
             </div>
-        
+        <!--footer-->
         <div class="footer">
             <p>Anne Mehlsen &#169; Læringsportfolio 2019-</p>
         </div>
-        
-        <script>
+  <!--javascript-->      
+    <script>
         //DETTE ER TIL NAVIGATION
 /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
         var dropdown = document.getElementsByClassName("dropdown-btn");

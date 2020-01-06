@@ -19,40 +19,33 @@
     </header>
     
     <body> 
+        <!--til top knap-->
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
        
            <!-- php start-->
         <?php include "menu.inc"; ?>
             <!-- php slut-->
         
-        <div id="htmltitel"> 
+        <div id="htmltitel"> <!--banner-->
             <img src="nummer2banner.jpg" alt="Design" height="200px">
-            </div>
+        </div>
+<section><!--indhold tekst-->
             <div id="tekstfarve">
-                
                 <h2>Farve teori</h2>
-                
                     <p>Johannes Itten var en schweizisk kunstmaler og lære på Bauhaus i Weimar. Han studerede og underviste i farver, med en psykologisk teori bag ideen. Han mente at farver kunne give udtryk, følelser mm. Han mente at en farve, ikke bare var en farve. I hans bog ”The art of color” (1961), involverer han teorien der indebærer videnskab og følelser i sammenhæng med farver.   
                     </p>
         </div>
         
         <div id="quotes">
-        <p><q>He who wants to become a master of color must see, feel, and experience each individual color in its many endless combinations with all other colors,</q> – Johannes Itten</p>
-        
+            <p><q>He who wants to become a master of color must see, feel, and experience each individual color in its many endless combinations with all other colors,</q> – Johannes Itten</p>
             <p><q>Colors must have a mystical capacity for spiritual expression, without being tied to objects.</q>– Johannes Itten</p>
-            
-            <a href="http://www.artnet.com/artists/johannes-itten/">Kilde</a>
-            
-            
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Qj1FK8n7WgY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <a href="http://www.artnet.com/artists/johannes-itten/">Kilde</a>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Qj1FK8n7WgY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         
-        
-        
         <div id="farveregnbue">
-        <img src="regnbue.jpg" alt="farveregnbue" width="100%">
-            
-            <a href="https://visual.ly/community/infographic/business/color-emotion-guide">Kilde</a>
+            <img src="regnbue.jpg" alt="farveregnbue" width="100%">
+                <a href="https://visual.ly/community/infographic/business/color-emotion-guide">Kilde</a>
         </div>
         
         <div id="tekstfarve">
@@ -63,75 +56,73 @@
         </div>
         
         <div id="farvehjulet">
-        <h2>Farvehjulets bygning</h2>
-            <img src="farvehjul.png" alt="farvehjul" width="100%">
-            <a href="https://www.kissclipart.com/johannes-itten-clipart-bauhaus-group-of-houses-in-7meg63/">Kilde</a>
-            <dl>
-                <dt>Primære farver</dt>
-                <dd>Rene farver som er Gul, Blå og Rød</dd>
-                <dt>Sekundære farver</dt>
-                <dd>Blanding af to primære farver</dd>
-                <dt>Tertiære</dt>
-                <dd>Blandet af én primær farve og en sekundær farve.</dd>
-            </dl>
-             </div>
+            <h2>Farvehjulets bygning</h2>
+                <img src="farvehjul.png" alt="farvehjul" width="100%">
+                    <a href="https://www.kissclipart.com/johannes-itten-clipart-bauhaus-group-of-houses-in-7meg63/">Kilde</a>
+                        <dl>
+                            <dt>Primære farver</dt>
+                            <dd>Rene farver som er Gul, Blå og Rød</dd>
+                            <dt>Sekundære farver</dt>
+                            <dd>Blanding af to primære farver</dd>
+                            <dt>Tertiære</dt>
+                            <dd>Blandet af én primær farve og en sekundær farve.</dd>
+                        </dl>
+        </div>
+    
         <div id="farvesforstaelse">
-            
             <iframe width="560" height="315" src="https://www.youtube.com/embed/P6ko2IdPpaU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         
         <div id="farveribrug">
-        <h2>Farver i praktisk</h2>
-            <img src="cmyk-vs-rgb-diagram.png" alt="rgb og cmyk diagram" width="100%">
-            <a href="https://michaellutjen.com/blog/understand-the-difference-between-cmyk-and-rgb/">Kilde</a>
-            
-            <p><strong>RGB/Red Green Blue</strong><br>
-                Additivt farvesystem hvor lys tilføjes. Det bliver som regel benyttet på tv og computer.<br>
-                <strong>CMYK / Cyan Magenta Yellow Key / Black</strong><br>
-                Subtraktivt farvesystem hvor lys trækkes ud. Det bliver som regel brugt til tryksager. 
-            </p>
+            <h2>Farver i praktisk</h2>
+                <img src="cmyk-vs-rgb-diagram.png" alt="rgb og cmyk diagram" width="100%">
+                    <a href="https://michaellutjen.com/blog/understand-the-difference-between-cmyk-and-rgb/">Kilde</a>
+                    <p><strong>RGB/Red Green Blue</strong><br>
+                    Additivt farvesystem hvor lys tilføjes. Det bliver som regel benyttet på tv og computer.<br>
+                    <strong>CMYK / Cyan Magenta Yellow Key / Black</strong><br>
+                    Subtraktivt farvesystem hvor lys trækkes ud. Det bliver som regel brugt til tryksager. 
+                    </p>
         </div>
         
         <div id="colortekst">
-        <img src="colorpicker.png" alt="color picker" width="100%">
-            <a href="https://www.slrlounge.com/photoshop-tips-how-to-use-the-color-picker-tool/">Kilde</a>
-           <dl>
-               <dt>Kulør/Hue - H</dt>
-               <dd>En graduering eller variation af en farve</dd>
-               <dt>Mætning/Saturation - S</dt>
-               <dd>En kulær blandes med forskellige mængder af gråtone. Det siges også at farven får en ”valør”</dd>
-               <dt>Lyshed/Brightness - B </dt>
-               <dd>En kulør blandes med ren sort eller hvid</dd>
-            </dl>
-        
+            <img src="colorpicker.png" alt="color picker" width="100%">
+                <a href="https://www.slrlounge.com/photoshop-tips-how-to-use-the-color-picker-tool/">Kilde</a>
+                   <dl>
+                       <dt>Kulør/Hue - H</dt>
+                       <dd>En graduering eller variation af en farve</dd>
+                       <dt>Mætning/Saturation - S</dt>
+                       <dd>En kulær blandes med forskellige mængder af gråtone. Det siges også at farven får en ”valør”</dd>
+                       <dt>Lyshed/Brightness - B </dt>
+                       <dd>En kulør blandes med ren sort eller hvid</dd>
+                    </dl>
         </div>
         
         <div id="farvesammensatning">
-        <h3>Farvesammensætning</h3>
-            <img src="monokrom.jpg" alt="monokrom" width="50%">
+            <h3>Farvesammensætning</h3>
+                <img src="monokrom.jpg" alt="monokrom" width="50%">
             <h4>Monokrom</h4>
-            <p>Én kulør, som justeres ifht. lyshed og mæt¬ning. Den går altså nærmest fra hvid til sort i nuancer af samme farve</p>
-            <img src="analog.jpg" alt="analog" width="50%">
+                <p>Én kulør, som justeres ifht. lyshed og mæt¬ning. Den går altså nærmest fra hvid til sort i nuancer af samme farve</p>
+                    <img src="analog.jpg" alt="analog" width="50%">
             <h4>Analog</h4>
-            <p>Én kulær indenfor bredere spektrum af lyshed og mætning.</p>
-            <img src="komplementer.jpg" alt="komplimentær" width="50%">
+                <p>Én kulær indenfor bredere spektrum af lyshed og mætning.</p>
+                    <img src="komplementer.jpg" alt="komplimentær" width="50%">
             <h4>Komplementær</h4>
-            <p>Farver der ligger direkte overfor hinanden i farve¬cirklen.</p>
-            <img src="splitkomplementer.jpg" alt="split komplementær" width="50%">
+                <p>Farver der ligger direkte overfor hinanden i farve¬cirklen.</p>
+                    <img src="splitkomplementer.jpg" alt="split komplementær" width="50%">
             <h4>Split komplementær</h4>
-            <p>Farver der ligger direkte overfor hinanden, med et lidt bredere farvespektrum.</p>
-            <img src="triader.jpg" alt="triader" width="50%">
+                <p>Farver der ligger direkte overfor hinanden, med et lidt bredere farvespektrum.</p>
+                    <img src="triader.jpg" alt="triader" width="50%">
             <h4>Triader</h4>
-            <p>Tre farver som ligger lige langt fra hinanden.</p>
-            <img src="tetriader.jpg" alt="tetriader" width="50%">
+                <p>Tre farver som ligger lige langt fra hinanden.</p>
+                    <img src="tetriader.jpg" alt="tetriader" width="50%">
             <h4>Tetriader - Dobbelt komplementær</h4>
-            <p>Fire farver som er komplementære.</p>
-            
+                <p>Fire farver som er komplementære.</p>
             </div>
+</section>
         <div id="kildetilbilleder">
         	<p>Kilde til billeder: Carsten Kjeldsen Bogner PDF præsentation "Farvelære" - 2/10/2019</p>
         </div>
- 
+ <!-- kilder-->
             <div id="kilder">
                 <h5>Øvrige kilder</h5>
                 <p>Carsten Kjeldsen Bogner PDF præsentation "Farvelære" - 2/10/2019<br>
@@ -149,12 +140,12 @@
                     <a href="https://forums.creativecow.net/docs/forums/post.php?forumid=2&postid=1123232&univpostid=1123232&pview=t">After Effects Script ColorPicker, 8/2/2017, Michael Gottwik</a>
                     </p>
             </div>
-        
+        <!--footer-->
         <div class="footer">
             <p>Anne Mehlsen &#169; Læringsportfolio 2019-</p>
         </div>
-        
-        <script>
+        <!--javascript-->
+    <script>
         //DETTE ER TIL NAVIGATION
 /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
         var dropdown = document.getElementsByClassName("dropdown-btn");

@@ -22,6 +22,7 @@
     </header>
     
     <body> 
+        <!--til top knap-->
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
        
            <!-- php start-->
@@ -30,12 +31,9 @@
         
     <!--start på indhold-->  
     <section>
-    
-            <div id="tekst">
-               
-                <h2>Refleksion med design</h2>
-                
-                    <p>Selv om jeg tegner eller laver kreative ting i min fritid som hobby, vidste jeg ikke der lå en så stor verden bag design. Det teoretiske man har lært under uddannelsen, følte mere som en selvfølge før jeg begyndte på uddannelsen. Emnerne har givet mig en bedre forståelse, på hvordan man kan ’appeal’ til en kunde med sit design. Jeg vil nok stadig have problemer med typografi, men det er bestemt åbnet mine øjne for at inviterer flere skrifttyper ind.</p> 
+        <div id="tekst">
+            <h2>Refleksion med design</h2>
+                <p>Selv om jeg tegner eller laver kreative ting i min fritid som hobby, vidste jeg ikke der lå en så stor verden bag design. Det teoretiske man har lært under uddannelsen, følte mere som en selvfølge før jeg begyndte på uddannelsen. Emnerne har givet mig en bedre forståelse, på hvordan man kan ’appeal’ til en kunde med sit design. Jeg vil nok stadig have problemer med typografi, men det er bestemt åbnet mine øjne for at inviterer flere skrifttyper ind.</p> 
         </div>
             
     </section><!-- slut på indhold-->

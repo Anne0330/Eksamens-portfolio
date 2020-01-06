@@ -19,19 +19,20 @@
     </header>
     
     <body> 
+        <!-- til top knap-->
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
        
            <!-- php start-->
         <?php include "menu.inc"; ?>
             <!-- php slut-->
         
-        <div id="htmltitel"> 
+        <div id="htmltitel"> <!--banner-->
             <img src="communication.jpg" alt="Design" height="200px">
-            </div>
+        </div>
+        
+<section><!--indhold-->
             <div id="transtekst">
-                
                 <h2>"At transskribere"</h2>
-                
                     <p>Det betyder man transformere noget om til skrift, som kunne være en video til artikel. Eventuelt hvis man har haft et interview med en person, som har gået med til at interviewet bliver filmet. Der har man lyd og video at arbejde med, for at lave det om til tekst. Det at man vælger at fremhæve noget bestemt, som hvad personen siger eller hvad personen gør undervejs.<br>
                     Under et Onepage projekt skulle vi lave et interview, hvor det hele blev optaget. Der blev taget noter, men samtidig havde vi næsten 3-4 timers optagelse. Vi kunne bruge noget af det til vores projekt, men der skete mange uventede ting undervejs i interviewet. Det endte med at blive et mindre projekt for mig selv, at tage nogle highlights og klippe dem sammen.<br>
                     Da vores projekt ikke omhandlede at det skulle være sjovt, er dette et eksempel på hvordan man IKKE skal transskribere. Grundet at det der er highlighted, ikke havde relevans for den originale ide fra starten. Det var dog stadig et kæmpe hit for dem der var med i interviewet, og vi bruger det med glæde til nogle ”inside jokes” som kun Erhvervsakademiet Dania’s 1 semestres multimediedesignere kan relatere til.    
@@ -47,20 +48,22 @@
         
         <div id="mening">
             <h2>Meningskondensering</h2>
-            <p>Det er en form for interviewanalyse, som også kan indgå inden under transskribering. For at kunne lave en transskribering, skal man kunne analysere sit fimet/optaget materiale. Det er at finde det svar man ledte efter i interviewet, eller finde hovedpunkter der skal highlightes. Der er en metode ved at bruge denne, at kunne lave hovepunkter/emner, og indsætte sætninger personen har sagt for at se hvilke der er brugbare, i forhold til resultatet. </p>
+                <p>Det er en form for interviewanalyse, som også kan indgå inden under transskribering. For at kunne lave en transskribering, skal man kunne analysere sit fimet/optaget materiale. Det er at finde det svar man ledte efter i interviewet, eller finde hovedpunkter der skal highlightes. Der er en metode ved at bruge denne, at kunne lave hovepunkter/emner, og indsætte sætninger personen har sagt for at se hvilke der er brugbare, i forhold til resultatet. </p>
         </div>
- 
+</section> 
+        <!--kilder-->
             <div id="kilder">
                 <h5>Øvrige kilder</h5>
                 <p>"Kommunikation i multimediedesign" 2015, Anne Mette Busch: Kapitel 6, s. 92<br>
                 <a href="https://tovejs.dk/2019/07/17/transskribere/">"Det får du ud af at transskribere dine interviews", 17/07/2019, Albert Munsell.</a></p>
             </div>
-        
+    <!--footer-->    
         <div class="footer">
             <p>Anne Mehlsen &#169; Læringsportfolio 2019-</p>
         </div>
         
-        <script>
+    <!--javascript-->    
+    <script>
         //DETTE ER TIL NAVIGATION
 /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
         var dropdown = document.getElementsByClassName("dropdown-btn");
@@ -98,7 +101,6 @@
           document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         }
         
-          
     </script>
 
     </body>

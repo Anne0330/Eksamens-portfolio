@@ -19,27 +19,26 @@
     </header>
     
     <body> 
+        <!--til top knap-->
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
        
            <!-- php start-->
         <?php include "menu.inc"; ?>
             <!-- php slut-->
         
-        <div id="htmltitel"> 
+        <div id="htmltitel"> <!--banner-->
             <img src="communication.jpg" alt="Design" height="200px">
-            </div>
-        
+        </div>
+  
+<section><!--indhold-->      
         <div id="value">
+            <h2>Value proposition canvas</h2>
+                <img src="bmcvsvpc.jpg" alt="bmc og value propostion" width="70%">
+                    <p>Med en Value proposition canvas, kan man kortlægge en kundeprofil for at få en kundeforståelse. Med værdikortet, kan man beskrive hvordan man har tænkt sig at skabe en værdi. Når disse to ting møder hinanden, opstår der et såkaldt Match.</p>
                 
-                <h2>Value proposition canvas</h2>
+            <h3>Customer segment</h3>
             
-            <img src="bmcvsvpc.jpg" alt="bmc og value propostion" width="70%">
-                
-                <p>Med en Value proposition canvas, kan man kortlægge en kundeprofil for at få en kundeforståelse. Med værdikortet, kan man beskrive hvordan man har tænkt sig at skabe en værdi. Når disse to ting møder hinanden, opstår der et såkaldt Match.</p>
-                
-                <h3>Customer segment</h3>
-            
-            <img src="customersegment.png" alt="customer segment" width="70%">
+                <img src="customersegment.png" alt="customer segment" width="70%">
             
             <h4>Ved en kundeprofil er der tre hovedpunkter, man bør overveje</h4>
             
@@ -56,21 +55,22 @@
             
             <h4>Value proposition giver et overblik af dit produkt, hvor der er 3 hovedpunkter man bør undersøge.</h4>
             
-            <dl>
-                <dt>Produkter og service</dt>
-                <dd>Hvilke former for produkter eller servicer kan løses kundens.</dd>
-                <dt>’jobs’/problemer</dt>
-                <dd>Det kan også bruges, til hvis man vil udvikle noget nyt.</dd>
-                <dt>Pain relievers</dt>
-                <dd>Hvordan hjælper dit produkt med de ’pains’ som kunden har?</dd>
-                <dt>Gain creators</dt>
-                <dd>Hvordan hjælper dit produkt med at skabe en værdi for dine kunder?</dd>
-                <dt>I midten hvor pilene mødes/match</dt>
-                <dd>Et match er således at man mødes på midten, hvor de 3 hovedpunkter balancerer med hinanden. Det sker når kunden er tilfreds eller bliver begejstret over dine produkter, eller service (value proposition). Man stræber efter et match, ved at bruge værdifaktorer. De er svære at vedligeholde, men kunderne er altid dem der bestemmer. Hvis du ikke har et match, bør man overveje sine designs for sin value proposition.</dd>
-            </dl>
+                <dl>
+                    <dt>Produkter og service</dt>
+                    <dd>Hvilke former for produkter eller servicer kan løses kundens.</dd>
+                    <dt>’jobs’/problemer</dt>
+                    <dd>Det kan også bruges, til hvis man vil udvikle noget nyt.</dd>
+                    <dt>Pain relievers</dt>
+                    <dd>Hvordan hjælper dit produkt med de ’pains’ som kunden har?</dd>
+                    <dt>Gain creators</dt>
+                    <dd>Hvordan hjælper dit produkt med at skabe en værdi for dine kunder?</dd>
+                    <dt>I midten hvor pilene mødes/match</dt>
+                    <dd>Et match er således at man mødes på midten, hvor de 3 hovedpunkter balancerer med hinanden. Det sker når kunden er tilfreds eller bliver begejstret over dine produkter, eller service (value proposition). Man stræber efter et match, ved at bruge værdifaktorer. De er svære at vedligeholde, men kunderne er altid dem der bestemmer. Hvis du ikke har et match, bør man overveje sine designs for sin value proposition.</dd>
+                </dl>
         
         </div>
-        
+</section>  
+        <!--kilder-->
         <div id="kilder">
                 <h5>Øvrige kilder</h5>
                     <p>Morten Kluw Wøldike Schmith powerpoint præsentation "BMC" - 9/10/2019<br>
@@ -87,11 +87,11 @@
                      
                     <a href="https://www.youtube.com/watch?v=QgICyLzZ3og">"Business Model Canvas - et værktøj til at udvikle og disrupte forretningsmodeller", 5/1/2017, Josefine Campbell</a></p>
             </div>
-        
+   <!--footer-->     
         <div class="footer">
             <p>Anne Mehlsen &#169; Læringsportfolio 2019-</p>
         </div>
-        
+  <!--javascript-->      
         <script>
         //DETTE ER TIL NAVIGATION
 /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */

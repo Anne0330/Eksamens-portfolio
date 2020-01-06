@@ -19,66 +19,64 @@
     </header>
     
     <body> 
+        <!--til top knap-->
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
        
            <!-- php start-->
         <?php include "menu.inc"; ?>
             <!-- php slut-->
         
-        <div id="htmltitel"> 
+        <div id="htmltitel"> <!--banner-->
              <img src="communication.jpg" alt="kommunikation" height="200px">
-            </div>
-        
+        </div>
+ 
+<section><!--indhold-->      
         <div id="kommunikationtekst">
-                
-                <h2>Forskellige former for kommunikation</h2>
-                
-                    <p>Der er forskellige typer for kommunikation, som er Skriftlig, Verbal, Non-verbal og det visuelle.<br> 
-                        Skriftlig kommunikation er alle former for skriftlige samtaler, e-mails og bøger. Verbal kommunikation er alle former for talte samtaler, som er den mest udbredte form for kommunikation.<br> 
-                        Non-verbal kommunikation er alt det man ikke siger, men ser. Det er alt fra kropssprog til gimmick og tøjstil. Der er en væsentlig del i det non-verbale, der præger troværdigheden inden for den verbale kommunikation og hvordan den skal tolkes.<br> 
-                        Den visuelle kommunikation er alt det grafiske, såsom billeder, grafer, moodboards og styletiles. 
-                    </p>
+            <h2>Forskellige former for kommunikation</h2> 
+                <p>Der er forskellige typer for kommunikation, som er Skriftlig, Verbal, Non-verbal og det visuelle.<br> 
+                Skriftlig kommunikation er alle former for skriftlige samtaler, e-mails og bøger. Verbal kommunikation er alle former for talte samtaler, som er den mest udbredte form for kommunikation.<br> 
+                Non-verbal kommunikation er alt det man ikke siger, men ser. Det er alt fra kropssprog til gimmick og tøjstil. Der er en væsentlig del i det non-verbale, der præger troværdigheden inden for den verbale kommunikation og hvordan den skal tolkes.<br> 
+                Den visuelle kommunikation er alt det grafiske, såsom billeder, grafer, moodboards og styletiles.</p>
         </div>
     
         <div id="grundantagelser">
-        <h2>Licenserne</h2>
+            <h2>Licenserne</h2>
             
-            <img src="cc-by.png" alt="cc by" width="50%">
+                <img src="cc-by.png" alt="cc by" width="50%">
             <h4>Kreditering - CC/BY</h4>
-            <p>This license lets others distribute, remix, adapt, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.</p>
-            <a href="https://creativecommons.org/licenses/by/4.0/">Vis licensedeed</a>
-            <a href="https://creativecommons.org/licenses/by/4.0/legalcode">Vis juridisk tekst</a>
+                <p>This license lets others distribute, remix, adapt, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.</p>
+                <a href="https://creativecommons.org/licenses/by/4.0/">Vis licensedeed</a>
+                <a href="https://creativecommons.org/licenses/by/4.0/legalcode">Vis juridisk tekst</a>
             
-            <img src="cc-by-sa.png" alt="cc by sa" width="50%">
+                <img src="cc-by-sa.png" alt="cc by sa" width="50%">
             <h4>Kreditering - Deling på samme vilkår - CC/BY/SA</h4>
-            <p>This license lets others remix, adapt, and build upon your work even for commercial purposes, as long as they credit you and license their new creations under the identical terms. This license is often compared to “copyleft” free and open source software licenses. All new works based on yours will carry the same license, so any derivatives will also allow commercial use. This is the license used by Wikipedia, and is recommended for materials that would benefit from incorporating content from Wikipedia and similarly licensed projects.</p>
-            <a href="https://creativecommons.org/licenses/by-sa/4.0/">Vis licensedeed</a>
-            <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode">Vis juridisk tekst</a>
+                <p>This license lets others remix, adapt, and build upon your work even for commercial purposes, as long as they credit you and license their new creations under the identical terms. This license is often compared to “copyleft” free and open source software licenses. All new works based on yours will carry the same license, so any derivatives will also allow commercial use. This is the license used by Wikipedia, and is recommended for materials that would benefit from incorporating content from Wikipedia and similarly licensed projects.</p>
+                <a href="https://creativecommons.org/licenses/by-sa/4.0/">Vis licensedeed</a>
+                <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode">Vis juridisk tekst</a>
             
-            <img src="cc-by-nd.png" alt="cc by nd" width="50%">
+                <img src="cc-by-nd.png" alt="cc by nd" width="50%">
             <h4>Kreditering - Ingen afledninger - CC/BY/ND</h4>
-            <p>This license lets others reuse the work for any purpose, including commercially; however, it cannot be shared with others in adapted form, and credit must be provided to you.</p>
-            <a href="https://creativecommons.org/licenses/by-nd/4.0/">Vis licensedeed</a>
-            <a href="https://creativecommons.org/licenses/by-nd/4.0/legalcode">Vis juridisk tekst</a>
+                <p>This license lets others reuse the work for any purpose, including commercially; however, it cannot be shared with others in adapted form, and credit must be provided to you.</p>
+                <a href="https://creativecommons.org/licenses/by-nd/4.0/">Vis licensedeed</a>
+                <a href="https://creativecommons.org/licenses/by-nd/4.0/legalcode">Vis juridisk tekst</a>
             
-            <img src="cc-by-nc.png" alt="cc by nc" width="50%">
+                <img src="cc-by-nc.png" alt="cc by nc" width="50%">
             <h4>Kreditering - Ikke-kommerciel - CC/BY/NC</h4>
-            <p>This license lets others remix, adapt, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms.</p>
-            <a href="https://creativecommons.org/licenses/by-nc/4.0/">Vis licensedeed</a>
-            <a href="https://creativecommons.org/licenses/by-nc/4.0/legalcode">Vis juridisk tekst</a>
+                <p>This license lets others remix, adapt, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms.</p>
+                <a href="https://creativecommons.org/licenses/by-nc/4.0/">Vis licensedeed</a>
+                <a href="https://creativecommons.org/licenses/by-nc/4.0/legalcode">Vis juridisk tekst</a>
             
-            <img src="cc-by-nc-sa.png" alt="cc by nc sa" width="50%">
+                <img src="cc-by-nc-sa.png" alt="cc by nc sa" width="50%">
             <h4>Kreditering Ikke-kommerciel - Deling på samme vilkår - CC/BY/NC/SA</h4>
-            <p>This license lets others remix, adapt, and build upon your work non-commercially, as long as they credit you and license their new creations under the identical terms.</p>
-            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Vis licensedeed</a>
-            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">Vis juridisk tekst</a>
+                <p>This license lets others remix, adapt, and build upon your work non-commercially, as long as they credit you and license their new creations under the identical terms.</p>
+                <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Vis licensedeed</a>
+                <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">Vis juridisk tekst</a>
             
-            <img src="cc-by-nc-nd.png" alt="cc by nc nd" width="50%">
+                <img src="cc-by-nc-nd.png" alt="cc by nc nd" width="50%">
             <h4>Kreditering Ikke-kommerciel - Ingen afledninger - CC BY-NC-ND</h4>
-            <p>Licensen er den mest restriktive af vores seks hoved-licenser, idet den kun tillader andre at downloade dine værker og dele dem med andre så længe de husker at kreditere dig - men de kan ikke ændre dem på nogen måde eller bruge dem kommercielt.</p>
-            <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Vis licensedeed</a>
-            <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode">Vis juridisk tekst</a>
-            
+                <p>Licensen er den mest restriktive af vores seks hoved-licenser, idet den kun tillader andre at downloade dine værker og dele dem med andre så længe de husker at kreditere dig - men de kan ikke ændre dem på nogen måde eller bruge dem kommercielt.</p>
+                <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Vis licensedeed</a>
+                <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode">Vis juridisk tekst</a>
             </div>
         
         <div id="pdf">
@@ -91,21 +89,21 @@
             <a href="Ophavsret%20og%20Licensring.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:80px;color:white"></i>
         </div>
         
-        
- 
+</section>       
+ <!--kilder-->
             <div id="kilder">
                 <h5>Øvrige kilder</h5>
-                <p>
-                <a href="https://creativecommons.org/licenses/">"Om licenserne", 17/11/2017, Creative commons</a><br>
+                    <p>
+                    <a href="https://creativecommons.org/licenses/">"Om licenserne", 17/11/2017, Creative commons</a><br>
                     
-                <a href="Ophavsret%20og%20Licensring.pdf">"Ophavsret og licensering", 06/11/2019, Anne Mehlsen.</a></p>
+                    <a href="Ophavsret%20og%20Licensring.pdf">"Ophavsret og licensering", 06/11/2019, Anne Mehlsen.</a></p>
             </div>
-        
+        <!--footer-->
         <div class="footer">
             <p>Anne Mehlsen &#169; Læringsportfolio 2019-</p>
         </div>
-        
-        <script>
+   <!--javascript-->     
+    <script>
         //DETTE ER TIL NAVIGATION
 /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
         var dropdown = document.getElementsByClassName("dropdown-btn");

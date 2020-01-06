@@ -9,7 +9,7 @@
         <link href="https://fonts.googleapis.com/css?family=Assistant&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
-    <header>
+    <header><!--introduktion-->
         <h1>Photoshop</h1>
         
         <div id="introtekst">
@@ -18,15 +18,18 @@
     </header>
     
     <body> 
+        <!--til top knap-->
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
        
            <!-- php start-->
         <?php include "menu.inc"; ?>
             <!-- php slut-->
         
-        <div id="htmltitel"> 
+        <div id="htmltitel"> <!--banner-->
             <img src="nummer2banner.jpg" alt="Design" height="200px">
-            </div>
+        </div>
+        
+<section><!--indhold-->
             <div id="phototekst">
                 
                 <h2>Adobe Photoshop</h2>
@@ -38,15 +41,15 @@
                     <p>Vi har arbejdet med peer-to-peer undervisning, hvor det handler om at undervise andre studerende med det man har arbejdet med. Man fik en opgave om at studere et værktøj i illustrator eller photoshop, og arbejde med det til at kunne præsentere det i klassen. Det var en øvelse på at blive klogere på et værktøj og hvordan man kan arbejde med det, samt at kunne give hinanden feedback.<br>
                     Min øvelse der skulle vises til resten af studerende, var Blending modes. Titlen på mit forsøg med blending modes, har jeg valgt og kalde "Skull boy". Den præsenteres som én af de første, som er i mine eksempler nedenfor på siden.
                     </p>
-        </div>
+            </div>
         
         <div id="eksempler">
-        <h3>Mine projekter med Photoshop</h3>
-            <p>Tryk på pilene som er nedenunder billederne, for at se diverse materialer som er brugt til projektet. Der kan navigeres til højre og venstre.<br>
-            OBS: Materialerne vises først, og til sidst i billede rækkefølgen for hver kategori, er resultatet med photoshop.</p>
+            <h3>Mine projekter med Photoshop</h3>
+                <p>Tryk på pilene som er nedenunder billederne, for at se diverse materialer som er brugt til projektet. Der kan navigeres til højre og venstre.<br>
+                OBS: Materialerne vises først, og til sidst i billede rækkefølgen for hver kategori, er resultatet med photoshop.</p>
         </div>
         
-        <div id="billeder">
+        <div id="billeder"><!--slideshow-->
         
         <div class="w3-content w3-display-container" style="margin-left:30%">
             <img class="mySlides1" src="mandmedkniv.jpg" style="width:100%">
@@ -82,18 +85,18 @@
         </div>
         
         </div>
-   
-            <div id="photokilder">
+</section>   
+            <div id="photokilder"><!--kilder-->
                 <p> Kilder: Carsten Kjeldsen Bogner tavle undervisning "Photoshop: grundlæggende" 20/9.<br>
                 <a href="https://www.linkedin.com/learning/photoshop-cc-2019-essential-training-the-basics/a-tour-of-the-photoshop-interface">A tour of the Photoshop interface - Julieanne Kost - Linkedin Learning</a><br>
                 <a href="https://www.youtube.com/watch?v=1GpY3Uh50jQ">The Power of Using Blending Modes in Photoshop - PHLEARN - 16/10/2014</a></p>
             </div>
-        
+        <!--footer-->
         <div class="footer">
             <p>Anne Mehlsen &#169; Læringsportfolio 2019-</p>
         </div>
-        
-        <script>
+     <!--javascript-->   
+    <script>
         //DETTE ER TIL NAVIGATION
 /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
         var dropdown = document.getElementsByClassName("dropdown-btn");

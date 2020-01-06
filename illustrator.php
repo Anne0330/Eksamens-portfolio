@@ -9,7 +9,7 @@
         <link href="https://fonts.googleapis.com/css?family=Assistant&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
-    <header>
+    <header><!-- intro-->
         <h1>Illustrator</h1>
         
         <div id="introtekst">
@@ -18,27 +18,26 @@
     </header>
     
     <body> 
+        <!--til top knap-->
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
        
            <!-- php start-->
         <?php include "menu.inc"; ?>
             <!-- php slut-->
         
-        <div id="htmltitel"> 
+        <div id="htmltitel"> <!--banner-->
             <img src="nummer2banner.jpg" alt="Design" height="200px">
-            </div>
-            <div id="illutekst">
-                
-                <h2>Illustrator</h2>
-                
-                    <p>Adobe illustrator bruges primært til at lave logoer, figurer eller andre former for streg-designs. Da illustrator er vector baseret, betyder det at man kan ændre i størrelsen uden at den ender med at blive pixeleret. Det er kun muligt at bruge illustrator ved hjælp af dens matematiske formler, som cirkler, linjer eller trekanter. Der er minimal mulighed for fri-tegning, uden at illustrator retter med en "pænere" streg i forhold til det man har tegnet. Programmet kan også bruges til wireframes, til når man skal have en design-guide til sin hjemmeside.   
+        </div>
+<section><!--indhold-->
+        <div id="illutekst">  
+            <h2>Illustrator</h2>
+                <p>Adobe illustrator bruges primært til at lave logoer, figurer eller andre former for streg-designs. Da illustrator er vector baseret, betyder det at man kan ændre i størrelsen uden at den ender med at blive pixeleret. Det er kun muligt at bruge illustrator ved hjælp af dens matematiske formler, som cirkler, linjer eller trekanter. Der er minimal mulighed for fri-tegning, uden at illustrator retter med en "pænere" streg i forhold til det man har tegnet. Programmet kan også bruges til wireframes, til når man skal have en design-guide til sin hjemmeside.   
                     </p>
         </div>
         
         <div id="eksempler">
-        <h3>Mine projekter med Illustrator</h3>
-            <p>Tryk på pilene i boksen nedenunder, for at se diverse billeder. Der kan navigeres til højre og venstre.</p>
-           
+            <h3>Mine projekter med Illustrator</h3>
+                <p>Tryk på pilene i boksen nedenunder, for at se diverse billeder. Der kan navigeres til højre og venstre.</p>
         </div>
         
 
@@ -109,16 +108,19 @@
                 <span class="dot" onclick="currentSlide(8)"></span>
                 <span class="dot" onclick="currentSlide(9)"></span>
             </div>
-        
+</section>        
+        <!--kilder-->
             <div id="illukilder">
                 <p> Kilder: Carsten Kjeldsen Bogner tavle undervisning "Illustrator: grundlæggende" 20/9.<br>
                 <a href="https://www.linkedin.com/learning/illustrator-cc-2019-one-on-one-fundamentals/the-most-comprehensive-illustrator-training">"Illustrator CC 2019 One on One Fundamentals" Kapitel 1, 2, 3 - Linkedin Learning</a>
             </div>
         
+        <!--footer-->
         <div class="footer">
             <p>Anne Mehlsen &#169; Læringsportfolio 2019-</p>
         </div>
         
+    <!--javascript-->
         <script>
         //DETTE ER TIL NAVIGATION
 /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */

@@ -15,32 +15,34 @@
     </header>
     
     <body> 
+        <!--til top knap-->
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
        
            <!-- php start-->
         <?php include "menu.inc"; ?>
             <!-- php slut-->
-        
+<section>  <!--e-mail-->      
             <div class="chip">
                 <img src="kontaktform.png" alt="Person">
                 <a href="mailto:anne.meh@hotmail.com">E-mail</a>
         </div>
-                
-                <div class="flex-center">
-                        <a href="https://www.instagram.com/mehlsen0330/" target="_blank"><i class="fa fa-instagram fa-4x icon-3d"></i>
-                      <a href="https://github.com/Anne0330" target="_blank"><i class="fa fa-github fa-4x icon-3d"></i>
-                      <a href="https://twitter.com/Eris0330" target="_blank"><i class="fa fa-twitter fa-4x icon-3d"></i>
-                     <a href="https://www.facebook.com/Anne.meh0330" target="_blank"><i class="fa fa-facebook fa-4x icon-3d"></i>
-                    <a href="#"></a>
-                          
-                </div>
-    
+ </section>  
         
+<section> <!--social media-->
+                <div class="flex-center">
+                    <a href="https://www.instagram.com/mehlsen0330/" target="_blank"><i class="fa fa-instagram fa-4x icon-3d"></i>
+                    <a href="https://github.com/Anne0330" target="_blank"><i class="fa fa-github fa-4x icon-3d"></i>
+                    <a href="https://twitter.com/Eris0330" target="_blank"><i class="fa fa-twitter fa-4x icon-3d"></i>
+                    <a href="https://www.facebook.com/Anne.meh0330" target="_blank"><i class="fa fa-facebook fa-4x icon-3d"></i>
+                    <a href="#"></a>    
+                </div>
+</section>    
+      <!--footer-->  
         <div class="footer">
             <p>Anne Mehlsen &#169; Læringsportfolio 2019-</p>
         </div>
-        
-        <script>
+     <!--javascript-->   
+    <script>
         //DETTE ER TIL NAVIGATION
 /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
         var dropdown = document.getElementsByClassName("dropdown-btn");

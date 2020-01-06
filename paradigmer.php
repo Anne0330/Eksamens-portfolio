@@ -12,31 +12,29 @@
     </head>
     <header>
         <h1>Paradigmer</h1>
-        
-        <div id="introtekst">
-             <p>Et paradigme, er en måde at se verdenen på. Her kan du læse om de to forskellige paradigmer og deres transmissions modeller.</p>
-        </div>
+            <div id="introtekst">
+                <p>Et paradigme, er en måde at se verdenen på. Her kan du læse om de to forskellige paradigmer og deres transmissions modeller.</p>
+            </div>
     </header>
     
     <body> 
+        <!--til top knap-->
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
        
            <!-- php start-->
         <?php include "menu.inc"; ?>
             <!-- php slut-->
         
-        <div id="htmltitel"> 
+        <div id="htmltitel"> <!--banner-->
             <img src="communication.jpg" alt="Design" height="200px">
-            </div>
+        </div>
         
+<section>
         <div id="samfparadigme">
-                
-                <h2>Samfundsvidenskabelige paradigme</h2>
-                
+            <h2>Samfundsvidenskabelige paradigme</h2>
                 <p>Det samfundsvidenskabelige paradigme har fokus på afsender, da afsender bestemmer budskabet og hvordan modtagerne skal betragte budskabet. ”Verden er forudsigelig” – Kommunikation i multimediedesign, s. 76. Det understøttes af antagelser eller teoretiske overvejelser, det gør at afsender med sit budskab kan afkræfte eller bekræfte. Paradigmet har forskellige modeller og teorier, som er afhængelig af hvor meget data der er.</p>
                 
-                <h3>Der er karakteristiske træk indenfor det samfundsvidenskabelige paradigme</h3>
-            
+            <h3>Der er karakteristiske træk indenfor det samfundsvidenskabelige paradigme</h3>
                 <ul>
                     <li>Objektivitet</li>
                     <li>Forklaring</li>
@@ -52,40 +50,37 @@
         
         <div id="transmodeller">
             <h3>Transmissions modeller</h3>
+                <h4>Laswells formel</h4>
+                    <dl>
+                        <dt>Hvem</dt>
+                        <dd>Den som kommunikere.</dd>
+                        <dt>Siger hvad</dt>
+                        <dd>Budskabet som afsender har.</dd>
+                        <dt>I hvilken kanal</dt>
+                        <dd>Hvilken platform skal budskabet ud på.</dd>
+                        <dt>Til hvem</dt>
+                        <dd>Hvem er modtageren, som skal have budskabet.</dd>
+                        <dt>Med hvilken effekt</dt>
+                        <dd>Hvordan skal modtageren modtage budskabet.</dd>
+                    </dl>
+                            <img src="laswells.png" alt="laswells formel" width="70%">
             
-            <h4>Laswells formel</h4>
+            <h4>Kanyleteorien</h4>
             
-            <dl>
-                <dt>Hvem</dt>
-                <dd>Den som kommunikere.</dd>
-                <dt>Siger hvad</dt>
-                <dd>Budskabet som afsender har.</dd>
-                <dt>I hvilken kanal</dt>
-                <dd>Hvilken platform skal budskabet ud på.</dd>
-                <dt>Til hvem</dt>
-                <dd>Hvem er modtageren, som skal have budskabet.</dd>
-                <dt>Med hvilken effekt</dt>
-                <dd>Hvordan skal modtageren modtage budskabet.</dd>
-            </dl>
-            
-            <img src="laswells.png" alt="laswells formel" width="70%">
-            
-       <h4>Kanyleteorien</h4>
-            
-            <p>Kanyleteorien er et metaforisk udtryk at man kan ”sprøjte” ideer, tanker og holdninger ind i modtageren. Ved brug af kanyleteorien er det tit en envejskommunikation, grundet propaganda er det ”Dette er sandheden” / ”Dette er sådan det er” uden feedback fra modtager/målgruppen.</p>
+                <p>Kanyleteorien er et metaforisk udtryk at man kan ”sprøjte” ideer, tanker og holdninger ind i modtageren. Ved brug af kanyleteorien er det tit en envejskommunikation, grundet propaganda er det ”Dette er sandheden” / ”Dette er sådan det er” uden feedback fra modtager/målgruppen.</p>
             
             <h4>S-R og S-O-R modellerne</h4>
             
-            <img src="s-o-r.png" alt="S-O-R Model" width="70%">
-            <a href="https://www.researchgate.net/figure/The-S-O-R-chain-of-human-behaviour_fig1_37443453">Kilde</a>
+                <img src="s-o-r.png" alt="S-O-R Model" width="70%">
+                <a href="https://www.researchgate.net/figure/The-S-O-R-chain-of-human-behaviour_fig1_37443453">Kilde</a>
         
             <h5>S &#8594; R modellen</h5>
             
-            <p>S-R ligger under same antagelse, at vi er nemt styret af påvirkning og stimulation.’S’ står for Stimulus og ’R’ står for respons. Det antager at når man har afsendt et budskab til modtager, følger der en respons tilbage.</p>
+                <p>S-R ligger under same antagelse, at vi er nemt styret af påvirkning og stimulation.’S’ står for Stimulus og ’R’ står for respons. Det antager at når man har afsendt et budskab til modtager, følger der en respons tilbage.</p>
             
             <h5>S &#8594; O &#8594;R modellen</h5>
             
-            <p>Da mennesker ikke ses som ens, vil der komme forskellige respons fra diverse modtagere. S-O-R modellen er ligeledes ens med S-R modellen, men til forskel at ’O’ står for Organisme. Det vil sige, at der ikke altid vil være en direkte overførelse fra budskab til respons. Ved denne model, er der taget forbehold til forskellige grupper. (Helder, Bredenlöw og Nørgaard 2009) Hvilken hensyn, er alt efter hvilken målgruppe der er tale om.</p>
+                <p>Da mennesker ikke ses som ens, vil der komme forskellige respons fra diverse modtagere. S-O-R modellen er ligeledes ens med S-R modellen, men til forskel at ’O’ står for Organisme. Det vil sige, at der ikke altid vil være en direkte overførelse fra budskab til respons. Ved denne model, er der taget forbehold til forskellige grupper. (Helder, Bredenlöw og Nørgaard 2009) Hvilken hensyn, er alt efter hvilken målgruppe der er tale om.</p>
 
         </div>
     
@@ -110,55 +105,54 @@
         
         <h3>International marked kommunkation-modellen / IMK</h3>
         
-        <img src="imkmodel.png" alt="imk modellen" width="70%">
+            <img src="imkmodel.png" alt="imk modellen" width="70%">
         
-        <dl>
-            <dt>Afsender</dt>
-            <dd>Den som står bag kommunikationen, de tager beslutningen om hvor teksten skal finde sted og hvornår.</dd>
-            <dt>Modtager</dt>
-            <dd>Den som reciperer teksten.</dd>
-            <dt>Teksten</dt>
-            <dd>Alle former for kommunikation, hvor både modtager og afsender er ligeværdige i denne sammenhæng.</dd>
-            <dt>Referent</dt>
-            <dd>Det teksten refererer til, som kunne være et produkt, reklame eller en effekt som produktet giver.</dd>
-            <dt>Kode</dt>
-            <dd>Forståelsen inde for teksten, at kommunikationen er på samme ’sprog’. Det er vigtigt at afsender formulerer sig, til at modtager kan forstå det på samme måde.</dd>
-            <dt>Kontekst/kultur</dt>
-            <dd>Omkring den konkrete situation, der svarer på spørgsmålene såsom ”hvem”, ”hvad”, ”hvor” osv. Kultur er vigtigt at kunne håndtere sig med i sine tekster, da der er tale om diverse kulturer der vil reagere anderledes end dens kultur den er startet i.</dd>
-            <dt>Medier</dt>
-            <dd>Måden teksten er præsenteret på, om det er på web, print, artikel eller samtaler under fire øjne. Det er vigtigt at vide hvilket medie som afsender vælger, da modtager kan have en holdning imod mediet der er valgt.</dd>
-            <dt>Genren</dt>
-            <dd>Den måde teksten skal opfattes, såsom læse eller tale. Hvordan stemningen af kommunikationen skal foregå, med professionalisme eller venskabelig venlighed. Der kan også være visuelle aspekter på det, om hvilken farve eller slogans mm.</dd>
-        </dl>
+                <dl>
+                    <dt>Afsender</dt>
+                    <dd>Den som står bag kommunikationen, de tager beslutningen om hvor teksten skal finde sted og hvornår.</dd>
+                    <dt>Modtager</dt>
+                    <dd>Den som reciperer teksten.</dd>
+                    <dt>Teksten</dt>
+                    <dd>Alle former for kommunikation, hvor både modtager og afsender er ligeværdige i denne sammenhæng.</dd>
+                    <dt>Referent</dt>
+                    <dd>Det teksten refererer til, som kunne være et produkt, reklame eller en effekt som produktet giver.</dd>
+                    <dt>Kode</dt>
+                    <dd>Forståelsen inde for teksten, at kommunikationen er på samme ’sprog’. Det er vigtigt at afsender formulerer sig, til at modtager kan forstå det på samme måde.</dd>
+                    <dt>Kontekst/kultur</dt>
+                    <dd>Omkring den konkrete situation, der svarer på spørgsmålene såsom ”hvem”, ”hvad”, ”hvor” osv. Kultur er vigtigt at kunne håndtere sig med i sine tekster, da der er tale om diverse kulturer der vil reagere anderledes end dens kultur den er startet i.</dd>
+                    <dt>Medier</dt>
+                    <dd>Måden teksten er præsenteret på, om det er på web, print, artikel eller samtaler under fire øjne. Det er vigtigt at vide hvilket medie som afsender vælger, da modtager kan have en holdning imod mediet der er valgt.</dd>
+                    <dt>Genren</dt>
+                    <dd>Den måde teksten skal opfattes, såsom læse eller tale. Hvordan stemningen af kommunikationen skal foregå, med professionalisme eller venskabelig venlighed. Der kan også være visuelle aspekter på det, om hvilken farve eller slogans mm.</dd>
+                </dl>
         
         <h3>Thorlacius model</h3>
         
-        <img src="thorlacius.jpg" alt="Thorlacius model" width="70%">
+            <img src="thorlacius.jpg" alt="Thorlacius model" width="70%">
         
-        <a href="https://slideplayer.dk/slide/2439592/">Kilde</a>
+            <a href="https://slideplayer.dk/slide/2439592/">Kilde</a>
         
-        <dl>
-            <dt>Faktisk afsender</dt>
-            <dd>Den som står bag kommunikationen og intentionen, i forhold til modtageren. Typisk med aftaler, er det denne person man aftaler med vedrørende produktion af kommunikation og overdragelse af opgaver. Den faktiske afsender, er ikke altid til stede. </dd>
-            <dt>Den implicitte afsender</dt>
-            <dd>Den som fremtræder via billeder, tekst, farver og det bliver også kaldt ”ekspressive funktion”. Den knytter sig på emotive funktioner, som omhandler forholdet mellem modtager og afsender, baseret på deres følelser. Det er vigtigt og kunne aflæse hvordan modtageren bliver påvirket af afsenderen. Den implicitte afsender er som regel til stede.</dd>
-            <dt>Den implicitte modtager</dt>
-            <dd>De er nødvendigvis ikke med i målgruppen, men kan være en del af en anden gruppe. Kan også kaldes for ”overflade” gruppen, som vi gerne vil påvirke. Et eksempel kan være at målgruppen er børn, men modtagergruppen er forældre, da det er forældrene der bestemmer over børnene. Forældrene er vores ”overflade” gruppe. </dd>
-            <dt>Den faktiske modtager</dt>
-            <dd>Kun fremanalysere udelukkende gennem en konkret receptionsanalysering. Det er flere forskellige former for analyser, der enten er hvordan modtager forstår ved en hjemmeside. Der er også hvordan modtager reagerer på afsender, eller hvad modtageren føler når de ser en hjemmeside eller produkt.</dd>
-            <dt>Produktet</dt>
-            <dd>ofte et website, som modtager kommunikerer imellem de æstetiske funktioner. De undersøger udtrykket og indhold, når modtager går igennem websitet.<br>-Har hjemmesiden god smag? Ser det pænt ud?<br>-Er det nyt? Frisk? Aldrig set før? </dd>
-            <dt>Konteksten</dt>
-            <dd>Sammenhængen med websitet, i hvad dens indhold er. Hvilken information kan den give modtageren, og hvordan det skal læses.</dd>
-            <dt>Mediet</dt>
-            <dd>Gør at der kan være kommunikation imellem afsender og modtager, i det hvordan fanger websitet modtageren. </dd>
-            <dt>Kode</dt>
-            <dd>Det er ikke HTML eller CSS som man skulle tro, men det er en måde at få kommunikation til at ske imellem afsender og modtager. Der skal være en forståelse med hinanden, der enten kan være sprogligt eller visuelt.</dd>
-        </dl>
-            
-    </div> 
-       
-        
+                <dl>
+                    <dt>Faktisk afsender</dt>
+                    <dd>Den som står bag kommunikationen og intentionen, i forhold til modtageren. Typisk med aftaler, er det denne person man aftaler med vedrørende produktion af kommunikation og overdragelse af opgaver. Den faktiske afsender, er ikke altid til stede. </dd>
+                    <dt>Den implicitte afsender</dt>
+                    <dd>Den som fremtræder via billeder, tekst, farver og det bliver også kaldt ”ekspressive funktion”. Den knytter sig på emotive funktioner, som omhandler forholdet mellem modtager og afsender, baseret på deres følelser. Det er vigtigt og kunne aflæse hvordan modtageren bliver påvirket af afsenderen. Den implicitte afsender er som regel til stede.</dd>
+                    <dt>Den implicitte modtager</dt>
+                    <dd>De er nødvendigvis ikke med i målgruppen, men kan være en del af en anden gruppe. Kan også kaldes for ”overflade” gruppen, som vi gerne vil påvirke. Et eksempel kan være at målgruppen er børn, men modtagergruppen er forældre, da det er forældrene der bestemmer over børnene. Forældrene er vores ”overflade” gruppe. </dd>
+                    <dt>Den faktiske modtager</dt>
+                    <dd>Kun fremanalysere udelukkende gennem en konkret receptionsanalysering. Det er flere forskellige former for analyser, der enten er hvordan modtager forstår ved en hjemmeside. Der er også hvordan modtager reagerer på afsender, eller hvad modtageren føler når de ser en hjemmeside eller produkt.</dd>
+                    <dt>Produktet</dt>
+                    <dd>ofte et website, som modtager kommunikerer imellem de æstetiske funktioner. De undersøger udtrykket og indhold, når modtager går igennem websitet.<br>-Har hjemmesiden god smag? Ser det pænt ud?<br>-Er det nyt? Frisk? Aldrig set før? </dd>
+                    <dt>Konteksten</dt>
+                    <dd>Sammenhængen med websitet, i hvad dens indhold er. Hvilken information kan den give modtageren, og hvordan det skal læses.</dd>
+                    <dt>Mediet</dt>
+                    <dd>Gør at der kan være kommunikation imellem afsender og modtager, i det hvordan fanger websitet modtageren. </dd>
+                    <dt>Kode</dt>
+                    <dd>Det er ikke HTML eller CSS som man skulle tro, men det er en måde at få kommunikation til at ske imellem afsender og modtager. Der skal være en forståelse med hinanden, der enten kan være sprogligt eller visuelt.</dd>
+                </dl>
+    </div>
+    
+</section> <!--kilder-->
         <div id="kilder">
                 <h5>Øvrige kilder</h5>
                     <p>Morten Kluw Wøldike Schmith powerpoint præsentation "Brugertest og metode" - 1/10/2019<br>
@@ -173,12 +167,12 @@
                      
                     <a href="https://ndbowman.info/teaching.htm">"Teaching Philosophy", Nick Bowman, Ph.D.</a></p>
             </div>
-        
+        <!--footer-->
         <div class="footer">
             <p>Anne Mehlsen &#169; Læringsportfolio 2019-</p>
         </div>
-        
-        <script>
+  <!--javascript-->      
+    <script>
         //DETTE ER TIL NAVIGATION
 /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
         var dropdown = document.getElementsByClassName("dropdown-btn");
@@ -214,9 +208,7 @@
         function topFunction() {
           document.body.scrollTop = 0; // For Safari
           document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-        }
-        
-          
+        } 
     </script>
 
     </body>

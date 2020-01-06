@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
        <link href="https://fonts.googleapis.com/css?family=Cormorant+Upright&display=swap" rel="stylesheet">
     </head>
-    <header>
+    <header><!--introduktion-->
         <h1>Informationsarkitektur</h1>
         
         <div id="introtekst">
@@ -19,27 +19,25 @@
     </header>
     
     <body> 
+        <!--til top knap-->
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
        
            <!-- php start-->
         <?php include "menu.inc"; ?>
             <!-- php slut-->
         
-        <div id="htmltitel"> 
+        <div id="htmltitel"> <!--banner-->
             <img src="nummer2banner.jpg" alt="Design" height="200px">
-            </div>
-        
-            <div id="tekstlatch">
-                
+        </div>
+<section><!-- tekst indhold-->
+        <div id="tekstlatch">  
                 <h2>LATCH</h2>
-                
                     <p>Informations arkitektur er et begreb, som man bruger til organisering og strukturering af information inden for et produkt eller service. Det gør det nemmere for brugeren at finde deres mål, ved at bruge mindst tid og på en effektiv måde.</p>
         </div>
-        
         <div id="quotes">
             <p><q>Good information architecture enables people to find and do what they came for. Great information architecture takes find out of the equation: The site behaves as the visitor expects. Poor or missing information architecture neuters content, design, and programming and devalues the site for its owners as well as the audience it was created to serve. It's like a film with no director. The actors may be good, the sets may be lovely, but audiences will leave soon after the opening credits.</q>– Jeffrey Zeldman</p>
             
-            <a href="http://archive.iainstitute.org/en/learn/resources/testimonials.php">Kilde</a>
+                <a href="http://archive.iainstitute.org/en/learn/resources/testimonials.php">Kilde</a>
         </div>
         
         
@@ -47,29 +45,28 @@
         <div id="latch">
             <p>Der er fem måder at organisere sig på og det er LATCH.</p>
             
-            <dl>
-               <dt>Lokation</dt>
-               <dd>Kan være et sted, eller visuelt. Eksempel kan være metro kort, akupunktur krops punkter, ikea manual.</dd>
-               <dt>Alfabet</dt>
-               <dd>Kategorisering kan være efter fornavn, efternavn, relevans for bogstavet. En hurtig mulighed, men en kompliceret måde at gøre det på. Da det kan skabe problemer.</dd>
-               <dt>Time</dt>
-               <dd>- Chronology eller sequence. Opskrifter kan være et eksempel, da du gør det kronologisk. Et eksempel kan også være ligesom Venice, hvor de byggede huse og derefter gav dem et hus nummer alt efter hvornår de blev bygget først. Timelines, familie stamtræer.</dd>
-                <dt>Category</dt>
-                <dd>De har en mening med hinanden. De har ligheder, såsom grønsager samlet af agurker osv. Men folk har forskellige meninger, alt efter hvordan de ser lighederne. Så det kan skabe misforståelser. </dd>
-                <dt>Hierarchy</dt>
-                <dd>Grafer, popularitet etc. Det der kan nummer kategoriseres, eller skabe data. </dd>
-            </dl>
+                <dl>
+                    <dt>Lokation</dt>
+                        <dd>Kan være et sted, eller visuelt. Eksempel kan være metro kort, akupunktur krops punkter, ikea manual.</dd>
+                    <dt>Alfabet</dt>
+                        <dd>Kategorisering kan være efter fornavn, efternavn, relevans for bogstavet. En hurtig mulighed, men en kompliceret måde at gøre det på. Da det kan skabe problemer.</dd>
+                    <dt>Time</dt>
+                        <dd>- Chronology eller sequence. Opskrifter kan være et eksempel, da du gør det kronologisk. Et eksempel kan også være ligesom Venice, hvor de byggede huse og derefter gav dem et hus nummer alt efter hvornår de blev bygget først. Timelines, familie stamtræer.</dd>
+                    <dt>Category</dt>
+                        <dd>De har en mening med hinanden. De har ligheder, såsom grønsager samlet af agurker osv. Men folk har forskellige meninger, alt efter hvordan de ser lighederne. Så det kan skabe misforståelser. </dd>
+                    <dt>Hierarchy</dt>
+                        <dd>Grafer, popularitet etc. Det der kan nummer kategoriseres, eller skabe data. </dd>
+                </dl>
             
         </div>
         
-        
+        <!--video-->
         <div id="video">
-            
             <iframe width="560" height="315" src="https://www.youtube.com/embed/TsH8y5fbfX8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
+</section>       
         
-        
-            <div id="kilder">
+            <div id="kilder"><!--kilder-->
                 <h5>Øvrige kilder</h5>
                 <p>Niels Østergaard PDF præsentation "Informationsarkitektur" - 5/11/2019<br>
                 "Interfacedesign" 2019, Morten Rold: s. 165-180<br>
@@ -81,7 +78,7 @@
                     <a href="https://webstyleguide.com/wsg3/3-information-architecture/2-organizing-information.html">"Organizing Your Information",</a>
                     </p>
             </div>
-        
+        <!--footer-->
         <div class="footer">
             <p>Anne Mehlsen &#169; Læringsportfolio 2019-</p>
         </div>

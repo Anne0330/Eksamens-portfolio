@@ -19,12 +19,14 @@
     </header>
     
     <body> 
+        <!--til top knap-->
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
        
            <!-- php start-->
         <?php include "menu.inc"; ?>
             <!-- php slut-->
         
+  <section>   <!--indhold-->   
         <div id="baggrund">
                 
                 <h2>Baggrund</h2>
@@ -77,12 +79,13 @@
             
                 <p>Tryk på <a href="http://anne2p14.apache.eadania.dk/hummusonepage/onepage.html?fbclid=IwAR2vodESTMsc22Fnidj8tYoZn7d8AmDmyDuI_pXWyyYSVzmIaQhwYblDoUg" target="_blank">dette link her</a>, for at se vores resultat af one-page projektet. OBS: Baggrunden kan være splittet, da opløsning er høj.</p>
         </div>
-           
+    </section>   
+        <!--footer-->
         <div class="footer">
             <p>Anne Mehlsen &#169; Læringsportfolio 2019-</p>
         </div>
-        
-        <script>
+    <!--javascript-->    
+    <script>
         //DETTE ER TIL NAVIGATION
 /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
         var dropdown = document.getElementsByClassName("dropdown-btn");

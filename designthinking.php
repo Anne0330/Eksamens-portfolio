@@ -19,24 +19,22 @@
     </header>
     
     <body> 
+        <!--til top knap-->
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
        
            <!-- php start-->
         <?php include "menu.inc"; ?>
             <!-- php slut-->
-        
+ 
+ <section>  <!--indhold-->    
         <div id="seksfaser">
-                
-                <h2>De 6 faser</h2>
-                
-                    <img src="designthinking.jpg" alt="design thinking" width="70%">
-        
-                        <p>Design thinking er en innovative metoder man anvender til projekter, men det er også en tankegang med tilgange til faser. Da vi er logisk tænkende, er det tit den nemmeste løsning og tage i form af opgaver. Med design thinking gør det muligt at få styr på tanker, nysgerrighed og løsninger der overgår den basiske viden.</p>
+            <h2>De 6 faser</h2>
+                <img src="designthinking.jpg" alt="design thinking" width="70%">
+                    <p>Design thinking er en innovative metoder man anvender til projekter, men det er også en tankegang med tilgange til faser. Da vi er logisk tænkende, er det tit den nemmeste løsning og tage i form af opgaver. Med design thinking gør det muligt at få styr på tanker, nysgerrighed og løsninger der overgår den basiske viden.</p>
         </div>
         
         
         <div id="design">
-            
             <h3>Fase 1. Empathize / Dyb forståelse</h3>
             
                 <p>Denne fase er hvor man gør sig nysgerrig og gør sig åben for ny viden, ved at skabe et overblik. Der stilles emner på en tavle i form af brainstorm, som man har kommet på eller tilset sig nysgerrighed på. Denne fase tager typisk en dag, eller efter hvor lang tid man har til at kunne være nysgerrig, men det ses at man ikke ’stopper’ med at være nysgerrig i hele processen. Der tilgås en kvalitativ tilgang med hentydning af indsamling til data, hvor man eventuelt kan afvise emnet eller parkerer den til senere. Det er tit et problem, at man kommer med ideer til løsning i denne fase, men det er ment til fase 3. Ideate. Derfor rådes det til at man parkerer sin ide, til at kunne fremvise den til ideate fasen.</p>
@@ -112,12 +110,13 @@
             <p>Jeg husker tydeligt at vi blev spurgt, om vi kunne finde på at videre arbejde med prototypen, så det kunne ende med at blive en reel app. Selv om proceduren med denne prototype blev til en god oplevelse, følte jeg ikke at den er var original nok til at jeg ville finde den frem for at producere den videre. Dog, kunne jeg godt finde på at finde den frem og ændre i design, eller funktionerne vi valgte i appen.</p>
         
     </div>
-        
+  </section>    
+        <!--kilder-->
         <div id="kilder">
             
             <h4>Øvrige kilder</h4>
             
-                <p> <a href="https://www.interaction-design.org/literature/topics/design-thinking">"Design Thinking", Interaction-design</a><br>
+                <p><a href="https://www.interaction-design.org/literature/topics/design-thinking">"Design Thinking", Interaction-design</a><br>
                     
                     <a href="https://www.youtube.com/watch?v=UAinLaT42xY&feature=youtu.be">"Tim Brown urges designers to think big", 30/9/2009, TED</a><br>
                     
@@ -141,12 +140,12 @@
                     
                     "MMD 2019-21, Intro til Design Thinking - 1. semester", 22/10/2019, Moodle.</p>
         </div>
-           
+     <!--footer-->      
         <div class="footer">
             <p>Anne Mehlsen &#169; Læringsportfolio 2019-</p>
         </div>
-        
-        <script>
+    <!--javascript-->    
+    <script>
         //DETTE ER TIL NAVIGATION
 /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
         var dropdown = document.getElementsByClassName("dropdown-btn");
@@ -183,8 +182,7 @@
           document.body.scrollTop = 0; // For Safari
           document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         }
-        
-          
+   
     </script>
 
     </body>
